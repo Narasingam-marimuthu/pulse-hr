@@ -6,6 +6,8 @@ body
 .footer 
 {
     padding: 3rem 1.5rem 0rem;
+    background: linear-gradient(98.54deg, rgba(251, 216, 4, 0.035) 1.08%, rgba(253, 235, 125, 0.035) 47.23%, rgba(255, 255, 255, 0.343) 97.17%);
+
 }
 .footer_block_one p{
     color: #040869;  
@@ -182,7 +184,8 @@ color: #040869;
     border-bottom: 2px solid #040869;
 display: inline;
 padding-bottom: 4px;
-
+font-weight: 500;
+    font-size: 22px;
 }
 .welcome1_right img
 {
@@ -217,9 +220,147 @@ vertical-align: middle;
 {
     margin-top: 3%;
 }
-/* problem_statement */
+/* problem_statement start */
 .problem_statement 
 {
     background: linear-gradient(98.54deg, rgba(251, 216, 4, 0.035) 1.08%, rgba(253, 235, 125, 0.035) 47.23%, rgba(255, 255, 255, 0.343) 97.17%);
+    margin-top: 5%;
+    margin-bottom: 3%;
+    padding: 30px 15px;
+}
+.round_circle 
+{
+    background-color: #FEFEFE;
+    box-shadow: inset 1.44px 1.44px 4.32px rgb(2 5 50 / 10%), inset -1.44px -1.44px 4.32px rgb(2 5 50 / 10%);
+    border-radius: 50%;
+    display: inline-block;
+   
+    padding: 16px 0px;
 
 }
+.prb_stmt .click_here
+{
+    
+    font-size: 14px;
+    line-height: 63px;
+
+}
+.prb_stmt p{
+    color: #040869;
+}
+.prb_stmt 
+{
+    overflow: hidden;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+.prb_stmt li 
+{
+    float: left;
+    width: 20%;
+    margin: auto;
+    display: block;
+    text-align: center;
+}
+.round_circle img 
+{
+    width: 52%;
+    margin: auto;
+    display: block;
+}
+
+
+/* problem_statement end */
+/* partners start   */
+.partners 
+{
+    
+    margin-bottom: 3%;
+
+}
+.single_title_line  {
+    border-bottom: 2px solid #040869;
+    display: inline;
+    padding-bottom: 4px;
+    font-weight: 500;
+    font-size: 22px;
+}
+.mt-3 
+{
+    margin-top: 3%;
+}
+.partners p 
+{
+    color: #040869;
+}
+.partner1_img 
+{
+    width: 329px;
+height: 47px;
+margin-top: 4%;
+}
+.partner2_img 
+{
+    width: 70px;
+height: 70px;
+margin-top: 4%;
+}
+.partner3_img 
+{
+    width: 70px;
+height: 70px;
+margin-top: 4%;
+}
+/* partners end   */
+/* sponsors start  */
+.sponsors .s_single_txt 
+{
+    margin-top: 3%;
+    
+    margin-bottom: 2%;
+
+}
+.sponsr_btn 
+{
+color: #040869;
+font-weight: 500;
+font-size: 15px;
+line-height: 18px;
+}
+.check_out 
+{
+    color: rgba(4, 8, 105, 0.8);
+    font-weight: 300;
+font-size: 16px;
+line-height: 19px;
+}
+/* sponsors end  */
+/* about us start */
+.about_us 
+{
+    margin-top: 3%;
+    
+    margin-bottom: 2%;
+}
+.about_us .s_single_txt 
+{
+    font-weight: 400;
+font-size: 16px;
+line-height: 25px;
+color: rgba(4, 8, 105, 0.8);
+text-align: left;
+}
+.about_h2
+ {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #040869;
+ }
+ .abt1 , .abt2
+ {
+    width: 54%;
+    margin: auto;
+    display: block;
+ }
+/* about us end */
