@@ -83,7 +83,7 @@
                         </div>
 
                         <div class="">
-                            <button class="button is-primary ">
+                            <button class="button is-primary" @click="$router.push('/register')">
                                 Register to participate
                             </button>
                         </div>
@@ -115,17 +115,17 @@
 </template>
 
 <script>
-    export default {
-        data() {
-            return {
-                carousels: [
-                    { text: 'Slide 1', color: 'primary' },
-                    { text: 'Slide 2', color: 'info' },
-                    { text: 'Slide 3', color: 'success' },
-                    { text: 'Slide 4', color: 'warning' },
-                    { text: 'Slide 5', color: 'danger' }
-                ]
-            }
+export default {
+    data() {
+        return {
+            carousels: [
+                { text: 'Slide 1', color: 'primary' },
+                { text: 'Slide 2', color: 'info' },
+                { text: 'Slide 3', color: 'success' },
+                { text: 'Slide 4', color: 'warning' },
+                { text: 'Slide 5', color: 'danger' }
+            ]
         }
     }
+}
 </script>
