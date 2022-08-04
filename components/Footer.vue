@@ -25,16 +25,16 @@
                     <div class="footer_block_three">
                         <h4>Useful Links</h4>
                         <p>
-                            <nuxt-link to="about" class="">About </nuxt-link>
+                            <nuxt-link to="/about" class="">About </nuxt-link>
                         </p>
                         <p>
-                            <nuxt-link to="sponsors" class="">Sponsors 2022</nuxt-link>
+                            <nuxt-link to="/sponsors" class="">Sponsors 2022</nuxt-link>
                         </p>
                         <p>
-                            <nuxt-link to="problem_statement" class="">Problem statement</nuxt-link>
+                            <nuxt-link to="/problem-statement" class="">Problem statement</nuxt-link>
                         </p>
                         <p>
-                            <nuxt-link to="register" class="">Register </nuxt-link>
+                            <nuxt-link to="/register" class="">Register </nuxt-link>
                         </p>
                     </div>
                 </div>
@@ -67,15 +67,28 @@
                 <div class="columns is-multiline is-mobile">
                     <div class="column is-7-desktop is-12-mobile is-7-tablet has-text-right">
                         <p class="">&#169; Madurai Tech Community
-                            <a href=""><img src="@/assets/img/footer_top.png" /> </a>
+                            <a @click="scrollToTop"><img src="@/assets/img/footer_top.png" /> </a>
                         </p>
                     </div>
                     <div class="column is-5-desktop is-12-mobile is-5-tablet">
-                        <p class="has-text-right">Design and Developed by <a href="" target="_blank">
-                                <b> SystimaNX IT Solutions</b></a></p>
+                        <p class="has-text-right">Design and Developed by <a href="https://systimanx.com"
+                                target="_blank">
+                                <b> SystimaNX IT Solutions Pvt Ltd</b></a></p>
                     </div>
                 </div>
+
             </div>
         </div>
     </section>
 </template>
+
+<script>
+export default {
+    methods: {
+        scrollToTop() {
+            window.scrollTo({ top: 0, behavior: 'smooth' })
+            // document.body.scrollTop = document.documentElement.scrollTop = 0;
+        }
+    }
+}
+</script>

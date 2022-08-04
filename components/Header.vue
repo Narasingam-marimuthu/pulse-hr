@@ -15,25 +15,25 @@
                 Home
             </b-navbar-item>
             <b-navbar-dropdown label="Madurai Hackathon 2022">
-                <b-navbar-item tag="router-link" to="/abouthackathon">
+                <b-navbar-item tag="router-link" to="/about-hackathon">
                     About Hackathon 2022
                 </b-navbar-item>
-                <b-navbar-item tag="router-link" to="/problem">
+                <b-navbar-item tag="router-link" to="/problem-statement">
                     Problem Statement
                 </b-navbar-item>
-                <b-navbar-item tag="router-link" to="/event">
+                <b-navbar-item tag="router-link" to="/event-schedule">
                     Event Schedule
                 </b-navbar-item>
                 <b-navbar-item tag="router-link" to="/register">
                     Register
                 </b-navbar-item>
-                <b-navbar-item tag="router-link" to="/winner">
+                <b-navbar-item tag="router-link" to="/winner-selection-criteria">
                     Winner Selection Criteria
                 </b-navbar-item>
                 <b-navbar-item tag="router-link" to="/sponsor-hackathon-2022">
                     Sponsor Hackathon 2022
                 </b-navbar-item>
-                <b-navbar-item tag="router-link" to="/poster">
+                <b-navbar-item tag="router-link" to="/digital-poster">
                     Digital Posters
                 </b-navbar-item>
                 <b-navbar-item tag="router-link" to="/faq">
@@ -49,7 +49,7 @@
             <b-navbar-item tag="router-link" to="/volunteers">
                 Volunteers
             </b-navbar-item>
-            <b-navbar-item tag="router-link" to="/contacts">
+            <b-navbar-item tag="router-link" to="/contactus">
                 Contact Us
             </b-navbar-item>
         </template>
