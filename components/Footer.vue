@@ -53,12 +53,18 @@
                         <p class="mb-4 has-text-centered">Technology for Societal Good</p>
                         <div class="is-flex footer_social_media">
                             <p>Follow us on</p>
-                            <a href=""><img src="@/assets/img/Linkedin.png" class="" /></a>
-                            <a href=""><img src="@/assets/img/Instagram.png" class="" /></a>
-                            <a href=""><img src="@/assets/img/Twitter.png" class="" /></a>
-                            <a href=""><img src="@/assets/img/logos_facebook.png" class="" /></a>
-                            <a href=""><img src="@/assets/img/telegram.png" class="" /></a>
-                            <a href=""><img src="@/assets/img/Whatsapp.png" class="" /></a>
+                            <a href="https://www.linkedin.com/company/madurai-tech-community" target="_blank"><img
+                                    src="@/assets/img/Linkedin.png" class="" /></a>
+                            <a href="https://www.instagram.com/techsavvy_madurai_team/?igshid=YmMyMTA2M2Y="
+                                target="_blank"><img src="@/assets/img/Instagram.png" class="" /></a>
+                            <a href="https://twitter.com/madurai_tech" target="_blank"><img
+                                    src="@/assets/img/Twitter.png" class="" /></a>
+                            <a href="https://www.facebook.com/groups/378780057314906" target="_blank"><img
+                                    src="@/assets/img/logos_facebook.png" class="" /></a>
+                            <a href="https://t.me/+F8BQWhkeo34wZDhl" target="_blank"><img
+                                    src="@/assets/img/telegram.png" class="" /></a>
+                            <a href="https://chat.whatsapp.com/DSj8Fu1S3m88gTulW60JwX" target="_blank"><img
+                                    src="@/assets/img/Whatsapp.png" class="" /></a>
                         </div>
                     </div>
                 </div>

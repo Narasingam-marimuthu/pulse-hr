@@ -23,8 +23,8 @@
                         </div>
                         <h1>Welcomes you to <img src="@/assets/img/home/title.png" class="welcome_block_img" /></h1>
                         <p class="content">It is an event to build innovate soluctions that position Madurai as
-                            asmarter, resilient, and
-                            sustainable city for living, studying, accessing public services and conducting business.
+                            asmarter, resilient, and sustainable city for living, studying, accessing public services
+                            and conducting business.
                         </p>
                         <p class="content">
                             For institutions doing bulk registration, we are making the registration fees as Rs. 99.
@@ -89,8 +89,10 @@
                         </div>
                         <div class="welcome_for_query is-flex">
                             <p>For Queries:</p>
-                            <img src="@/assets/img/telegram.png" />
-                            <img src="@/assets/img/Whatsapp.png" />
+                            <a href="https://t.me/+F8BQWhkeo34wZDhl" target="_blank"><img
+                                    src="@/assets/img/telegram.png" /></a>
+                            <a href="https://chat.whatsapp.com/DSj8Fu1S3m88gTulW60JwX" target="_blank"><img
+                                    src="@/assets/img/Whatsapp.png" /></a>
                         </div>
                     </div>
                     <div class="column is-6-desktop is-12-mobile is-6-tablet">
@@ -115,17 +117,17 @@
 </template>
 
 <script>
-    export default {
-        data() {
-            return {
-                carousels: [
-                    { text: 'Slide 1', color: 'primary' },
-                    { text: 'Slide 2', color: 'info' },
-                    { text: 'Slide 3', color: 'success' },
-                    { text: 'Slide 4', color: 'warning' },
-                    { text: 'Slide 5', color: 'danger' }
-                ]
-            }
+export default {
+    data() {
+        return {
+            carousels: [
+                { text: 'Slide 1', color: 'primary' },
+                { text: 'Slide 2', color: 'info' },
+                { text: 'Slide 3', color: 'success' },
+                { text: 'Slide 4', color: 'warning' },
+                { text: 'Slide 5', color: 'danger' }
+            ]
         }
     }
+}
 </script>
