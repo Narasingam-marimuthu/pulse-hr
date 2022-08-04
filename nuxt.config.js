@@ -22,6 +22,9 @@ export default {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.png' }
     ]
   },
+
+  // Auto import components: https://go.nuxtjs.dev/config-components
+  components: false,
   /*
   ** Customize the progress-bar color
   */

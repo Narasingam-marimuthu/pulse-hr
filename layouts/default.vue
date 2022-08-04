@@ -6,26 +6,17 @@
         <nuxt />
       </div>
     </section>
+    <Footer />
   </div>
 </template>
 
 <script>
+import Footer from '~/components/Footer.vue'
+import Header from '~/components/Header.vue'
 export default {
   data() {
-    return {
-      items: [
-        {
-          title: 'Home',
-          icon: 'home',
-          to: { name: 'index' }
-        },
-        {
-          title: 'Inspire',
-          icon: 'lightbulb',
-          to: { name: 'inspire' }
-        }
-      ]
-    }
-  }
+    return {};
+  },
+  components: { Footer, Header }
 }
 </script>

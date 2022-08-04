@@ -11,20 +11,47 @@
         </template>
 
         <template #end>
-            <b-navbar-item href="#">
+            <b-navbar-item tag="router-link" to="/">
                 Home
             </b-navbar-item>
-            <b-navbar-item href="#">
-                Documentation
-            </b-navbar-item>
-            <b-navbar-dropdown label="Info">
-                <b-navbar-item href="#">
-                    About
+            <b-navbar-dropdown label="Madurai Hackathon 2022">
+                <b-navbar-item tag="router-link" to="/abouthackathon">
+                    About Hackathon 2022
                 </b-navbar-item>
-                <b-navbar-item href="#">
-                    Contact
+                <b-navbar-item tag="router-link" to="/problem">
+                    Problem Statement
+                </b-navbar-item>
+                <b-navbar-item tag="router-link" to="/event">
+                    Event Schedule
+                </b-navbar-item>
+                <b-navbar-item tag="router-link" to="/register">
+                    Register
+                </b-navbar-item>
+                <b-navbar-item tag="router-link" to="/winner">
+                    Winner Selection Criteria
+                </b-navbar-item>
+                <b-navbar-item tag="router-link" to="/sponsor-hackathon-2022">
+                    Sponsor Hackathon 2022
+                </b-navbar-item>
+                <b-navbar-item tag="router-link" to="/poster">
+                    Digital Posters
+                </b-navbar-item>
+                <b-navbar-item tag="router-link" to="/faq">
+                    FAQ
                 </b-navbar-item>
             </b-navbar-dropdown>
+            <b-navbar-item tag="router-link" to="/sponsor-hackathon-2022">
+                Sponsor Hackathon 2022
+            </b-navbar-item>
+            <b-navbar-item tag="router-link" to="/our-sponsor">
+                Our Sponsors
+            </b-navbar-item>
+            <b-navbar-item tag="router-link" to="/volunteers">
+                Volunteers
+            </b-navbar-item>
+            <b-navbar-item tag="router-link" to="/contacts">
+                Contact Us
+            </b-navbar-item>
         </template>
     </b-navbar>
 </template>
