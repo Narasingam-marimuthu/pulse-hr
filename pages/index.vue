@@ -87,24 +87,23 @@
                                 Register to participate
                             </button>
                         </div>
-                        <div class="h1_title has-text-centered">
+                        <!-- <div class="h1_title has-text-centered">
                             <h1 class="">
                                 <span>Problem</span>
                                 <span>statement</span>
                             </h1>
+                        </div> -->
+                        <div class="welcome_for_query is-flex">
+                            <p>For Queries:</p>
+                            <img src="@/assets/img/telegram.png" />
+                            <img src="@/assets/img/Whatsapp.png" />
                         </div>
                     </div>
-                    <div class="welcome_for_query is-flex">
-                        <p>For Queries:</p>
-                        <img src="@/assets/img/telegram.png" />
-                        <img src="@/assets/img/Whatsapp.png" />
-                    </div>
-
-                </div>
-                <div class="column is-6-desktop is-12-mobile is-6-tablet">
-                    <div class="welcome1_right">
-                        <img src="@/assets/img/home/welcome.png" class="" />
-                        <img src="@/assets/img/home/welcome_right.png" />
+                    <div class="column is-6-desktop is-12-mobile is-6-tablet">
+                        <div class="welcome1_right">
+                            <img src="@/assets/img/home/welcome.png" class="" />
+                            <img src="@/assets/img/home/welcome_right.png" />
+                        </div>
                     </div>
                 </div>
             </div>
@@ -114,18 +113,17 @@
 </template>
 
 <script>
-export default {
-    data() {
-        return {
-            carousels: [
-                { text: 'Slide 1', color: 'primary' },
-                { text: 'Slide 2', color: 'info' },
-                { text: 'Slide 3', color: 'success' },
-                { text: 'Slide 4', color: 'warning' },
-                { text: 'Slide 5', color: 'danger' }
-            ]
+    export default {
+        data() {
+            return {
+                carousels: [
+                    { text: 'Slide 1', color: 'primary' },
+                    { text: 'Slide 2', color: 'info' },
+                    { text: 'Slide 3', color: 'success' },
+                    { text: 'Slide 4', color: 'warning' },
+                    { text: 'Slide 5', color: 'danger' }
+                ]
+            }
         }
     }
-}
 </script>
-  
