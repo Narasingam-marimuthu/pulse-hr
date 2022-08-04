@@ -5,8 +5,8 @@
                 <div class="column is-3-desktop is-12-mobile is-6-tablet">
                     <div class="footer_block_one">
                         <h4>Contact us</h4>
-                        <p>938466737</p>
-                        <p>247, SLC2, Anna Nagar,
+                        <p> <img src="" class=""/> 938466737</p>
+                        <p>  <img src="" class=""/>247, SLC2, Anna Nagar,
                             Madurai - 625020
                         </p>
                     </div>
@@ -50,6 +50,12 @@
                         <p class="mb-4">A high-quality solution through collaboration between experts</p>
                         <div class="is-flex">
                             <p>Follow us on</p>
+                           <a href="" ><img src="" class=""/></a>
+                           <a href="" ><img src="" class=""/></a>
+                           <a href="" ><img src="" class=""/></a>
+                           <a href="" ><img src="" class=""/></a>
+                           <a href="" ><img src="" class=""/></a>
+                           <a href="" ><img src="" class=""/></a>
                         </div>
                     </div>
                 </div>
