@@ -87,12 +87,6 @@
                                 Register to participate
                             </button>
                         </div>
-                        <!-- <div class="h1_title has-text-centered">
-                            <h1 class="">
-                                <span>Problem</span>
-                                <span>statement</span>
-                            </h1>
-                        </div> -->
                         <div class="welcome_for_query is-flex">
                             <p>For Queries:</p>
                             <img src="@/assets/img/telegram.png" />
@@ -108,6 +102,14 @@
                 </div>
             </div>
 
+        </section>
+        <section class="problem_statement">
+            <div class="h1_title has-text-centered">
+                <h1 class="">
+                    <span>Problem</span>
+                    <span>Statement</span>
+                </h1>
+            </div>
         </section>
     </section>
 </template>
