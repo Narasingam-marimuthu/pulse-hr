@@ -1,6 +1,5 @@
 <template>
     <section>
-
         <b-carousel :arrow="false" :pause-info="false" :indicator-style="'is-dots'" :indicator-position="'is-bottom'"
             :indicator-background="false" :indicator-inside="false">
             <b-carousel-item v-for="(carousel, i) in carousels" :key="i">
@@ -95,15 +94,22 @@
                             </h1>
                         </div>
                     </div>
-                    <div class="column is-6-desktop is-12-mobile is-6-tablet">
-                        <img src="@/assets/img/home/welcome.png" />
+                    <div class="welcome_for_query is-flex">
+                        <p>For Queries:</p>
+                        <img src="@/assets/img/telegram.png" />
+                        <img src="@/assets/img/Whatsapp.png" />
+                    </div>
+
+                </div>
+                <div class="column is-6-desktop is-12-mobile is-6-tablet">
+                    <div class="welcome1_right">
+                        <img src="@/assets/img/home/welcome.png" class="" />
                         <img src="@/assets/img/home/welcome_right.png" />
                     </div>
                 </div>
             </div>
 
         </section>
-
     </section>
 </template>
 
