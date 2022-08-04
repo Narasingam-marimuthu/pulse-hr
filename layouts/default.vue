@@ -1,49 +1,8 @@
 <template>
   <div>
-    <b-navbar>
-      <template #brand>
-        <b-navbar-item tag="router-link" :to="{ path: '/' }">
-          <img src="@/assets/logo.png"
-            alt="Tech Community, Madurai, IT, Hackathon 2022, Volunteer Based Community, Hackathon, Demo Days, Startup Events, Job Fairs, Mentorship for startups, Networking, new technologies">
-        </b-navbar-item>
-      </template>
-      <template #start>
-
-      </template>
-
-      <template #end>
-        <b-navbar-item href="#">
-          Home
-        </b-navbar-item>
-        <b-navbar-item href="#">
-          Documentation
-        </b-navbar-item>
-        <b-navbar-dropdown label="Info">
-          <b-navbar-item href="#">
-            About
-          </b-navbar-item>
-          <b-navbar-item href="#">
-            Contact
-          </b-navbar-item>
-        </b-navbar-dropdown>
-      </template>
-    </b-navbar>
-
+    <Header />
     <section class="main-content columns">
-      <aside class="column is-2 section">
-        <p class="menu-label is-hidden-touch">
-          General
-        </p>
-        <ul class="menu-list">
-          <li v-for="(item, key) of items" :key="key">
-            <nuxt-link :to="item.to" exact-active-class="is-active">
-              <b-icon :icon="item.icon" /> {{ item.title }}
-            </nuxt-link>
-          </li>
-        </ul>
-      </aside>
-
-      <div class="container column is-10">
+      <div class="container column is-12">
         <nuxt />
       </div>
     </section>
