@@ -25,12 +25,36 @@ body
 {
     margin-bottom: 12px;
 }
-.copy_rights p{
+.copy_rights p, .copy_rights a{
     color: #040869;
+    
+    font-size: 14px;
+
+}
+.copy_rights img 
+{
+    width: 18px;
+    object-fit: fill;
+    vertical-align: sub;
 }
 .footer_block_four p 
 {
     color: #040869;
+}
+.footer_block_four .logo_img
+{
+    width: 60px;
+}
+.footer_block_four h3 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 49px;
+}
+.footer_block_four h3 span:first-child, .footer_block_four h3 span:nth-child(3) {
+    color: #040869;
+}
+.footer_block_four h3 span:nth-child(2) {
+    color: #FCD704;
 }
 .welcome_block h1, .welcome_block p, .welcome_block li
 {
@@ -60,6 +84,7 @@ color: #040869;
 .venu_detail ul li p 
 {
     color: #040869;
+    margin-top: 4px;
 }
 .venu_content p 
 {
@@ -111,7 +136,12 @@ display: inline;
 padding-bottom: 4px;
 
 }
-
+.welcome1_right img
+{
+    width: 78%;
+    margin: auto;
+    display: block;
+}
 .welcome_main_title h3 span:first-child ,  .welcome_main_title h3 span:nth-child(3) 
 
 {

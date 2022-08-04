@@ -19,7 +19,7 @@
                     </p>
                     <p><b>Sponsor@madurai-tech.org</b></p>
                 </div>
-                <div class="column is-3-desktop is-12-mobile is-6-tablet">
+                <div class="column is-2-desktop is-12-mobile is-6-tablet">
                     <div class="footer_block_three">
                         <h4>Useful Links</h4>
                         <p>
@@ -36,8 +36,17 @@
                         </p>
                     </div>
                 </div>
-                <div class="column is-3-desktop is-12-mobile is-6-tablet">
+                <div class="column is-4-desktop is-12-mobile is-6-tablet">
                     <div class="footer_block_four">
+                        <div class="is-flex">
+                        <img src="@/assets/logo.png" class="logo_img"/>
+                        <div class="">
+                            <h3 class="">
+                             <span>  Madurai  </span> 
+                             <span>    Tech  </span> 
+                                <span>   community  </span> </h3>
+                            </div>
+                        </div>
                         <p class="mb-4">A high-quality solution through collaboration between experts</p>
                         <div class="is-flex">
                             <p>Follow us on</p>
@@ -45,8 +54,18 @@
                     </div>
                 </div>
             </div>
-            <div class="has-text-centered copy_rights">
-                <p>&#169; Madurai Tech Community</p>
+            <div class=" copy_rights">
+                <div class="columns is-multiline is-mobile">
+                    <div class="column is-7-desktop is-12-mobile is-7-tablet has-text-right">                    
+                <p class="">&#169; Madurai Tech Community 
+                    <a href=""><img src="@/assets/img/footer_top.png"/> </a></p>
+                </div>
+                <div class="column is-5-desktop is-12-mobile is-5-tablet">
+                <p class="has-text-right">Design and Developed by <a href="" target="_blank">
+                    <b>  SystimaNX IT Solutions</b></a></p>
+                </div>
+                </div>
+
             </div>
         </div>
     </section>

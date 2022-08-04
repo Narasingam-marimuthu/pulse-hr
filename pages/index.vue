@@ -81,16 +81,18 @@ For professionals, the registration fees is Rs. 300, and professionals need to u
                             Register to participate
                           </button>
                     </div>
-                    <div class="h1_title has-text-centered">
-                        <h1 class="">
-                            <span>Problem</span>
-                            <span>statement</span>
-                        </h1>
+                    <div class="welcome_for_query is-flex">
+<p>For Queries:</p> 
+<img src="@/assets/img/telegram.png"/>
+<img src="@/assets/img/Whatsapp.png"/>
                     </div>
+                   
 </div>
 <div class="column is-6-desktop is-12-mobile is-6-tablet">
-    <img src="@/assets/img/home/welcome.png"/>
+    <div class="welcome1_right">
+    <img src="@/assets/img/home/welcome.png" class=""/>
     <img src="@/assets/img/home/welcome_right.png"/>
+</div>
 </div>
 </div>
 </div>
