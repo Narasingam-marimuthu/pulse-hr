@@ -7,6 +7,15 @@ export default {
     host: '0.0.0.0',
     timing: false
   },
+  // Environment variables
+  env: {
+    LINK_LINKEDIN_URL: "https://www.linkedin.com/company/madurai-tech-community",
+    LINK_INSTAGRAM_URL: "https://www.instagram.com/techsavvy_madurai_team/?igshid=YmMyMTA2M2Y%3D",
+    LINK_TWITTER_URL: "https://twitter.com/madurai_tech",
+    LINK_FACEBOOK_GROUP_URL: "https://www.facebook.com/groups/378780057314906",
+    LINK_TELEGRAM_GROUP_URL: "https://t.me/+F8BQWhkeo34wZDhl",
+    LINK_WHATSAPP_GROUP_URL: "https://chat.whatsapp.com/DSj8Fu1S3m88gTulW60JwX"
+  },
   /*
   ** Headers of the page
   */
