@@ -89,8 +89,12 @@
                         </div>
                         <div class="welcome_for_query is-flex">
                             <p>For Queries:</p>
-                            <img src="@/assets/img/telegram.png" />
-                            <img src="@/assets/img/Whatsapp.png" />
+                            <a :href="LINK_TELEGRAM_GROUP_URL" target="_blank">
+                                <img src="@/assets/img/telegram.png" />
+                            </a>
+                            <a :href="LINK_WHATSAPP_GROUP_URL" target="_blank">
+                                <img src="@/assets/img/Whatsapp.png" />
+                            </a>
                         </div>
                     </div>
                     <div class="column is-6-desktop is-12-mobile is-6-tablet">
@@ -118,6 +122,8 @@
 export default {
     data() {
         return {
+            LINK_TELEGRAM_GROUP_URL: process.env.LINK_TELEGRAM_GROUP_URL,
+            LINK_WHATSAPP_GROUP_URL: process.env.LINK_WHATSAPP_GROUP_URL,
             carousels: [
                 { text: 'Slide 1', color: 'primary' },
                 { text: 'Slide 2', color: 'info' },

@@ -5,7 +5,7 @@
                 <div class="column is-3-desktop is-12-mobile is-6-tablet">
                     <div class="footer_block_one">
                         <h4>Contact us</h4>
-                        <p> <img src="@/assets/img/Call.png" class="" /> 938466737</p>
+                        <p> <a href="tel:938466737"><img src="@/assets/img/Call.png" class="" /> 938466737</a></p>
                         <p> <img src="@/assets/img/Location.png" class="" />247, SLC2, Anna Nagar,
                             Madurai - 625020
                         </p>
@@ -15,10 +15,13 @@
                     <div class="footer_block_two">
                         <h4>Email us</h4>
                         <p>For General Enquiry</p>
-                        <p class="mb-4 brand_color font_weight_600">Contact@madurai-tech.org</p>
-                        <p>For Sponsor Enquiry
+                        <p class="mb-4 brand_color font_weight_600">
+                            <a href="mailto:contact@madurai-tech.org" target="_blank">Contact@madurai-tech.org</a>
                         </p>
-                        <p class="brand_color font_weight_600">Sponsor@madurai-tech.org</p>
+                        <p>For Sponsor Enquiry</p>
+                        <p class="brand_color font_weight_600">
+                            <a href="mailto:sponsor@madurai-tech.org" target="_blank">Sponsor@madurai-tech.org</a>
+                        </p>
                     </div>
                 </div>
                 <div class="column is-2-desktop is-12-mobile is-6-tablet">
@@ -53,12 +56,24 @@
                         <p class="mb-4 has-text-centered">Technology for Societal Good</p>
                         <div class="is-flex footer_social_media">
                             <p>Follow us on</p>
-                            <a href=""><img src="@/assets/img/Linkedin.png" class="" /></a>
-                            <a href=""><img src="@/assets/img/Instagram.png" class="" /></a>
-                            <a href=""><img src="@/assets/img/Twitter.png" class="" /></a>
-                            <a href=""><img src="@/assets/img/logos_facebook.png" class="" /></a>
-                            <a href=""><img src="@/assets/img/telegram.png" class="" /></a>
-                            <a href=""><img src="@/assets/img/Whatsapp.png" class="" /></a>
+                            <a :href="LINK_LINKEDIN_URL" target="_blank">
+                                <img src="@/assets/img/Linkedin.png" class="" />
+                            </a>
+                            <a :href="LINK_INSTAGRAM_URL" target="_blank">
+                                <img src="@/assets/img/Instagram.png" class="" />
+                            </a>
+                            <a :href="LINK_TWITTER_URL" target="_blank">
+                                <img src="@/assets/img/Twitter.png" class="" />
+                            </a>
+                            <a :href="LINK_FACEBOOK_GROUP_URL" target="_blank">
+                                <img src="@/assets/img/logos_facebook.png" class="" />
+                            </a>
+                            <a :href="LINK_TELEGRAM_GROUP_URL" target="_blank">
+                                <img src="@/assets/img/telegram.png" class="" />
+                            </a>
+                            <a :href="LINK_WHATSAPP_GROUP_URL" target="_blank">
+                                <img src="@/assets/img/Whatsapp.png" class="" />
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -84,6 +99,17 @@
 
 <script>
 export default {
+    data() {
+        return {
+            LINK_LINKEDIN_URL: process.env.LINK_LINKEDIN_URL,
+            LINK_INSTAGRAM_URL: process.env.LINK_INSTAGRAM_URL,
+            LINK_TWITTER_URL: process.env.LINK_TWITTER_URL,
+            LINK_FACEBOOK_GROUP_URL: process.env.LINK_FACEBOOK_GROUP_URL,
+            LINK_TELEGRAM_GROUP_URL: process.env.LINK_TELEGRAM_GROUP_URL,
+            LINK_WHATSAPP_GROUP_URL: process.env.LINK_WHATSAPP_GROUP_URL,
+
+        };
+    },
     methods: {
         scrollToTop() {
             window.scrollTo({ top: 0, behavior: 'smooth' })
