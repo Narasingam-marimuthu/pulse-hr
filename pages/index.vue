@@ -33,7 +33,7 @@
             </div>
             <h1>Welcomes you to <img src="@/assets/img/home/title.png" class="welcome_block_img" /></h1>
             <p class="content">It is an event to build innovate soluctions that position Madurai as
-              asmarter, resilient, and sustainable city for living, studying, accessing public services
+              a smarter, resilient, and sustainable city for living, studying, accessing public services
               and conducting business.
             </p>
             <p class="content">
