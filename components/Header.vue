@@ -49,9 +49,6 @@
             <b-navbar-item tag="router-link" to="/volunteers">
                 Volunteers
             </b-navbar-item>
-            <b-navbar-item tag="router-link" to="/contactus">
-                Contact Us
-            </b-navbar-item>
         </template>
     </b-navbar>
 </template>
