@@ -2,9 +2,9 @@
 
 /* menu start  */
 .navbar {
-  background: linear-gradient(98.54deg, rgba(251, 216, 4, 0.025) 1.08%, rgba(253, 235, 125, 0.025) 47.23%, rgba(255, 255, 255, 0.245) 97.17%);
+  /* background: linear-gradient(98.54deg, rgba(251, 216, 4, 0.025) 1.08%, rgba(253, 235, 125, 0.025) 47.23%, rgba(255, 255, 255, 0.245) 97.17%); */
   width: 100%;
-  background-repeat: repeat;
+  /* background-repeat: repeat; */
 }
 
 .navbar-item.nuxt-link-active::after {
@@ -392,6 +392,7 @@ body {
   padding-bottom: 4px;
   font-weight: 500;
   font-size: 22px;
+  color: #040869;
 }
 
 .mt-3 {
@@ -487,6 +488,12 @@ body {
   line-height: 31px;
   font-size: 13px;
   margin-bottom: 5%;
+  list-style: none;
+}
+
+.prbm_stmt_pg .about_us_list li {
+  margin-left: 0;
+  margin-top: 0;
 }
 
 .about_us_list li:last-child {
@@ -868,3 +875,126 @@ body {
   background-size: 12px;
   background-position: 12px 5px;
 }
+
+/* About Hackathon Page Style end */
+/* problem statement tab start */
+.problem_statement_tab {
+  margin-top: 2%;
+  margin-bottom: 3%;
+  padding: 30px 15px;
+  background: linear-gradient(98.54deg, rgba(251, 216, 4, 0.035) 1.08%, rgba(253, 235, 125, 0.035) 47.23%, rgba(255, 255, 255, 0.343) 97.17%);
+}
+
+.problem_statement_tab .prb_stmt {
+  overflow: hidden;
+  margin-top: 4%;
+  margin-bottom: 4%;
+}
+
+.problem_statement_tab .prb_stmt li {
+  float: left;
+  width: 20%;
+  margin: auto;
+  display: block;
+  text-align: center;
+}
+
+.problem_statement_tab .round_circle {
+  background-color: #fefefe;
+  box-shadow: inset 1.44px 1.44px 4.32px rgb(2 5 50 / 10%), inset -1.44px -1.44px 4.32px rgb(2 5 50 / 10%);
+  border-radius: 50%;
+  display: inline-block;
+  padding: 16px 0px;
+}
+
+.problem_statement_tab .round_circle img {
+  width: 52%;
+  margin: auto;
+  display: block;
+}
+
+.dots_round_circle {
+  background-color: #fefefe;
+  box-shadow: inset 1.44px 1.44px 4.32px rgb(2 5 50 / 10%),
+    inset -1.44px -1.44px 4.32px rgb(2 5 50 / 10%);
+  border-radius: 50%;
+  display: inline-block;
+  padding: 25px 20px;
+}
+
+.dots_round_circle p {
+  margin-top: 2%;
+
+}
+
+.prbl_main_title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.prbm_stmt_pg {
+  margin-top: 2%;
+  margin-bottom: 5% !important;
+}
+
+.prbm_stmt_pg .content {
+  background: #FEFEFE;
+  box-shadow: inset -2px -2px 6px rgba(2, 5, 50, 0.1),
+    inset 2px 2px 6px rgba(2, 5, 50, 0.1);
+  border-radius: 10px;
+  padding: 21px;
+  font-size: 13px;
+  line-height: 26px;
+}
+
+.prbm_main_title_pg {
+  font-weight: 500 !important;
+  font-size: 18px !important;
+  line-height: 21px !important;
+  color: #040869 !important;
+  margin-top: 2%;
+}
+
+.pbl_main_heading {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 21px;
+  color: #040869;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.pbm_main_list {
+  list-style: disc;
+  margin-left: 15px;
+}
+
+.pbm_main_list li::marker {
+  color: #040869;
+}
+
+.pbm_main_list li {
+  color: #040869;
+  line-height: 25px;
+  font-size: 14px;
+}
+
+.top_space {
+  margin-top: 3%;
+}
+
+.join_here {
+  font-size: 16px;
+  line-height: 19px;
+  color: #040869;
+  font-weight: 600;
+}
+
+.prbm_single p {
+  font-size: 16px;
+  color: #040869;
+}
+
+/* problem statement tab end */
