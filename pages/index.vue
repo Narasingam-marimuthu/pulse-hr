@@ -146,6 +146,12 @@
           </li>
           <li>
             <div class="round_circle">
+              <img src="@/assets/img/Stethoscope.png" />
+            </div>
+            <p>Health</p>
+          </li>
+          <li>
+            <div class="round_circle">
               <img src="@/assets/img/Technology.png" />
             </div>
             <p>Technology</p>

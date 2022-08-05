@@ -361,6 +361,7 @@ body {
 
 .prb_stmt p {
   color: #040869;
+  white-space: nowrap;
 }
 
 .prb_stmt {
@@ -371,7 +372,7 @@ body {
 
 .prb_stmt li {
   float: left;
-  width: 20%;
+  width: 16%;
   margin: auto;
   display: block;
   text-align: center;
@@ -808,6 +809,11 @@ body {
 
 /* Media queries - Responsive timeline on screens less than 600px wide */
 @media screen and (max-width: 600px) {
+  .problem_statement_tab .prb_stmt li {
+    float: left;
+    width: 43% !important;
+  }
+
   .winner_timeline::after {
     display: none;
   }
@@ -898,12 +904,39 @@ body {
   margin-bottom: 4%;
 }
 
-.problem_statement_tab .prb_stmt li {
+.tabs ul li {
   float: left;
   width: 20%;
   margin: auto;
   display: block;
   text-align: center;
+  position: relative;
+}
+
+.b-tabs {
+  margin-top: 4%;
+}
+
+.tab-content .tab-item {
+  margin-top: 3%;
+}
+
+.b-tabs .tabs ul li a {
+  display: contents;
+}
+
+.b-tabs .tabs ul {
+
+  border-bottom-color: transparent;
+}
+
+.b-tabs .tabs a {
+  border-bottom-color: transparent;
+}
+
+.b-tabs .tabs li.is-active a {
+  border-bottom-color: transparent;
+  color: #040869;
 }
 
 .problem_statement_tab .round_circle {
@@ -1002,6 +1035,46 @@ body {
 .prbm_single p {
   font-size: 16px;
   color: #040869;
+}
+
+.spons_abs {
+  position: absolute;
+  width: 23%;
+  top: 0;
+  right: auto;
+  left: 77%;
+}
+
+.pos_rela {
+  position: relative;
+}
+
+.spons p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  color: #040869;
+}
+
+.spons {
+  background: rgba(252, 215, 4, 0.16);
+  border-radius: 0px 12px 0px 0px;
+  padding: 12px;
+  text-align: center;
+}
+
+.tabs .is-active::after {
+  border-bottom: 2px solid #fcd704;
+  bottom: 0;
+  content: "";
+  display: inline-block;
+  height: 47px;
+  left: 41%;
+  position: absolute;
+  width: 36px;
+  top: 52px;
+
 }
 
 /* problem statement tab end */
