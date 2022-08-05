@@ -119,7 +119,7 @@
     </section>
     <section class="problem_statement">
       <div class="container">
-        <div class="h1_title has-text-centered">
+        <div class="h1_title underline has-text-centered">
           <h1 class="">
             <span>Problem</span>
             <span>Statement</span>
@@ -182,7 +182,7 @@
     <section class="sponsors">
       <div class="container">
         <div class="has-text-centered">
-          <div class="h1_title has-text-centered">
+          <div class="h1_title underline has-text-centered">
             <h1 class="">
               <span>Sponsors</span>
               <span>Us</span>
@@ -205,7 +205,7 @@
       <div class="container">
         <div class="about_us">
           <div class="has-text-centered">
-            <div class="h1_title has-text-centered">
+            <div class="h1_title underline has-text-centered">
               <h1 class="">
                 <span>About</span>
                 <span>Us</span>
