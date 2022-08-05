@@ -1,6 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400&family=Work+Sans:wght@100;400;500;600;700;800;900&display=swap');
 
 /* menu start  */
+.navbar-item.nuxt-link-active::after {
+  border-bottom: 2px solid #FCD704;
+  bottom: 22px;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  left: 22%;
+  position: absolute;
+  width: 21px;
+}
+
 .navbar-item,
 .navbar-link {
   font-weight: 400;
