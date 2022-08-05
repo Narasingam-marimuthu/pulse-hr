@@ -1,6 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400&family=Work+Sans:wght@100;400;500;600;700;800;900&display=swap");
 
 /* menu start  */
+.navbar {
+  background: linear-gradient(98.54deg, rgba(251, 216, 4, 0.025) 1.08%, rgba(253, 235, 125, 0.025) 47.23%, rgba(255, 255, 255, 0.245) 97.17%);
+  width: 100%;
+  background-repeat: repeat;
+}
+
 .navbar-item.nuxt-link-active::after {
   border-bottom: 2px solid #fcd704;
   bottom: 22px;
@@ -77,6 +83,23 @@ body {
 
 .footer {
   padding: 3rem 1.5rem 0rem;
+}
+
+.primary_color {
+  color: #040869;
+}
+
+.secondary_color {
+  color: #fcd704;
+}
+
+.heading_style span:first-child,
+.heading_style span:nth-child(3) {
+  color: #040869;
+}
+
+.heading_style span:nth-child(2) {
+  color: #fcd704;
 }
 
 .footer_block_one p a {
@@ -318,7 +341,6 @@ body {
     inset -1.44px -1.44px 4.32px rgb(2 5 50 / 10%);
   border-radius: 50%;
   display: inline-block;
-
   padding: 16px 0px;
 }
 
@@ -815,3 +837,34 @@ body {
 
 /* timeline css end */
 /* winner selection end */
+
+/* About Hackathon Page Style */
+.about_hackathon {
+  margin-bottom: 30px;
+}
+
+.about_hackathon_header {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: 0em;
+  margin: 20px 0px;
+}
+
+.about_hackathon p {
+  line-height: 25px;
+  margin: 30px 0px;
+}
+
+.about_hackathon ul li {
+  color: #040869;
+  font-size: 15px;
+  line-height: 20px;
+  letter-spacing: 0em;
+  margin: 10px 0px;
+  background-image: url("@/assets/img/diamond_list.png");
+  background-repeat: no-repeat;
+  padding-left: 34px;
+  background-size: 12px;
+  background-position: 12px 5px;
+}
