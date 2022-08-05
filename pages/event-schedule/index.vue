@@ -77,7 +77,7 @@
             </div>
           </div>
         </div>
-        <div class="column is-9-desktop is-12-mobile is-9-tablet">
+        <div class="column is-9-desktop is-12-mobile is-9-tablet text-center">
           <img src="@/assets/img/event_sch.png" class="event_sch" />
         </div>
       </div>

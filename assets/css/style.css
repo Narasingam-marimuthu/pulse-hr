@@ -79,6 +79,7 @@ a.navbar-item.is-active,
 /* menu end  */
 body {
   font-family: "Work Sans";
+  color: #040869;
 }
 
 .footer {
@@ -91,6 +92,12 @@ body {
 
 .secondary_color {
   color: #fcd704;
+}
+
+.text-center {
+  margin: auto;
+  display: block;
+  text-align: center;
 }
 
 .heading_style span:first-child,
@@ -287,11 +294,14 @@ body {
 }
 
 .h1_title h1 {
-  border-bottom: 2px solid #040869;
   display: inline;
   padding-bottom: 4px;
   font-size: 24px;
   font-weight: 500;
+}
+
+.underline h1 {
+  border-bottom: 2px solid #040869;
 }
 
 .welcome1_right img {
@@ -572,10 +582,7 @@ body {
 }
 
 .event_sch {
-  /* width: 78%; */
-  margin: auto;
-  display: block;
-  text-align: center;
+  width: 58%;
 }
 
 .event_schedule {
