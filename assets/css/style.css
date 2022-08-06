@@ -1104,7 +1104,42 @@ a.navbar-item.is-active,
   position: absolute;
   width: 36px;
   top: 52px;
-
 }
 
 /* problem statement tab end */
+
+/* Sponsors Page Style - start */
+.sponsors img {
+  margin-top: 4%;
+}
+
+.sponsors .partner1 {
+  width: 80%;
+  height: 70px;
+}
+
+.sponsors .partner2 {
+  height: 110px;
+}
+
+.sponsors .partner3 {
+  height: 120px;
+}
+
+.sponsors .silver {
+  width: 300px;
+}
+
+.sponsors .bronze {
+  width: 70%;
+}
+
+.sponsors .dci {
+  width: 50%;
+}
+
+.sponsors .full-width {
+  width: 100%;
+}
+
+/* Sponsors Page Style - end */

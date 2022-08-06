@@ -174,12 +174,12 @@
               <img src="@/assets/img/home/partner1.png" class="partner1_img" />
             </div>
             <div class="column is-3-desktop is-12-mobile is-3-tablet">
-              <p class="sub_title">Promotional Partner</p>
-              <img src="@/assets/img/home/partner2.png" class="partner2_img" />
-            </div>
-            <div class="column is-3-desktop is-12-mobile is-3-tablet">
               <p class="sub_title">Eco System Partner</p>
               <img src="@/assets/img/home/partner3.png" class="partner3_img" />
+            </div>
+            <div class="column is-3-desktop is-12-mobile is-3-tablet">
+              <p class="sub_title">Promotional Partner</p>
+              <img src="@/assets/img/home/partner2.png" class="partner2_img" />
             </div>
           </div>
         </div>
