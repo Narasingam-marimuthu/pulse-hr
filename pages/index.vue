@@ -109,7 +109,7 @@
           </div>
           <div class="column is-6-desktop is-12-mobile is-6-tablet">
             <div class="welcome1_right">
-              <img src="@/assets/img/home/welcome.png" class="" height="450px" />
+              <img src="@/assets/img/home/welcome.png" class="" style="height:450px" />
               <img src="@/assets/img/home/welcome_right.png" />
             </div>
           </div>

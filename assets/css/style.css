@@ -2,7 +2,9 @@
 
 body,
 a,
-card {
+button,
+.button,
+.card {
   color: #040869;
 }
 
@@ -391,6 +393,7 @@ a.navbar-item.is-active,
 
 .prb_stmt p {
   color: #040869;
+  white-space: nowrap;
 }
 
 .prb_stmt {
@@ -401,7 +404,7 @@ a.navbar-item.is-active,
 
 .prb_stmt li {
   float: left;
-  width: 15%;
+  width: 16%;
   margin: auto;
   display: block;
   text-align: center;
@@ -423,6 +426,7 @@ a.navbar-item.is-active,
   padding-bottom: 4px;
   font-weight: 500;
   font-size: 22px;
+  color: #040869;
 }
 
 .mt-3 {
@@ -460,15 +464,13 @@ a.navbar-item.is-active,
 }
 
 .sponsr_btn {
-  color: #040869;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 15px;
   line-height: 18px;
 }
 
 .check_out {
-  color: rgba(4, 8, 105, 0.8);
-  font-weight: 300;
+  font-weight: 400;
   font-size: 16px;
   line-height: 19px;
 }
@@ -505,6 +507,12 @@ a.navbar-item.is-active,
   line-height: 31px;
   font-size: 13px;
   margin-bottom: 5%;
+  list-style: none;
+}
+
+.prbm_stmt_pg .about_us_list li {
+  margin-left: 0;
+  margin-top: 0;
 }
 
 .about_us_list li:last-child {
@@ -541,7 +549,7 @@ a.navbar-item.is-active,
 }
 
 .about_right_img_dot {
-  transform: translate(12px, 120px);
+  transform: translate(12px, 150px);
 }
 
 /* about us end */
@@ -809,6 +817,11 @@ a.navbar-item.is-active,
 
 /* Media queries - Responsive timeline on screens less than 600px wide */
 @media screen and (max-width: 600px) {
+  .problem_statement_tab .prb_stmt li {
+    float: left;
+    width: 43% !important;
+  }
+
   .winner_timeline::after {
     display: none;
   }
@@ -876,10 +889,9 @@ a.navbar-item.is-active,
   background-position: 12px 5px;
 }
 
-/* volunteers */
+/* About Hackathon Page Style end */
 
-.volunteers {}
-
+/* Volunteers Page Style - start */
 .volunteers .box {
   background: #FEFEFE;
   box-shadow: -1px -1px 2px rgba(2, 5, 50, 0.1), 1px 1px 2px rgba(2, 5, 50, 0.1);
@@ -905,3 +917,194 @@ a.navbar-item.is-active,
 .box .icon {
   width: 24px;
 }
+
+/* Volunteers Page Style - end */
+
+/* problem statement tab start */
+.problem_statement_tab {
+  margin-top: 2%;
+  margin-bottom: 3%;
+  padding: 30px 15px;
+  background: linear-gradient(98.54deg, rgba(251, 216, 4, 0.035) 1.08%, rgba(253, 235, 125, 0.035) 47.23%, rgba(255, 255, 255, 0.343) 97.17%);
+}
+
+.problem_statement_tab .prb_stmt {
+  overflow: hidden;
+  margin-top: 4%;
+  margin-bottom: 4%;
+}
+
+.tabs ul li {
+  float: left;
+  width: 20%;
+  margin: auto;
+  display: block;
+  text-align: center;
+  position: relative;
+}
+
+.b-tabs {
+  margin-top: 4%;
+}
+
+.tab-content .tab-item {
+  margin-top: 3%;
+}
+
+.b-tabs .tabs ul li a {
+  display: contents;
+}
+
+.b-tabs .tabs ul {
+
+  border-bottom-color: transparent;
+}
+
+.b-tabs .tabs a {
+  border-bottom-color: transparent;
+}
+
+.b-tabs .tabs li.is-active a {
+  border-bottom-color: transparent;
+  color: #040869;
+}
+
+.problem_statement_tab .round_circle {
+  background-color: #fefefe;
+  box-shadow: inset 1.44px 1.44px 4.32px rgb(2 5 50 / 10%), inset -1.44px -1.44px 4.32px rgb(2 5 50 / 10%);
+  border-radius: 50%;
+  display: inline-block;
+  padding: 16px 0px;
+}
+
+.problem_statement_tab .round_circle img {
+  width: 52%;
+  margin: auto;
+  display: block;
+}
+
+.dots_round_circle {
+  background-color: #fefefe;
+  box-shadow: inset 1.44px 1.44px 4.32px rgb(2 5 50 / 10%),
+    inset -1.44px -1.44px 4.32px rgb(2 5 50 / 10%);
+  border-radius: 50%;
+  display: inline-block;
+  padding: 25px 20px;
+}
+
+.dots_round_circle p {
+  margin-top: 2%;
+
+}
+
+.prbl_main_title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.prbm_stmt_pg {
+  margin-top: 2%;
+  margin-bottom: 5% !important;
+}
+
+.prbm_stmt_pg .content {
+  background: #FEFEFE;
+  box-shadow: inset -2px -2px 6px rgba(2, 5, 50, 0.1),
+    inset 2px 2px 6px rgba(2, 5, 50, 0.1);
+  border-radius: 10px;
+  padding: 21px;
+  font-size: 13px;
+  line-height: 26px;
+}
+
+.prbm_main_title_pg {
+  font-weight: 500 !important;
+  font-size: 18px !important;
+  line-height: 21px !important;
+  color: #040869 !important;
+  margin-top: 2%;
+}
+
+.pbl_main_heading {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 21px;
+  color: #040869;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.pbm_main_list {
+  list-style: disc;
+  margin-left: 15px;
+}
+
+.pbm_main_list li::marker {
+  color: #040869;
+}
+
+.pbm_main_list li {
+  color: #040869;
+  line-height: 25px;
+  font-size: 14px;
+}
+
+.top_space {
+  margin-top: 3%;
+}
+
+.join_here {
+  font-size: 16px;
+  line-height: 19px;
+  color: #040869;
+  font-weight: 600;
+}
+
+.prbm_single p {
+  font-size: 16px;
+  color: #040869;
+}
+
+.spons_abs {
+  position: absolute;
+  width: 23%;
+  top: 0;
+  right: auto;
+  left: 77%;
+}
+
+.pos_rela {
+  position: relative;
+}
+
+.spons p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  color: #040869;
+}
+
+.spons {
+  background: rgba(252, 215, 4, 0.16);
+  border-radius: 0px 12px 0px 0px;
+  padding: 12px;
+  text-align: center;
+}
+
+.tabs .is-active::after {
+  border-bottom: 2px solid #fcd704;
+  bottom: 0;
+  content: "";
+  display: inline-block;
+  height: 47px;
+  left: 41%;
+  position: absolute;
+  width: 36px;
+  top: 52px;
+
+}
+
+/* problem statement tab end */
