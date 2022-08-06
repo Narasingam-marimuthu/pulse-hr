@@ -20,7 +20,9 @@ textarea {
   color: #040869;
 }
 
-.primary_color {
+.primary_color,
+.title,
+.subtitle {
   color: #040869;
 }
 
@@ -28,8 +30,13 @@ textarea {
   color: #fcd704;
 }
 
+.navbar {
+  background-color: transparent;
+}
+
 .yellow_bg {
-  background: linear-gradient(98.54deg, rgba(251, 216, 4, 0.035) 1.08%, rgba(253, 235, 125, 0.035) 47.23%, rgba(255, 255, 255, 0.343) 97.17%);
+  background: linear-gradient(98.54deg, rgba(251, 216, 4, 0.025) 1.08%, rgba(253, 235, 125, 0.025) 47.23%, rgba(255, 255, 255, 0.245) 97.17%);
+  /* background: linear-gradient(98.54deg, rgba(251, 216, 4, 0.035) 1.08%, rgba(253, 235, 125, 0.035) 47.23%, rgba(255, 255, 255, 0.343) 97.17%); */
   background-repeat: repeat;
 }
 
@@ -817,6 +824,20 @@ a.navbar-item.is-active,
 
 /* Media queries - Responsive timeline on screens less than 600px wide */
 @media screen and (max-width: 600px) {
+  .poster_box_shadow {
+    border-radius: 0px !important;
+  }
+
+  .poster_download p {
+    margin-top: 10% !important;
+    display: grid !important;
+    min-width: 30% !important;
+  }
+
+  .digi_poster {
+    background-size: 21% !important
+  }
+
   .problem_statement_tab .prb_stmt li {
     float: left;
     width: 43% !important;
@@ -1143,3 +1164,200 @@ a.navbar-item.is-active,
 }
 
 /* Sponsors Page Style - end */
+/* register start */
+.register_card {
+  background: #FFFFFF;
+  box-shadow: -1px -1px 2px rgb(0 0 0 / 10%),
+    1px 1px 2px rgb(0 0 0 / 10%);
+  border-radius: 10px;
+  margin-top: 8%;
+  height: 86%;
+}
+
+.register_card .media-content .subtitle {
+  margin-bottom: 2%;
+  font-size: 13px;
+  line-height: 19px;
+}
+
+.register_card .title {
+  margin-bottom: 1.8em;
+}
+
+.about_us .card-content {
+  padding: 1rem;
+}
+
+.register_card .media-left {
+  margin-right: 0rem;
+}
+
+.register_card .media-left img {
+  width: 67%;
+}
+
+.bg_yellow {
+  background-color: #fcd704;
+}
+
+.register_yellow_box {
+  background: #FCD704;
+  border-radius: 10px;
+  padding: 12px;
+  text-align: center;
+  color: #040869;
+  margin-top: 7%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 76%;
+}
+
+.is_centred {
+  justify-content: center;
+}
+
+.download_img {
+  vertical-align: middle;
+  margin-right: 2%;
+  width: 5%;
+}
+
+.download_book {
+  font-size: 14px;
+  margin-top: 5%;
+}
+
+.register_card ul {
+  list-style: disc;
+  font-size: 13px;
+}
+
+.register_card ul li {
+  margin-bottom: 9px;
+}
+
+.height_auto {
+  height: auto;
+}
+
+.register_content h3 {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 25px;
+  margin-bottom: 1em;
+
+}
+
+.register_content p {
+  margin-bottom: 12px;
+}
+
+.register_content ul {
+  list-style: disc;
+  padding-left: 12px;
+}
+
+.register_content ul li {
+  margin-bottom: 12px;
+
+}
+
+/* register end */
+/* digi poster start */
+.digi_poster h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 22px;
+}
+
+.digi_poster li {
+
+  background-image: url("@/assets/img/round.png");
+  background-repeat: no-repeat;
+  padding-left: 34px;
+  background-size: 12px;
+  background-position: 12px 5px;
+  line-height: 23px;
+  font-size: 14px;
+  margin-bottom: 11px;
+}
+
+.digi_poster ul {
+  margin-top: 12px;
+}
+
+.poster_box_shadow {
+  background: #FEFEFE;
+  box-shadow: inset -2px -2px 6px rgba(2, 5, 50, 0.1),
+    inset 2px 2px 6px rgba(2, 5, 50, 0.1);
+  border-radius: 60px 0px 0px 60px;
+  padding: 12px 30px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.poster_download .button {
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  padding: 23px 30px;
+  vertical-align: inherit;
+}
+
+.poster_download p {
+  margin-top: 2%;
+  display: inline-flex;
+  min-width: 50%;
+
+}
+
+.mb_3 {
+  margin-bottom: 3%;
+}
+
+.digi_poster {
+  background-image: url("@/assets/img/ring.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+}
+
+.sponsor_prm ul p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.sponsor_prm_ul {
+  margin-top: 2%;
+}
+
+.sponsor_prm_ul li {
+  text-align: center;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.sponsor_download_book {
+  font-size: 14px;
+  margin-top: 20px;
+  margin-bottom: 27px;
+  width: 18%;
+  font-weight: 400;
+}
+
+.sponsor_download_img {
+  vertical-align: middle;
+  margin-right: 5%;
+  width: 8%;
+}
+
+.sponsor_prm_stm {
+  list-style-type: disc;
+}
+
+.sponsor_prm_stm li {
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+
+/* digi poster end */
