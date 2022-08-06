@@ -1,5 +1,5 @@
 <template>
-  <div class="navbar">
+  <div class="navbar yellow_bg">
     <div class="container">
       <b-navbar>
         <template #brand>

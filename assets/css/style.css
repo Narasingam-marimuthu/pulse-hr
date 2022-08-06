@@ -1,10 +1,88 @@
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400&family=Work+Sans:wght@100;400;500;600;700;800;900&display=swap");
 
-/* menu start  */
-.navbar {
-  background: linear-gradient(98.54deg, rgba(251, 216, 4, 0.025) 1.08%, rgba(253, 235, 125, 0.025) 47.23%, rgba(255, 255, 255, 0.245) 97.17%);
-  width: 100%;
+body,
+a,
+card {
+  color: #040869;
+}
+
+body,
+button,
+input,
+select,
+textarea {
+  font-family: "Work Sans";
+}
+
+.brand_color {
+  color: #040869;
+}
+
+.primary_color {
+  color: #040869;
+}
+
+.secondary_color {
+  color: #fcd704;
+}
+
+.yellow_bg {
+  background: linear-gradient(98.54deg, rgba(251, 216, 4, 0.035) 1.08%, rgba(253, 235, 125, 0.035) 47.23%, rgba(255, 255, 255, 0.343) 97.17%);
   background-repeat: repeat;
+}
+
+.text-center {
+  margin: auto;
+  display: block;
+  text-align: center;
+}
+
+.heading_style {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: 0em;
+  margin: 20px 0px;
+}
+
+.heading_style span:first-child,
+.heading_style span:nth-child(3) {
+  color: #040869;
+}
+
+.heading_style span:nth-child(2) {
+  color: #fcd704;
+}
+
+.font_weight_600 {
+  font-weight: 600;
+}
+
+.mt-2 {
+  margin-top: 2%;
+}
+
+.mb-2 {
+  margin-bottom: 2%;
+}
+
+.mb-4 {
+  margin-bottom: 4%;
+}
+
+.sub_title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+/* menu start  */
+.navbar-brand .navbar-item.nuxt-link-active::after {
+  border: 0px;
+}
+
+.navbar {
+  width: 100%;
 }
 
 .navbar-item.nuxt-link-active::after {
@@ -72,41 +150,10 @@ a.navbar-item.is-active,
   /* background: #040869; */
 }
 
-.banner {
-  margin-top: 2%;
-}
-
 /* menu end  */
-body {
-  font-family: "Work Sans";
-  color: #040869;
-}
 
 .footer {
   padding: 3rem 1.5rem 0rem;
-}
-
-.primary_color {
-  color: #040869;
-}
-
-.secondary_color {
-  color: #fcd704;
-}
-
-.text-center {
-  margin: auto;
-  display: block;
-  text-align: center;
-}
-
-.heading_style span:first-child,
-.heading_style span:nth-child(3) {
-  color: #040869;
-}
-
-.heading_style span:nth-child(2) {
-  color: #fcd704;
 }
 
 .footer_block_one p a {
@@ -119,21 +166,10 @@ body {
 }
 
 .footer_block_one img {
-  width: 8%;
+  width: 25px;
+  height: 25px;
   vertical-align: sub;
   margin-right: 7px;
-}
-
-.brand_color {
-  color: #040869;
-}
-
-.font_weight_600 {
-  font-weight: 600;
-}
-
-.mb-4 {
-  margin-bottom: 4%;
 }
 
 .footer h4 {
@@ -216,10 +252,6 @@ body {
   font-weight: 500;
   font-size: 24px;
   margin-bottom: 12px;
-}
-
-.welcome_block {
-  margin-top: 6%;
 }
 
 .welcome_block .content {
@@ -308,6 +340,7 @@ body {
   width: 78%;
   margin: auto;
   display: block;
+  padding: 10px;
 }
 
 .welcome_main_title h3 span:first-child,
@@ -335,13 +368,8 @@ body {
 }
 
 /* problem_statement start */
+
 .problem_statement {
-  background: linear-gradient(98.54deg,
-      rgba(251, 216, 4, 0.035) 1.08%,
-      rgba(253, 235, 125, 0.035) 47.23%,
-      rgba(255, 255, 255, 0.343) 97.17%);
-  margin-top: 5%;
-  margin-bottom: 3%;
   padding: 30px 15px;
 }
 
@@ -357,6 +385,8 @@ body {
 .prb_stmt .click_here {
   font-size: 14px;
   line-height: 63px;
+  text-decoration: underline;
+  font-weight: 500;
 }
 
 .prb_stmt p {
@@ -371,7 +401,7 @@ body {
 
 .prb_stmt li {
   float: left;
-  width: 20%;
+  width: 15%;
   margin: auto;
   display: block;
   text-align: center;
@@ -383,18 +413,9 @@ body {
   display: block;
 }
 
-.problem_statement {
-  background: linear-gradient(98.54deg,
-      rgba(251, 216, 4, 0.035) 1.08%,
-      rgba(253, 235, 125, 0.035) 47.23%,
-      rgba(255, 255, 255, 0.343) 97.17%);
-}
-
 /* problem_statement end */
+
 /* partners start   */
-.partners {
-  margin-bottom: 3%;
-}
 
 .single_title_line {
   border-bottom: 2px solid #040869;
@@ -431,10 +452,10 @@ body {
 }
 
 /* partners end   */
+
 /* sponsors start  */
 .sponsors .s_single_txt {
   margin-top: 3%;
-
   margin-bottom: 2%;
 }
 
@@ -453,26 +474,13 @@ body {
 }
 
 /* sponsors end  */
+
 /* about us start */
-.about_us {
-  margin-top: 3%;
-
-  margin-bottom: 2%;
-}
-
 .about_us .s_single_txt {
   font-weight: 400;
   font-size: 16px;
   line-height: 25px;
-  color: rgba(4, 8, 105, 0.8);
   text-align: left;
-}
-
-.about_h2 {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 30px;
-  color: #040869;
 }
 
 .abt1 {
@@ -533,7 +541,7 @@ body {
 }
 
 .about_right_img_dot {
-  transform: translate(12px, 181px);
+  transform: translate(12px, 120px);
 }
 
 /* about us end */
@@ -850,14 +858,6 @@ body {
   margin-bottom: 30px;
 }
 
-.about_hackathon_header {
-  font-size: 32px;
-  font-weight: 600;
-  line-height: 38px;
-  letter-spacing: 0em;
-  margin: 20px 0px;
-}
-
 .about_hackathon p {
   line-height: 25px;
   margin: 30px 0px;
@@ -874,4 +874,34 @@ body {
   padding-left: 34px;
   background-size: 12px;
   background-position: 12px 5px;
+}
+
+/* volunteers */
+
+.volunteers {}
+
+.volunteers .box {
+  background: #FEFEFE;
+  box-shadow: -1px -1px 2px rgba(2, 5, 50, 0.1), 1px 1px 2px rgba(2, 5, 50, 0.1);
+  border-radius: 5px;
+  padding: 0%;
+}
+
+.box .img {
+  width: 150px;
+}
+
+.box .name {
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.box .desc {
+  font-weight: 500;
+  font-size: 10px;
+  color: rgba(4, 8, 105, 0.7);
+}
+
+.box .icon {
+  width: 24px;
 }

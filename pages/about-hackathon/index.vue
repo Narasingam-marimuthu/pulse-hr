@@ -1,8 +1,8 @@
 <template>
     <section class="about_hackathon">
         <div class="container">
-            <div class="heading_style has-text-centered my-5">
-                <h3 class="about_hackathon_header">
+            <div class="heading_style has-text-centered">
+                <h3 class="">
                     <span> What is </span>
                     <span> Madurai Hackathon 2022 </span>
                 </h3>
