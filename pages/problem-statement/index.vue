@@ -14,16 +14,13 @@
               </li>
               <li>
                 Solutions can be developed from scratch or based on some products/solutions that exist in the market or
-                adding
-                on top of code in platforms like Github. You are expected to do your value addition when you reuse
-                solutions.
+                adding on top of code in platforms like Github. You are expected to do your value addition when you
+                reuse solutions.
                 Avoid taking solutions from the market and just demonstrating the same.
               </li>
               <li>
                 Your solutions are to be at the best level possible by you. You may present a solution just with design,
-                or a
-                prototype or in complete form
-
+                or a prototype or in complete form
               </li>
               <li>
                 Start working on the solution immediately after registration and during the offline event, the
@@ -72,37 +69,28 @@
                       <ul class="about_us_list">
                         <li>
                           Community based collaborative waste management Solution needed to go towards zero waste. The
-                          platform
-                          should allow
-                          multiple teams to collaborate and achieve waste management.
+                          platform should allow multiple teams to collaborate and achieve waste management.
                         </li>
                         <li>
                           Different personal to be allowed in the platform - Mentor, Requestor, Producer etc.
                         </li>
                         <li>
                           One Community member can post the process to create Organic Manure from daily biodegradable
-                          waste
-                          created in Homes.
+                          waste created in Homes.
                         </li>
                         <li>
                           Another community member who has a garden can post his need for manure on periodic basis.
                         </li>
                         <li>
                           One more person who may not have a garden can produce that manure from his/her kitchen waste
-                          and sell
-                          it to the
-                          requester.
+                          and sell it to the requester.
                         </li>
                         <li>
                           Another person raising few cows can ask for specific waste (cabbage peels, soggy bananas) to
-                          be given
-                          to them on a
-                          daily basis.
+                          be given to them on a daily basis.
                         </li>
                         <li>Yet another e.g., a person having bio-gas at home can ask for kitchen waste.</li>
-
                       </ul>
-
                     </div>
                   </div>
                   <div class="column is-6-desktop is-12-mobile is-6-tablet">
@@ -111,7 +99,6 @@
                       <ul class="about_us_list">
                         <li>
                           Monitor vaigai river bed for encroachments and pollution by solid waste dumping.
-
                         </li>
                       </ul>
                     </div>
@@ -155,7 +142,6 @@
                           Capture of information with the help of geo mapping facilities should be possible.
                         </li>
                       </ul>
-
                     </div>
                   </div>
                   <div class="column is-6-desktop is-12-mobile is-6-tablet">
@@ -164,11 +150,9 @@
                       <ul class="about_us_list">
                         <li>
                           Identify Provide solution to automatically send tickets to the offenders for traffic
-                          violations
-                          - Jumping red signals, rash/negligent driving crossing speed limits and overboarding
-                          two-wheelers are the initial set of violations to be captured.ew locations in Madurai where
-                          the
-                          parking problem is severe and provide a technology based solution for that.
+                          violations - Jumping red signals, rash/negligent driving crossing speed limits and
+                          overboarding two-wheelers are the initial set of violations to be captured.ew locations in
+                          Madurai where the parking problem is severe and provide a technology based solution for that.
                         </li>
                         <li>
                           Solution should contain features to capture the violations, raise tickets that can be sent
@@ -176,8 +160,7 @@
                         </li>
                         <li>
                           Phone numbers of the violators should be got from RTO where the vehicles are registered or
-                          Insurance companies where
-                          the vehicles are insured - Such interfaces should be possible.
+                          Insurance companies where the vehicles are insured - Such interfaces should be possible.
                         </li>
                       </ul>
                     </div>
@@ -215,7 +198,7 @@
                 <div class="columns is-multiline is-mobile prbm_stmt_pg">
                   <div class="column is-6-desktop is-12-mobile is-6-tablet">
                     <div class="content">
-                      <h3 class="prbm_main_title_pg has-text-centered">Career, Counseling and Scholarships</h3>
+                      <h3 class="prbm_main_title_pg has-text-centered">Career Counseling and Scholarships</h3>
                       <ul class="about_us_list">
                         <li>
                           A collaborative platform for connecting career counselors, teachers, students and parents.
@@ -283,7 +266,7 @@
                 <div class="columns is-multiline is-mobile prbm_stmt_pg">
                   <div class="column is-6-desktop is-12-mobile is-6-tablet">
                     <div class="content">
-                      <h3 class="prbm_main_title_pg has-text-centered">Drives Dashboard</h3>
+                      <h3 class="prbm_main_title_pg has-text-centered">Dashboard for Health Drives</h3>
                       <ul class="about_us_list">
                         <li>
                           NGOs and Government entities run health drives such as Polio vaccination. Health
@@ -494,14 +477,14 @@
 </template>
 
 <script>
-  export default {
-    data() {
-      return {}
-    },
-    methods: {
+export default {
+  data() {
+    return {}
+  },
+  methods: {
 
-    }
   }
+}
 
 </script>
 
