@@ -475,6 +475,50 @@ a.navbar-item.is-active,
 /* partners end   */
 
 /* sponsors start  */
+.sponsor_table.is-striped tbody tr:not(.is-selected):nth-child(even) {
+  background: linear-gradient(98.54deg, rgba(251, 216, 4, 0.025) 1.08%, rgba(253, 235, 125, 0.025) 47.23%, rgba(255, 255, 255, 0.245) 97.17%);
+  /* background: linear-gradient(98.54deg, rgba(251, 216, 4, 0.035) 1.08%, rgba(253, 235, 125, 0.035) 47.23%, rgba(255, 255, 255, 0.343) 97.17%); */
+  background-repeat: repeat;
+}
+
+.sponsor_table tbody tr td {
+  background: linear-gradient(98.54deg, rgba(251, 216, 4, 0.025) 1.08%, rgba(253, 235, 125, 0.025) 47.23%, rgba(255, 255, 255, 0.245) 97.17%);
+  /* background: linear-gradient(98.54deg, rgba(251, 216, 4, 0.035) 1.08%, rgba(253, 235, 125, 0.035) 47.23%, rgba(255, 255, 255, 0.343) 97.17%); */
+  background-repeat: repeat;
+}
+
+.conditions {
+
+  margin-top: 1%;
+}
+
+.conditions li {
+  margin-left: 16px;
+
+}
+
+.sponsor_title_note {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+
+  /* identical to box height */
+
+
+  color: #040869;
+}
+
+.sponsor_title_table {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  margin-top: 12px;
+  margin-bottom: 6px;
+  color: #040869;
+}
+
 .sponsors .s_single_txt {
   margin-top: 3%;
   margin-bottom: 2%;
