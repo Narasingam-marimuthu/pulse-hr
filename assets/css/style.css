@@ -119,7 +119,7 @@ textarea {
 .navbar-item,
 .navbar-link {
   font-weight: 400;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .navbar-link:not(.is-arrowless)::after {
@@ -522,7 +522,7 @@ a.navbar-item.is-active,
   background-size: 12px;
   background-position: 12px 9px;
   line-height: 31px;
-  font-size: 13px;
+  font-size: 14px;
   margin-bottom: 5%;
   list-style: none;
 }
@@ -1407,7 +1407,8 @@ a.navbar-item.is-active,
     font-size: 14px;
   }
 
-  .footer p, .footer span {
+  .footer p,
+  .footer span {
     font-size: 14px;
   }
 
@@ -1415,4 +1416,8 @@ a.navbar-item.is-active,
     font-size: 15px;
   }
 
+  .navbar-item,
+  .navbar-link {
+    font-size: 14px;
+  }
 }
