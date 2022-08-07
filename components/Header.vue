@@ -38,9 +38,9 @@
             <b-navbar-item tag="router-link" to="/digital-poster">
               Digital Posters
             </b-navbar-item>
-            <b-navbar-item tag="router-link" to="/faq">
+            <!-- <b-navbar-item tag="router-link" to="/faq">
               FAQ
-            </b-navbar-item>
+            </b-navbar-item> -->
           </b-navbar-dropdown>
           <b-navbar-item tag="router-link" to="/sponsor-hackathon-2022">
             Sponsor Hackathon 2022

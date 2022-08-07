@@ -8,12 +8,6 @@
             given form in this page.</p>
         </div>
       </div>
-      <!-- <div class="column is-2-desktop is-12-mobile is-2-tablet">
-          <div class="has-text-center">
-            <h4>A/C Name </h4>
-            <p> Madurai Tech Community</p>
-          </div>
-        </div> -->
       <ul class="is-flex sponsor_prm_ul">
         <li>
           <div class="has-text-center">
@@ -61,7 +55,7 @@
       </div>
       <div>
         <iframe frameborder="0"
-          src='https://forms.zohopublic.in/maduraiit/form/SponsorHackathon2022/formperma/T6BqSMOfVQvW9PStoVa8reBMoxlqBoj57I5QYeomiiM'></iframe>
+          src="https://forms.zohopublic.in/maduraiit/form/SponsorHackathon2022/formperma/T6BqSMOfVQvW9PStoVa8reBMoxlqBoj57I5QYeomiiM"></iframe>
       </div>
       <ul class="sponsor_prm_stm mt-2 mb-2">
         <li>
@@ -81,13 +75,6 @@
         </li>
       </ul>
       <table class="table is-bordered is-striped is-fullwidth sponsor_table">
-        <!-- <thead>
-          <tr>
-            <th rowspan="2">Sponsorship Levels</th>
-            <td>Two</td>
-            <td>Two</td>
-          </tr>
-        </thead> -->
         <tbody>
           <tr>
             <th rowspan="2" class="has-text-centered" style="vertical-align:middle">Sponsorship Levels</th>

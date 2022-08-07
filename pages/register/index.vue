@@ -278,7 +278,7 @@
 
           </ul>
           <p>
-            Start building the solutions! Let’s make our cities better with our knowledge, skills and determined effort
+            Start building the solutions! Let's make our cities better with our knowledge, skills and determined effort
             !
           </p>
         </div>
