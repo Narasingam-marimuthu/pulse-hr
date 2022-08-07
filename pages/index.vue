@@ -85,7 +85,7 @@
                       <p>Venue</p>
                     </div>
                     <div class="venu_content">
-                      <p>Solaimalai college of engineering,Madurai.</p>
+                      <p>Solaimalai college of engineering, Madurai.</p>
                     </div>
                   </div>
                 </li>
@@ -99,17 +99,17 @@
             </div>
             <div class="welcome_for_query is-flex">
               <p>For Queries:</p>
-              <a :href="LINK_TELEGRAM_GROUP_URL" target="_blank">
-                <img src="@/assets/img/telegram.png" />
-              </a>
               <a :href="LINK_WHATSAPP_GROUP_URL" target="_blank">
                 <img src="@/assets/img/Whatsapp.png" />
+              </a>
+              <a :href="LINK_TELEGRAM_GROUP_URL" target="_blank">
+                <img src="@/assets/img/telegram.png" />
               </a>
             </div>
           </div>
           <div class="column is-6-desktop is-12-mobile is-6-tablet">
             <div class="welcome1_right">
-              <img src="@/assets/img/home/welcome.png" class="" style="height:450px" />
+              <img src="@/assets/img/home/welcome.png" class="" style="height:90%" />
               <img src="@/assets/img/home/welcome_right.png" />
             </div>
           </div>
@@ -247,7 +247,7 @@
                     </ul>
                   </div>
                   <div class="column is-2-desktop is-12-mobile is-6-tablet">
-                    <img src="@/assets/img/dots.png" />
+                    <img src="@/assets/img/dots.png" style="height: 50px;" />
                   </div>
                 </div>
               </div>
@@ -283,7 +283,7 @@
                     </ul>
                   </div>
                   <div class="column is-2-desktop is-12-mobile is-6-tablet">
-                    <img src="@/assets/img/dots.png" class="about_right_img_dot" />
+                    <img src="@/assets/img/dots.png" class="about_right_img_dot" style="float:right; height: 50px;"/>
                   </div>
                 </div>
               </div>

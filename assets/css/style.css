@@ -162,7 +162,7 @@ a.navbar-item.is-active,
 /* menu end  */
 
 .footer {
-  padding: 3rem 1.5rem 0rem;
+  padding: 3rem 1.5rem;
 }
 
 .footer_block_one p a {
@@ -251,6 +251,10 @@ a.navbar-item.is-active,
   color: #fcd704;
 }
 
+.main-content {
+  padding: 1.5rem 1.5rem;
+}
+
 .welcome_block h1,
 .welcome_block p,
 .welcome_block li {
@@ -296,15 +300,17 @@ a.navbar-item.is-active,
 .venu_detail ul li {
   border-right: 1px solid rgba(4, 8, 105, 0.7);
   float: left;
+  padding: 4px 20px;
 }
 
 .venu_detail ul li:last-child,
 .venu_detail ul li:nth-child(3) {
   border-right: 0px solid rgba(4, 8, 105, 0.7);
+  /* padding: 0px; */
 }
 
 .venu_content_space {
-  padding: 4px 20px;
+  /* padding: 4px 20px; */
 }
 
 .venu_content_space img {
@@ -343,6 +349,10 @@ a.navbar-item.is-active,
 
 .underline h1 {
   border-bottom: 2px solid #040869;
+}
+
+.welcome1_right {
+  height: 80%;
 }
 
 .welcome1_right img {
@@ -411,8 +421,8 @@ a.navbar-item.is-active,
 
 .prb_stmt li {
   float: left;
-  width: 16%;
-  margin: auto;
+  width: 10%;
+  margin: 0 10px;
   display: block;
   text-align: center;
 }
@@ -600,7 +610,7 @@ a.navbar-item.is-active,
 }
 
 .about_right_img_dot {
-  transform: translate(12px, 150px);
+  transform: translate(0px, 130px);
 }
 
 /* about us end */
@@ -611,6 +621,7 @@ a.navbar-item.is-active,
 
 .event_notes h2 {
   margin-bottom: 1%;
+  font-weight: 600;
 }
 
 .event_notes p {
@@ -1002,7 +1013,7 @@ a.navbar-item.is-active,
 .tabs ul li {
   float: left;
   width: 20%;
-  margin: auto;
+  margin: 0 10px;
   display: block;
   text-align: center;
   position: relative;
@@ -1192,7 +1203,7 @@ a.navbar-item.is-active,
 }
 
 .sponsors .silver {
-  width: 300px;
+  width: 50%;
 }
 
 .sponsors .bronze {
@@ -1347,6 +1358,12 @@ a.navbar-item.is-active,
   vertical-align: inherit;
 }
 
+.poster_download .button.is-primary a:hover,
+.button.is-primary a.is-hovered {
+  border-color: transparent;
+  color: white;
+}
+
 .poster_download p {
   margin-top: 2%;
   display: inline-flex;
@@ -1405,3 +1422,41 @@ a.navbar-item.is-active,
 }
 
 /* digi poster end */
+
+@media (min-width: 320px) and (max-width: 768px) {
+  .about_right_img_dot {
+    transform: translate(0px, 0px);
+  }
+
+  .event_sch {
+    width: 100%;
+  }
+
+  .prb_stmt li {
+    width: 20%;
+    margin: 10px;
+  }
+
+  .prb_stmt p {
+    font-size: 11px;
+  }
+
+  .sponsors .s_single_txt {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 14px;
+  }
+
+  .about_us .s_single_txt {
+    font-size: 14px;
+  }
+
+  .footer p, .footer span {
+    font-size: 14px;
+  }
+
+  .venu_detail ul li p {
+    font-size: 15px;
+  }
+
+}

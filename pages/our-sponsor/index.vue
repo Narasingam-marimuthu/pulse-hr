@@ -32,16 +32,16 @@
                     </div>
                     <h1 class="single_title_line">Bronze Sponsors</h1>
                     <div class="columns is-multiline is-mobile mt-3">
-                        <div class="column is-2-desktop is-3-mobile is-2-tablet">
+                        <div class="column is-2-desktop is-4-mobile is-2-tablet has-text-centered">
                             <img src="@/assets/img/sponsors/bronze/dci.png" class="dci" />
                         </div>
-                        <div class="column is-2-desktop is-3-mobile is-2-tablet">
-                            <img src="@/assets/img/sponsors/bronze/watsan.png" class="bronze" />
+                        <div class="column is-2-desktop is-4-mobile is-2-tablet">
+                            <img src="@/assets/img/sponsors/bronze/watsan.png" class="full-width" />
                         </div>
-                        <div class="column is-2-desktop is-3-mobile is-2-tablet">
+                        <div class="column is-2-desktop is-4-mobile is-2-tablet">
                             <img src="@/assets/img/sponsors/bronze/hitech.png" class="full-width" />
                         </div>
-                        <div class="column is-2-desktop is-3-mobile is-2-tablet">
+                        <div class="column is-2-desktop is-4-mobile is-2-tablet">
                             <img src="@/assets/img/sponsors/bronze/systimanx.png" class="full-width" />
                         </div>
                     </div>
