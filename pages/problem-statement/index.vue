@@ -3,7 +3,7 @@
     <section class="top_space">
       <div class="container">
         <div class="columns is-multiline is-mobile">
-          <div class="column is-3-desktop is-12-mobile is-3-tablet">
+          <div class="column is-3-desktop is-12-mobile is-3-tablet has-text-centered">
             <img src="@/assets/img/pb_st.png" class="" />
           </div>
           <div class="column is-9-desktop is-12-mobile is-9-tablet">

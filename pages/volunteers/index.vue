@@ -7,7 +7,7 @@
                 </h3>
             </div>
             <div class="columns is-multiline is-mobile">
-                <div class="column is-12-desktop is-12-mobile is-6-tablet">
+                <div class="column is-12-desktop is-12-mobile is-12-tablet">
                     <p class="is-size-6 primary_color">Our community of volunteers has rich industry experience. We are
                         very passionate to contribute to our beloved Madurai city with knowledge, experience and
                         expertise to effectuate valuable changes.
@@ -15,7 +15,7 @@
                 </div>
             </div>
             <div class="columns is-multiline is-mobile">
-                <div class="column is-2-desktop is-12-mobile is-3-tablet">
+                <div class="column is-2-desktop is-6-mobile is-3-tablet">
                     <div class="box">
                         <div class="has-text-centered">
                             <div class=""><img src="@/assets/img/volunteers/ajay.png" class="" /></div>
@@ -26,7 +26,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="column is-2-desktop is-12-mobile is-3-tablet">
+                <div class="column is-2-desktop is-6-mobile is-3-tablet">
                     <div class="box">
                         <div class="has-text-centered">
                             <div class=""><img src="@/assets/img/volunteers/david.png" class="" /></div>
@@ -37,7 +37,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="column is-2-desktop is-12-mobile is-3-tablet">
+                <div class="column is-2-desktop is-6-mobile is-3-tablet">
                     <div class="box">
                         <div class="has-text-centered">
                             <div class=""><img src="@/assets/img/volunteers/dilip.png" class="" /></div>
@@ -48,7 +48,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="column is-2-desktop is-12-mobile is-3-tablet">
+                <div class="column is-2-desktop is-6-mobile is-3-tablet">
                     <div class="box">
                         <div class="has-text-centered">
                             <div class=""><img src="@/assets/img/volunteers/dhana.png" class="" /></div>
@@ -59,7 +59,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="column is-2-desktop is-12-mobile is-3-tablet">
+                <div class="column is-2-desktop is-6-mobile is-3-tablet">
                     <div class="box">
                         <div class="has-text-centered">
                             <div class=""><img src="@/assets/img/volunteers/kala.png" class="" /></div>
@@ -72,7 +72,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="column is-2-desktop is-12-mobile is-3-tablet">
+                <div class="column is-2-desktop is-6-mobile is-3-tablet">
                     <div class="box">
                         <div class="has-text-centered">
                             <div class=""><img src="@/assets/img/volunteers/krishna.png" class="" /></div>
@@ -85,7 +85,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="column is-2-desktop is-12-mobile is-3-tablet">
+                <div class="column is-2-desktop is-6-mobile is-3-tablet">
                     <div class="box">
                         <div class="has-text-centered">
                             <div class=""><img src="@/assets/img/volunteers/maheswar.png" class="" /></div>
@@ -96,7 +96,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="column is-2-desktop is-12-mobile is-3-tablet">
+                <div class="column is-2-desktop is-6-mobile is-3-tablet">
                     <div class="box">
                         <div class="has-text-centered">
                             <div class=""><img src="@/assets/img/volunteers/mutharasu.png" class="" /></div>
@@ -107,7 +107,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="column is-2-desktop is-12-mobile is-3-tablet">
+                <div class="column is-2-desktop is-6-mobile is-3-tablet">
                     <div class="box">
                         <div class="has-text-centered">
                             <div class=""><img src="@/assets/img/volunteers/rajlakshmi.png" class="" /></div>
@@ -120,7 +120,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="column is-2-desktop is-12-mobile is-3-tablet">
+                <div class="column is-2-desktop is-6-mobile is-3-tablet">
                     <div class="box">
                         <div class="has-text-centered">
                             <div class=""><img src="@/assets/img/volunteers/ramesh.png" class="" /></div>
@@ -133,7 +133,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="column is-2-desktop is-12-mobile is-3-tablet">
+                <div class="column is-2-desktop is-6-mobile is-3-tablet">
                     <div class="box">
                         <div class="has-text-centered">
                             <div class=""><img src="@/assets/img/volunteers/senthil.png" class="" /></div>
@@ -146,7 +146,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="column is-2-desktop is-12-mobile is-3-tablet">
+                <div class="column is-2-desktop is-6-mobile is-3-tablet">
                     <div class="box">
                         <div class="has-text-centered">
                             <div class=""><img src="@/assets/img/volunteers/sohail.png" class="" /></div>
@@ -157,7 +157,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="column is-2-desktop is-12-mobile is-3-tablet">
+                <div class="column is-2-desktop is-6-mobile is-3-tablet">
                     <div class="box">
                         <div class="has-text-centered">
                             <div class=""><img src="@/assets/img/volunteers/vimala.png" class="" /></div>
@@ -168,7 +168,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="column is-2-desktop is-12-mobile is-3-tablet">
+                <div class="column is-2-desktop is-6-mobile is-3-tablet">
                     <div class="box">
                         <div class="has-text-centered">
                             <div class=""><img src="@/assets/img/volunteers/vivek.png" class="" /></div>

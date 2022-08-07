@@ -2,7 +2,7 @@
   <section class="footer yellow_bg">
     <div class="container">
       <div class="columns is-multiline is-mobile">
-        <div class="column is-3-desktop is-12-mobile is-6-tablet">
+        <div class="column is-3-desktop is-12-mobile is-3-tablet">
           <div class="footer_block_one">
             <h4>Contact us</h4>
             <p><a href="tel:938466737"><img src="@/assets/img/Call.png" class="" /> 938466737</a></p>
@@ -14,7 +14,7 @@
             </div>
           </div>
         </div>
-        <div class="column is-3-desktop is-12-mobile is-6-tablet">
+        <div class="column is-3-desktop is-12-mobile is-3-tablet">
           <div class="footer_block_two">
             <h4>Email us</h4>
             <p>For General Enquiry</p>
@@ -27,7 +27,7 @@
             </p>
           </div>
         </div>
-        <div class="column is-2-desktop is-12-mobile is-6-tablet">
+        <div class="column is-2-desktop is-12-mobile is-3-tablet">
           <div class="footer_block_three">
             <h4>Useful Links</h4>
             <p>
@@ -44,7 +44,7 @@
             </p>
           </div>
         </div>
-        <div class="column is-4-desktop is-12-mobile is-6-tablet">
+        <div class="column is-4-desktop is-12-mobile is-3-tablet">
           <div class="footer_block_four">
             <div class="is-flex">
               <img src="@/assets/logo.png" class="logo_img" />
