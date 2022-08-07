@@ -59,7 +59,11 @@
           </nuxt-link>
         </p>
       </div>
-      <ul class="sponsor_prm_stm">
+      <div>
+        <iframe frameborder="0"
+          src='https://forms.zohopublic.in/maduraiit/form/SponsorHackathon2022/formperma/T6BqSMOfVQvW9PStoVa8reBMoxlqBoj57I5QYeomiiM'></iframe>
+      </div>
+      <ul class="sponsor_prm_stm mt-2 mb-2">
         <li>
           Form 80G Allotment letter application is in progress.
         </li>
@@ -76,7 +80,7 @@
           For queries, send mail to sponsor@madurai-tech.org.
         </li>
       </ul>
-      <table class="table is-bordered is-striped is-narrow is-hoverable is-fullwidth yellow_bg sponsor_table">
+      <table class="table is-bordered is-striped is-fullwidth sponsor_table">
         <!-- <thead>
           <tr>
             <th rowspan="2">Sponsorship Levels</th>
@@ -86,12 +90,12 @@
         </thead> -->
         <tbody>
           <tr>
-            <td rowspan="2">Sponsorship Levels</td>
-            <td> PREMIER</td>
-            <td> PLATINUM</td>
-            <td> GOLD</td>
-            <td> SILVER</td>
-            <td> BRONZE</td>
+            <th rowspan="2" class="has-text-centered" style="vertical-align:middle">Sponsorship Levels</th>
+            <th> PREMIER</th>
+            <th> PLATINUM</th>
+            <th> GOLD</th>
+            <th> SILVER</th>
+            <th> BRONZE</th>
           </tr>
           <tr>
             <td>₹ 2,50,000</td>
@@ -227,14 +231,14 @@
 </template>
 
 <script>
-  export default {
-    data() {
-      return {}
-    },
-    methods: {
+export default {
+  data() {
+    return {}
+  },
+  methods: {
 
-    }
   }
+}
 
 </script>
 
