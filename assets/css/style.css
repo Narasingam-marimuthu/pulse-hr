@@ -766,7 +766,7 @@ a.navbar-item.is-active,
 }
 
 .winner_text2 {
-  font-size: 14px;
+  font-size: 15px;
   line-height: 20px;
   color: #040869;
 }
@@ -1274,7 +1274,7 @@ a.navbar-item.is-active,
 
 .register_card .media-content .subtitle {
   margin-bottom: 2%;
-  font-size: 13px;
+  font-size: 14px;
   line-height: 19px;
 }
 
@@ -1299,7 +1299,7 @@ a.navbar-item.is-active,
 }
 
 .register_yellow_box {
-  background: #FEFAE5;
+  background: #FCD704;
   border-radius: 10px;
   padding: 12px;
   text-align: center;
@@ -1327,7 +1327,7 @@ a.navbar-item.is-active,
 
 .register_card ul {
   list-style: disc;
-  font-size: 13px;
+  font-size: 14px;
 }
 
 .register_card ul li {

@@ -75,7 +75,7 @@
                 <div class="media-content">
                   <p class="title is-6">Online or offline</p>
                   <p class="subtitle is-6">offline presence is needed from 12-Aug-2022 4pm to 14-Aug-2022 6pm,
-                    Soluction can be created online,remotely from nowitself. </p>
+                    Solution can be created online,remotely from nowitself. </p>
                 </div>
               </div>
             </div>
@@ -93,7 +93,7 @@
                 <div class="media-content">
                   <p class="title is-6">How to form my team</p>
                   <p class="subtitle is-6">you can form a team with your friends or form a team while discussing
-                    problems at discord channels: or,form a team on 12-Aug at offlinenetworking. </p>
+                    problems at discord channels: or, form a team on 12-Aug at offline networking. </p>
                 </div>
               </div>
             </div>
@@ -126,16 +126,16 @@
                   </figure>
                 </div>
                 <div class="media-content">
-                  <p class="title is-6">What is expected as a soluction?</p>
+                  <p class="title is-6">What is expected as a solution?</p>
                   <ul>
-                    <li>you can create your own soluction from scratch</li>
-                    <li>you can reuse existing soluction from the market,
+                    <li>you can create your own solution from scratch</li>
+                    <li>you can reuse existing solution from the market,
                       github,but do your value addition. Avoid just
-                      demonstrating soluction from the market/github.</li>
-                    <li>Soluction can be hardware,software or mix of it</li>
+                      demonstrating solution from the market/github.</li>
+                    <li>Solution can be hardware,software or mix of it</li>
                     <li>
-                      Soluction can be just a design or a prototype,
-                      or a complete soluction
+                      Solution can be just a design or a prototype,
+                      or a complete solution
                     </li>
                   </ul>
                 </div>
@@ -154,7 +154,7 @@
                 </div>
                 <div class="media-content">
                   <p class="title is-6">Value</p>
-                  <p class="subtitle is-6">Bring out Innovative soluctions to transform our cities to be smarter
+                  <p class="subtitle is-6">Bring out Innovative solutions to transform our cities to be smarter
                     resilient and suistainable
                   </p>
 
@@ -172,7 +172,7 @@
                 </div>
                 <div class="media-content">
                   <p class="title is-6">www.mdu-tech.org</p>
-                  <p class="subtitle is-6">Madurai Hackathon 2022 is organized by Madurai tech community, a
+                  <p class="subtitle is-6">Madurai Hackathon 2022 is organized by Madurai Tech Community, a
                     Not-for-Profit Trust run by volunteers.
                   </p>
 

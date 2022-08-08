@@ -74,7 +74,7 @@
                       <p>Event Date</p>
                     </div>
                     <div class="venu_content">
-                      <p>12th Aug 4 PM to 14th Aug 6 PM</p>
+                      <p>12<sup>th</sup> Aug 4 PM to 14<sup>th</sup> Aug 6 PM</p>
                     </div>
                   </div>
                 </li>
@@ -129,7 +129,7 @@
                   <img src="@/assets/img/home/kumarvembu.png" class="" />
                 </div>
                 <p class="speaker_txt_small">Inaugration Ceremony Keynote Speaker</p>
-                <p class="speaker_txt_small">12 August, 2022 - Friday</p>
+                <p class="speaker_txt_small">12<sup>th</sup> August, 2022 - Friday</p>
                 <p class="speaker_txt_big">Mr. Kumar Vembu</p>
                 <p class="speaker_txt_small">CEO & Founder- Gofrugal</p>
               </div>
@@ -140,7 +140,7 @@
                   <img src="@/assets/img/home/saba.png" class="" />
                 </div>
                 <p class="speaker_txt_small">Tech Session Speaker</p>
-                <p class="speaker_txt_small">13 August, 2022 - Saturday</p>
+                <p class="speaker_txt_small">13<sup>th</sup> August, 2022 - Saturday</p>
                 <p class="speaker_txt_big">Mr. Sabapathy Narayanan</p>
                 <p class="speaker_txt_small">Corporate story teller</p>
               </div>
@@ -153,7 +153,7 @@
                   <img src="@/assets/img/home/murali.png" class="" />
                 </div>
                 <p class="speaker_txt_small">Awarding Ceremony Keynote speaker from Academia</p>
-                <p class="speaker_txt_small">14 August, 2022 - Sunday</p>
+                <p class="speaker_txt_small">14<sup>th</sup> August, 2022 - Sunday</p>
                 <p class="speaker_txt_big">Prof.Dr.Murali Sambasivan</p>
                 <p class="speaker_txt_small">Director - Thiagarajar school of Mangagement</p>
               </div>
@@ -164,7 +164,7 @@
                   <img src="@/assets/img/home/thiru.png" class="" />
                 </div>
                 <p class="speaker_txt_small">Awarding Ceremony Keynote speaker from Industry</p>
-                <p class="speaker_txt_small">14 August, 2022 - Sunday</p>
+                <p class="speaker_txt_small">14<sup>th</sup> August, 2022 - Sunday</p>
                 <p class="speaker_txt_big">Mr. Thirumurugan subburaj</p>
                 <p class="speaker_txt_small">Operations Director - HCL Technologies</p>
               </div>
