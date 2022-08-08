@@ -44,7 +44,7 @@
       <div class="h1_title underline has-text-centered">
         <h1 class="">
           <span>Problem</span>
-          <span>Statement</span>
+          <span>Statements</span>
         </h1>
       </div>
       <div class="container">
