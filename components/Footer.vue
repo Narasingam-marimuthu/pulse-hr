@@ -6,7 +6,7 @@
           <div class="footer_block_one">
             <h4>Contact us</h4>
             <p><a href="tel:938466737"><img src="@/assets/img/Call.png" class="" /> 938466737</a></p>
-            <div class="is-flex">
+            <div class="is-flex footer_cont">
               <div class="footer_block_one mt-3">
                 <img src="@/assets/img/Location.png" class="" />
               </div>
