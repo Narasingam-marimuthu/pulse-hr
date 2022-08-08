@@ -55,21 +55,8 @@ export default {
   /*
   ** Nuxt.js dev-modules
   */
-  // buildModules: [
-  //   '@nuxtjs/google-fonts'
-  // ],
-  /*
-  ** Nuxt.js Fonts
-  */
-  // googleFonts: {
-  //   display: 'swap',
-  //   preload: true,
-  //   families: {
-  //     'Work+Sans': {
-  //       wght: [100, 400, 500, 600, 700, 800, 900]
-  //     },
-  //   }
-  // },
+  buildModules: [
+  ],
   /*
   ** Nuxt.js modules
   */
