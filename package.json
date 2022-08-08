@@ -11,9 +11,11 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
+    "@nuxtjs/axios": "^5.3.6",
     "nuxt": "^2.0.0",
-    "nuxt-buefy": "^0.3.2",
-    "@nuxtjs/axios": "^5.3.6"
+    "nuxt-buefy": "^0.3.2"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "@nuxtjs/google-fonts": "^3.0.0-0"
+  }
 }

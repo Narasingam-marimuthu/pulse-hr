@@ -28,6 +28,9 @@ export default {
       { hid: 'keywords', name: 'keywords', content: 'Tech Community, Madurai, IT, Hackathon 2022, Volunteer Based Community, Hackathon, Demo Days, Startup Events, Job Fairs, Mentorship for startups, Networking, new technologies' },
     ],
     link: [
+      {
+        rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;400;500;600;700;800;900&display=swap'
+      },
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.png' }
     ]
   },
@@ -52,8 +55,21 @@ export default {
   /*
   ** Nuxt.js dev-modules
   */
-  buildModules: [
-  ],
+  // buildModules: [
+  //   '@nuxtjs/google-fonts'
+  // ],
+  /*
+  ** Nuxt.js Fonts
+  */
+  // googleFonts: {
+  //   display: 'swap',
+  //   preload: true,
+  //   families: {
+  //     'Work+Sans': {
+  //       wght: [100, 400, 500, 600, 700, 800, 900]
+  //     },
+  //   }
+  // },
   /*
   ** Nuxt.js modules
   */
