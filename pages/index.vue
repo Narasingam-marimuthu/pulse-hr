@@ -91,7 +91,6 @@
                 </li>
               </ul>
             </div>
-
             <div class="">
               <button class="button is-primary" @click="$router.push('/register')">
                 Register to participate
