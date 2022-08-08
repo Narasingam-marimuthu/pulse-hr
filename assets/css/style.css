@@ -104,7 +104,7 @@ textarea {
   content: "";
   display: inline-block;
   height: 1px;
-  left: 22%;
+  left: 13px;
   position: absolute;
   width: 21px;
 }
@@ -260,7 +260,7 @@ a.navbar-item.is-active,
 }
 
 .main-content {
-  padding: 1.5rem 1.5rem;
+  /* padding: 1.5rem 1.5rem; */
 }
 
 .welcome_block h1,
@@ -516,7 +516,8 @@ a.navbar-item.is-active,
   font-weight: 600;
   font-size: 16px;
   line-height: 19px;
-  /* identical to box height */
+  margin-top: 2%;
+
   color: #040869;
 }
 
@@ -1445,6 +1446,21 @@ a.navbar-item.is-active,
 
 /* digi poster end */
 @media (max-width: 1024px) {
+  .sponsor_prm_ul {
+    justify-content: center;
+  }
+
+  .sponsor_prm ul p {
+    font-size: 14px;
+  }
+
+  .sponsor_prm_ul li {
+    text-align: center;
+    padding-left: 7px;
+    padding-right: 7px;
+    font-size: 13px;
+  }
+
   .footer_block_four h3 {
     font-size: 16px;
   }
@@ -1457,6 +1473,13 @@ a.navbar-item.is-active,
 }
 
 @media (min-width: 769px) and (max-width: 1100px) {
+  .sponsor_download_book {
+    width: 28%;
+    margin: auto;
+    padding-top: 3%;
+    padding-bottom: 3%;
+  }
+
   .speaker_txt_small {
     font-size: 8px !important;
   }
@@ -1467,6 +1490,13 @@ a.navbar-item.is-active,
 }
 
 @media (min-width: 320px) and (max-width: 768px) {
+  .sponsor_download_book {
+    width: 62%;
+    margin: auto;
+    padding-bottom: 5%;
+    padding-top: 5%;
+  }
+
   .navbar-item.nuxt-link-active::after {
     bottom: 7px;
     left: 4%;
@@ -1556,6 +1586,10 @@ a.navbar-item.is-active,
   border-radius: 50%;
   width: 50%;
   padding: 6px;
+}
+
+.table__wrapper {
+  overflow-x: auto;
 }
 
 /* speaker block end */

@@ -8,7 +8,7 @@
             given form in this page.</p>
         </div>
       </div>
-      <ul class="is-flex sponsor_prm_ul">
+      <ul class="is-flex-desktop  sponsor_prm_ul">
         <li>
           <div class="has-text-center">
             <h4>A/C Name </h4>
@@ -74,132 +74,134 @@
           For queries, send mail to sponsor@madurai-tech.org.
         </li>
       </ul>
-      <table class="table is-bordered is-striped is-fullwidth sponsor_table">
-        <tbody>
-          <tr>
-            <th rowspan="2" class="has-text-centered" style="vertical-align:middle">Sponsorship Levels</th>
-            <th> PREMIER</th>
-            <th> PLATINUM</th>
-            <th> GOLD</th>
-            <th> SILVER</th>
-            <th> BRONZE</th>
-          </tr>
-          <tr>
-            <td>₹ 2,50,000</td>
-            <td> ₹ 1,25,000 to <br> ₹ 2,49,999</td>
-            <td> ₹ 50,000 to <br> ₹ 1,24,999</td>
-            <td> ₹ 30,000 to <br> ₹ 45,999</td>
-            <td> ₹ 10,000 to <br> ₹ 29,999</td>
-          </tr>
-        </tbody>
-        <h2 class="sponsor_title_table">Branding Exposure</h2>
-        <tbody>
-          <tr>
-            <td>Company name/logo listed on the event website</td>
-            <td class="has-text-centered"> <img src="@/assets/img/tick.png" class="" /></td>
-            <td class="has-text-centered"> <img src="@/assets/img/tick.png" class="" /></td>
-            <td class="has-text-centered"> <img src="@/assets/img/tick.png" class="" /></td>
-            <td class="has-text-centered"> <img src="@/assets/img/tick.png" class="" /></td>
-            <td class="has-text-centered"> <img src="@/assets/img/tick.png" class="" /></td>
-          </tr>
-          <tr>
-            <td>Brand visibility in the communications - Digital posters</td>
-            <td class="has-text-centered"> <img src="@/assets/img/tick.png" class="" /></td>
-            <td class="has-text-centered"> <img src="@/assets/img/tick.png" class="" /></td>
-            <td class="has-text-centered"> </td>
-            <td class="has-text-centered"> </td>
-            <td class="has-text-centered"> </td>
-          </tr>
-          <tr>
-            <td>Brand visibility in the communications - communication decks, emails
-              and such</td>
-            <td class="has-text-centered"> <img src="@/assets/img/tick.png" class="" /></td>
-            <td class="has-text-centered"> <img src="@/assets/img/tick.png" class="" /></td>
-            <td class="has-text-centered"> <img src="@/assets/img/tick.png" class="" /></td>
-            <td class="has-text-centered"> <img src="@/assets/img/tick.png" class="" /></td>
-            <td class="has-text-centered"> </td>
-          </tr>
-          <tr>
-            <td>Brand visibility at the venue - all combined logo flex banner printed by
-              organizers</td>
-            <td class="has-text-centered"> <img src="@/assets/img/tick.png" class="" /></td>
-            <td class="has-text-centered"> <img src="@/assets/img/tick.png" class="" /></td>
-            <td class="has-text-centered"> <img src="@/assets/img/tick.png" class="" /></td>
-            <td class="has-text-centered"> <img src="@/assets/img/tick.png" class="" /></td>
-            <td class="has-text-centered"> <img src="@/assets/img/tick.png" class="" /></td>
-          </tr>
-          <tr>
-            <td>Opportunity to display banner at the event ceremonies</td>
-            <td class="has-text-centered"> <img src="@/assets/img/tick.png" class="" /></td>
-            <td class="has-text-centered"> </td>
-            <td class="has-text-centered"> </td>
-            <td class="has-text-centered"> </td>
-            <td class="has-text-centered"> </td>
-          </tr>
-          <tr>
-            <td>Set flex board at the event site</td>
-            <td class="has-text-centered"> <img src="@/assets/img/tick.png" class="" /></td>
-            <td class="has-text-centered"> <img src="@/assets/img/tick.png" class="" /></td>
-            <td class="has-text-centered"> </td>
-            <td class="has-text-centered"> </td>
-            <td class="has-text-centered"> </td>
-          </tr>
-          <tr>
-            <td>Logo printed on participants welcome kit</td>
-            <td class="has-text-centered"> <img src="@/assets/img/tick.png" class="" /></td>
-            <td class="has-text-centered"> <img src="@/assets/img/tick.png" class="" /></td>
-            <td class="has-text-centered"> <img src="@/assets/img/tick.png" class="" /></td>
-            <td class="has-text-centered"> </td>
-            <td class="has-text-centered"> </td>
-          </tr>
-        </tbody>
-        <h2 class="sponsor_title_table">Event Presence</h2>
-        <tbody>
-          <tr>
-            <td>Mentioned and Thank You Message by the Facilitator at event</td>
-            <td class="has-text-centered"> <img src="@/assets/img/tick.png" class="" /></td>
-            <td class="has-text-centered"> <img src="@/assets/img/tick.png" class="" /></td>
-            <td class="has-text-centered"> <img src="@/assets/img/tick.png" class="" /></td>
-            <td class="has-text-centered"> <img src="@/assets/img/tick.png" class="" /></td>
-            <td class="has-text-centered"> <img src="@/assets/img/tick.png" class="" /></td>
-          </tr>
-          <tr>
-            <td>Brochure and/or swag give-away (from organizers desk)</td>
-            <td class="has-text-centered"> <img src="@/assets/img/tick.png" class="" /></td>
-            <td class="has-text-centered"> <img src="@/assets/img/tick.png" class="" /></td>
-            <td class="has-text-centered"> <img src="@/assets/img/tick.png" class="" /></td>
-            <td class="has-text-centered"> <img src="@/assets/img/tick.png" class="" /> </td>
-            <td class="has-text-centered"> </td>
-          </tr>
-          <tr>
-            <td>Booth or Table at the event</td>
-            <td class="has-text-centered"> <img src="@/assets/img/tick.png" class="" /></td>
-            <td class="has-text-centered"> <img src="@/assets/img/tick.png" class="" /></td>
-            <td class="has-text-centered"> </td>
-            <td class="has-text-centered"> </td>
-            <td class="has-text-centered"> </td>
-          </tr>
-        </tbody>
-        <h2 class="sponsor_title_table">Employee Engagement</h2>
-        <tbody>
-          <tr>
-            <td>Tickets to participate in the event </td>
-            <td class="has-text-centered"> 10</td>
-            <td class="has-text-centered">6</td>
-            <td class="has-text-centered">3</td>
-            <td class="has-text-centered">2</td>
-            <td class="has-text-centered"></td>
-          </tr>
-          <tr>
-            <td>Possibility of being a mentor at the event</td>
-            <td class="has-text-centered"> <img src="@/assets/img/tick.png" class="" /></td>
-            <td class="has-text-centered"> <img src="@/assets/img/tick.png" class="" /></td>
-            <td class="has-text-centered"> <img src="@/assets/img/tick.png" class="" /></td>
-            <td class="has-text-centered"> <img src="@/assets/img/tick.png" class="" /> </td>
-            <td class="has-text-centered"> </td>
-          </tr>
-        </tbody>
-      </table>
+      <div class="table__wrapper">
+        <table class="table is-bordered is-striped is-fullwidth sponsor_table">
+          <tbody>
+            <tr>
+              <th rowspan="2" class="has-text-centered" style="vertical-align:middle">Sponsorship Levels</th>
+              <th> PREMIER</th>
+              <th> PLATINUM</th>
+              <th> GOLD</th>
+              <th> SILVER</th>
+              <th> BRONZE</th>
+            </tr>
+            <tr>
+              <td>₹ 2,50,000</td>
+              <td> ₹ 1,25,000 to <br> ₹ 2,49,999</td>
+              <td> ₹ 50,000 to <br> ₹ 1,24,999</td>
+              <td> ₹ 30,000 to <br> ₹ 45,999</td>
+              <td> ₹ 10,000 to <br> ₹ 29,999</td>
+            </tr>
+          </tbody>
+          <h2 class="sponsor_title_table">Branding Exposure</h2>
+          <tbody>
+            <tr>
+              <td>Company name/logo listed on the event website</td>
+              <td class="has-text-centered"> <img src="@/assets/img/tick.png" class="" /></td>
+              <td class="has-text-centered"> <img src="@/assets/img/tick.png" class="" /></td>
+              <td class="has-text-centered"> <img src="@/assets/img/tick.png" class="" /></td>
+              <td class="has-text-centered"> <img src="@/assets/img/tick.png" class="" /></td>
+              <td class="has-text-centered"> <img src="@/assets/img/tick.png" class="" /></td>
+            </tr>
+            <tr>
+              <td>Brand visibility in the communications - Digital posters</td>
+              <td class="has-text-centered"> <img src="@/assets/img/tick.png" class="" /></td>
+              <td class="has-text-centered"> <img src="@/assets/img/tick.png" class="" /></td>
+              <td class="has-text-centered"> </td>
+              <td class="has-text-centered"> </td>
+              <td class="has-text-centered"> </td>
+            </tr>
+            <tr>
+              <td>Brand visibility in the communications - communication decks, emails
+                and such</td>
+              <td class="has-text-centered"> <img src="@/assets/img/tick.png" class="" /></td>
+              <td class="has-text-centered"> <img src="@/assets/img/tick.png" class="" /></td>
+              <td class="has-text-centered"> <img src="@/assets/img/tick.png" class="" /></td>
+              <td class="has-text-centered"> <img src="@/assets/img/tick.png" class="" /></td>
+              <td class="has-text-centered"> </td>
+            </tr>
+            <tr>
+              <td>Brand visibility at the venue - all combined logo flex banner printed by
+                organizers</td>
+              <td class="has-text-centered"> <img src="@/assets/img/tick.png" class="" /></td>
+              <td class="has-text-centered"> <img src="@/assets/img/tick.png" class="" /></td>
+              <td class="has-text-centered"> <img src="@/assets/img/tick.png" class="" /></td>
+              <td class="has-text-centered"> <img src="@/assets/img/tick.png" class="" /></td>
+              <td class="has-text-centered"> <img src="@/assets/img/tick.png" class="" /></td>
+            </tr>
+            <tr>
+              <td>Opportunity to display banner at the event ceremonies</td>
+              <td class="has-text-centered"> <img src="@/assets/img/tick.png" class="" /></td>
+              <td class="has-text-centered"> </td>
+              <td class="has-text-centered"> </td>
+              <td class="has-text-centered"> </td>
+              <td class="has-text-centered"> </td>
+            </tr>
+            <tr>
+              <td>Set flex board at the event site</td>
+              <td class="has-text-centered"> <img src="@/assets/img/tick.png" class="" /></td>
+              <td class="has-text-centered"> <img src="@/assets/img/tick.png" class="" /></td>
+              <td class="has-text-centered"> </td>
+              <td class="has-text-centered"> </td>
+              <td class="has-text-centered"> </td>
+            </tr>
+            <tr>
+              <td>Logo printed on participants welcome kit</td>
+              <td class="has-text-centered"> <img src="@/assets/img/tick.png" class="" /></td>
+              <td class="has-text-centered"> <img src="@/assets/img/tick.png" class="" /></td>
+              <td class="has-text-centered"> <img src="@/assets/img/tick.png" class="" /></td>
+              <td class="has-text-centered"> </td>
+              <td class="has-text-centered"> </td>
+            </tr>
+          </tbody>
+          <h2 class="sponsor_title_table">Event Presence</h2>
+          <tbody>
+            <tr>
+              <td>Mentioned and Thank You Message by the Facilitator at event</td>
+              <td class="has-text-centered"> <img src="@/assets/img/tick.png" class="" /></td>
+              <td class="has-text-centered"> <img src="@/assets/img/tick.png" class="" /></td>
+              <td class="has-text-centered"> <img src="@/assets/img/tick.png" class="" /></td>
+              <td class="has-text-centered"> <img src="@/assets/img/tick.png" class="" /></td>
+              <td class="has-text-centered"> <img src="@/assets/img/tick.png" class="" /></td>
+            </tr>
+            <tr>
+              <td>Brochure and/or swag give-away (from organizers desk)</td>
+              <td class="has-text-centered"> <img src="@/assets/img/tick.png" class="" /></td>
+              <td class="has-text-centered"> <img src="@/assets/img/tick.png" class="" /></td>
+              <td class="has-text-centered"> <img src="@/assets/img/tick.png" class="" /></td>
+              <td class="has-text-centered"> <img src="@/assets/img/tick.png" class="" /> </td>
+              <td class="has-text-centered"> </td>
+            </tr>
+            <tr>
+              <td>Booth or Table at the event</td>
+              <td class="has-text-centered"> <img src="@/assets/img/tick.png" class="" /></td>
+              <td class="has-text-centered"> <img src="@/assets/img/tick.png" class="" /></td>
+              <td class="has-text-centered"> </td>
+              <td class="has-text-centered"> </td>
+              <td class="has-text-centered"> </td>
+            </tr>
+          </tbody>
+          <h2 class="sponsor_title_table">Employee Engagement</h2>
+          <tbody>
+            <tr>
+              <td>Tickets to participate in the event </td>
+              <td class="has-text-centered"> 10</td>
+              <td class="has-text-centered">6</td>
+              <td class="has-text-centered">3</td>
+              <td class="has-text-centered">2</td>
+              <td class="has-text-centered"></td>
+            </tr>
+            <tr>
+              <td>Possibility of being a mentor at the event</td>
+              <td class="has-text-centered"> <img src="@/assets/img/tick.png" class="" /></td>
+              <td class="has-text-centered"> <img src="@/assets/img/tick.png" class="" /></td>
+              <td class="has-text-centered"> <img src="@/assets/img/tick.png" class="" /></td>
+              <td class="has-text-centered"> <img src="@/assets/img/tick.png" class="" /> </td>
+              <td class="has-text-centered"> </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
       <h3 class="sponsor_title_note">Conditions:</h3>
       <ul class="sponsor_prm_stm conditions">
         <li>
@@ -218,14 +220,14 @@
 </template>
 
 <script>
-export default {
-  data() {
-    return {}
-  },
-  methods: {
+  export default {
+    data() {
+      return {}
+    },
+    methods: {
 
+    }
   }
-}
 
 </script>
 
