@@ -5,7 +5,7 @@
         <div class="column is-3-desktop is-12-mobile is-3-tablet">
           <div class="footer_block_one">
             <h4>Contact us</h4>
-            <p><a href="tel:938466737"><img src="@/assets/img/Call.png" class="" /> 9384667376</a></p>
+            <p><a href="tel:9384667376"><img src="@/assets/img/Call.png" class="" /> 9384667376</a></p>
             <div class="is-flex footer_cont">
               <div class="footer_block_one mt-1">
                 <img src="@/assets/img/Location.png" class="" />

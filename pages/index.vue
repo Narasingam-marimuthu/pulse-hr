@@ -120,8 +120,8 @@
                 <div class="round_circle">
                   <img src="@/assets/img/home/kumarvembu.png" class="" />
                 </div>
-                <p class="speaker_txt_small">12<sup>th</sup> August, 2022 - Friday</p>
                 <p class="speaker_txt_small">Inaugration Ceremony Keynote Speaker</p>
+                <p class="speaker_txt_small">12<sup>th</sup> August, 2022 - Friday</p>
                 <p class="speaker_txt_big">Mr. Kumar Vembu</p>
                 <p class="speaker_txt_small">CEO & Founder- Gofrugal</p>
               </div>
