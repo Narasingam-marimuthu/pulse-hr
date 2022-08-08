@@ -87,6 +87,26 @@ textarea {
 }
 
 /* menu start  */
+.has-dropdown.is-active .navbar-dropdown {
+  display: block;
+}
+
+.navbar-dropdown {
+  background-color: white;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  border-top: 2px solid #dbdbdb;
+  -webkit-box-shadow: 0 8px 8px rgb(10 10 10 / 10%);
+  box-shadow: 0 8px 8px rgb(10 10 10 / 10%);
+  display: none;
+  font-size: 0.875rem;
+  left: 0;
+  min-width: 100%;
+  position: absolute;
+  top: 100%;
+  z-index: 20;
+}
+
 .navbar-brand .navbar-item.nuxt-link-exact-active::after {
   border: 0px;
 }
@@ -455,6 +475,10 @@ a.navbar-item.is-active,
   font-weight: 500;
   font-size: 22px;
   color: #040869;
+}
+
+.mt-1 {
+  margin-top: 1%;
 }
 
 .mt-3 {
