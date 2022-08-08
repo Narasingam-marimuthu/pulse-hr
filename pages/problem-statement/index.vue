@@ -34,7 +34,8 @@
         </div>
         <div class="prbm_single">
           <p>
-            Problem Discussions channels open now <nuxt-link to="/" class="join_here"> join here </nuxt-link>
+            Problem Discussions channels open now <a href="http://localhost:3010/https://discord.com/invite/DHFWWuqzac"
+              target="_blank" class="join_here">join here</a>
           </p>
         </div>
       </div>
@@ -477,14 +478,14 @@
 </template>
 
 <script>
-  export default {
-    data() {
-      return {}
-    },
-    methods: {
+export default {
+  data() {
+    return {}
+  },
+  methods: {
 
-    }
   }
+}
 
 </script>
 

@@ -5,18 +5,11 @@
         <b-carousel :arrow="false" :pause-info="false" :indicator-style="'is-dots'" :indicator-position="'is-bottom'"
           :indicator-background="false" :indicator-inside="false">
           <b-carousel-item v-for="(carousel, i) in carousels" :key="i">
-            <!-- <b-image :src="carousel.image" /> -->
-            <img :src="carousel.image">
+            <nuxt-link to="/event-schedule" class="join_here" v-if="i == 0">
+              <img :src="carousel.image" />
+            </nuxt-link>
+            <img :src="carousel.image" v-if="i != 0"/>
           </b-carousel-item>
-          <!-- <img :src="carousels.image"> -->
-          <!-- <b-image :src="carousels.image" /> -->
-          <!-- <b-image class="image" :src="getImgUrl(i)"></b-image> -->
-          <!-- <section :class="`hero is-medium is-${carousel.color}`">
-              <div class="hero-body has-text-centered">
-                <h1 class="title">{{ carousel.text }}</h1>
-              </div>
-            </section> -->
-
         </b-carousel>
       </div>
     </section>
@@ -127,8 +120,8 @@
                 <div class="round_circle">
                   <img src="@/assets/img/home/kumarvembu.png" class="" />
                 </div>
-                <p class="speaker_txt_small">Inaugration Ceremony Keynote Speaker</p>
                 <p class="speaker_txt_small">12<sup>th</sup> August, 2022 - Friday</p>
+                <p class="speaker_txt_small">Inaugration Ceremony Keynote Speaker</p>
                 <p class="speaker_txt_big">Mr. Kumar Vembu</p>
                 <p class="speaker_txt_small">CEO & Founder- Gofrugal</p>
               </div>
@@ -141,20 +134,7 @@
                 <p class="speaker_txt_small">Tech Session Speaker</p>
                 <p class="speaker_txt_small">13<sup>th</sup> August, 2022 - Saturday</p>
                 <p class="speaker_txt_big">Mr. Sabapathy Narayanan</p>
-                <p class="speaker_txt_small">Corporate story teller</p>
-              </div>
-
-
-            </div>
-            <div class="column is-3-desktop is-12-mobile is-3-tablet">
-              <div class="speaker_block">
-                <div class="round_circle">
-                  <img src="@/assets/img/home/murali.png" class="" />
-                </div>
-                <p class="speaker_txt_small">Awarding Ceremony Keynote speaker from Academia</p>
-                <p class="speaker_txt_small">14<sup>th</sup> August, 2022 - Sunday</p>
-                <p class="speaker_txt_big">Prof.Dr.Murali Sambasivan</p>
-                <p class="speaker_txt_small">Director - Thiagarajar school of Mangagement</p>
+                <p class="speaker_txt_small">Marketing Head - Payhuddle</p>
               </div>
             </div>
             <div class="column is-3-desktop is-12-mobile is-3-tablet">
@@ -166,6 +146,17 @@
                 <p class="speaker_txt_small">14<sup>th</sup> August, 2022 - Sunday</p>
                 <p class="speaker_txt_big">Mr. Thirumurugan subburaj</p>
                 <p class="speaker_txt_small">Operations Director - HCL Technologies</p>
+              </div>
+            </div>
+            <div class="column is-3-desktop is-12-mobile is-3-tablet">
+              <div class="speaker_block">
+                <div class="round_circle">
+                  <img src="@/assets/img/home/murali.png" class="" />
+                </div>
+                <p class="speaker_txt_small">Awarding Ceremony Keynote speaker from Academia</p>
+                <p class="speaker_txt_small">14<sup>th</sup> August, 2022 - Sunday</p>
+                <p class="speaker_txt_big">Prof. Dr. Murali Sambasivan</p>
+                <p class="speaker_txt_small">Director - Thiagarajar School of Mangagement</p>
               </div>
             </div>
           </div>
@@ -214,7 +205,7 @@
           </li>
           <li>
             <p>
-              <nuxt-link to="/" class="click_here">Click here</nuxt-link> to see more details
+              <nuxt-link to="/problem-statement" class="click_here">Click here</nuxt-link> to see more details
             </p>
           </li>
         </ul>
@@ -246,7 +237,7 @@
         <div class="has-text-centered">
           <div class="h1_title underline has-text-centered">
             <h1 class="single_title_line">
-              <span>Sponsors</span>
+              <span>Sponsor</span>
               <span>Us</span>
             </h1>
           </div>
@@ -256,7 +247,7 @@
           </div>
           <div>
             <b-button>
-              <nuxt-link to="about"><span class="check_out">Check Our</span> </nuxt-link>
+              <nuxt-link to="/sponsor-hackathon-2022"><span class="check_out">Check Our</span></nuxt-link>
               <span class="sponsr_btn"> Sponsorship packages </span>
             </b-button>
           </div>
@@ -368,21 +359,21 @@
 </template>
 
 <script>
-  export default {
-    data() {
-      return {
-        LINK_TELEGRAM_GROUP_URL: process.env.LINK_TELEGRAM_GROUP_URL,
-        LINK_WHATSAPP_GROUP_URL: process.env.LINK_WHATSAPP_GROUP_URL,
-        carousels: [{
-            image: require("@/assets/img/banner1.png")
-          },
-          {
-            image: require("@/assets/img/banner2.png")
-          },
+export default {
+  data() {
+    return {
+      LINK_TELEGRAM_GROUP_URL: process.env.LINK_TELEGRAM_GROUP_URL,
+      LINK_WHATSAPP_GROUP_URL: process.env.LINK_WHATSAPP_GROUP_URL,
+      carousels: [{
+        image: require("@/assets/img/banner1.png")
+      },
+      {
+        image: require("@/assets/img/banner2.png")
+      },
 
-        ]
-      }
+      ]
     }
   }
+}
 
 </script>
