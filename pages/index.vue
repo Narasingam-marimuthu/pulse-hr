@@ -117,6 +117,63 @@
       </div>
 
     </section>
+    <!-- speaker start -->
+    <section class="speaker mb-2">
+      <div class="container">
+        <div class="has-text-centered">
+          <h1 class="single_title_line">Speaker</h1>
+          <div class="columns is-multiline is-mobile mt-3">
+            <div class="column is-3-desktop is-12-mobile is-3-tablet">
+              <div class="speaker_block">
+                <div class="round_circle">
+                  <img src="@/assets/img/home/kumarvembu.png" class="" />
+                </div>
+                <p class="speaker_txt_small">Inaugration Ceremony Keynote Speaker</p>
+                <p class="speaker_txt_small">12 August, 2022 - Friday</p>
+                <p class="speaker_txt_big">Mr. Kumar Vembu</p>
+                <p class="speaker_txt_small">CEO & Founder- Gofrugal</p>
+              </div>
+            </div>
+            <div class="column is-3-desktop is-12-mobile is-3-tablet">
+              <div class="speaker_block">
+                <div class="round_circle">
+                  <img src="@/assets/img/home/saba.png" class="" />
+                </div>
+                <p class="speaker_txt_small">Tech Session Speaker</p>
+                <p class="speaker_txt_small">13 August, 2022 - Saturday</p>
+                <p class="speaker_txt_big">Mr. Sabapathy Narayanan</p>
+                <p class="speaker_txt_small">Corporate story teller</p>
+              </div>
+
+
+            </div>
+            <div class="column is-3-desktop is-12-mobile is-3-tablet">
+              <div class="speaker_block">
+                <div class="round_circle">
+                  <img src="@/assets/img/home/murali.png" class="" />
+                </div>
+                <p class="speaker_txt_small">Awarding Ceremony Keynote speaker from Academia</p>
+                <p class="speaker_txt_small">14 August, 2022 - Sunday</p>
+                <p class="speaker_txt_big">Prof.Dr.Murali Sambasivan</p>
+                <p class="speaker_txt_small">Director - Thiagarajar school of Mangagement</p>
+              </div>
+            </div>
+            <div class="column is-3-desktop is-12-mobile is-3-tablet">
+              <div class="speaker_block">
+                <div class="round_circle">
+                  <img src="@/assets/img/home/thiru.png" class="" />
+                </div>
+                <p class="speaker_txt_small">Awarding Ceremony Keynote speaker from Industry</p>
+                <p class="speaker_txt_small">14 August, 2022 - Sunday</p>
+                <p class="speaker_txt_big">Mr. Thirumurugan subburaj</p>
+                <p class="speaker_txt_small">Operations Director - HCL Technologies</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- speaker end -->
     <section class="problem_statement yellow_bg mb-2">
       <div class="container">
         <div class="h1_title underline has-text-centered">
@@ -283,7 +340,7 @@
                     </ul>
                   </div>
                   <div class="column is-2-desktop is-12-mobile is-6-tablet">
-                    <img src="@/assets/img/dots.png" class="about_right_img_dot" style="float:right; height: 50px;"/>
+                    <img src="@/assets/img/dots.png" class="about_right_img_dot" style="float:right; height: 50px;" />
                   </div>
                 </div>
               </div>

@@ -1494,3 +1494,41 @@ a.navbar-item.is-active,
     font-size: 14px;
   }
 }
+
+/* speaker block start */
+.speaker_block img {
+  width: 100%;
+}
+
+.speaker_txt_small {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 18px;
+  color: #040869;
+  text-align: left;
+  white-space: pre;
+
+}
+
+.speaker_txt_big {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: left;
+  color: #FFC607;
+  margin-top: 5%;
+  margin-bottom: 1%;
+}
+
+.speaker_block .round_circle {
+  background: #FEFEFE;
+  box-shadow: inset 1.44px 1.44px 4.32px rgb(2 5 50 / 10%),
+    inset -1.44px -1.44px 4.32px rgb(2 5 50 / 10%);
+  border-radius: 50%;
+  width: 50%;
+  padding: 6px;
+}
+
+/* speaker block end */
