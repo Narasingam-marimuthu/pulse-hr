@@ -222,7 +222,9 @@
           <p>
             3. Covid precautions will be followed. Must wear mask all the time.
           </p>
-          <p> 4. Join the problem discussion channel (https://discord.com/invite/DHFWWuqzac) for clarifications on
+          <p> 4. Join the problem discussion channel
+            <nuxt-link to="https://discord.com/invite/DHFWWuqzac" target="_blank  ">
+              (https://discord.com/invite/DHFWWuqzac)</nuxt-link> for clarifications on
             problem
             statements. You will have mentor support in these channels.</p>
           <p> 5. If you plan to stay on the nights of 12th August and/or 13th August, please come prepared with items
@@ -251,7 +253,9 @@
 
               We are NOT collecting sponsorships through payment gateways currently. Our application to get that
               enabled is in progress. Till then, use direct transfer using banking details provided. For queries,
-              send mail to sponsor@madurai-tech.org.</li>
+              send mail to
+              <a href="mailto:sponsor@madurai-tech.org">
+                sponsor@madurai-tech.org. </a></li>
 
           </ul>
 
@@ -268,13 +272,17 @@
             </li>
             <li>
               We will not share your personal details to anyone. If you come across anyone claiming to have obtained
-              your data from us, report to contact@madurai-tech.org
+              your data from us, report to
+              <a href="mailto:contact@madurai-tech.org" target="_blank">
+                contact@madurai-tech.org</a>
             </li>
             <li>
 
               We are NOT collecting sponsorships through payment gateways currently. Our application to get that
               enabled is in progress. Till then, use direct transfer using banking details provided. For queries,
-              send mail to sponsor@madurai-tech.org.</li>
+              send mail to
+              <a href="mailto:sponsor@madurai-tech.org">
+                sponsor@madurai-tech.org.</a></li>
 
           </ul>
           <p>
