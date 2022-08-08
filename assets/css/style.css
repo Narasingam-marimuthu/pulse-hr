@@ -568,6 +568,10 @@ a.navbar-item.is-active,
   padding: 36px 0px;
 }
 
+.about_us_list {
+  margin-left: 0em !important;
+}
+
 .about_us_list li {
   background-image: url("@/assets/img/diamond_list.png");
   background-repeat: no-repeat;
@@ -1037,7 +1041,29 @@ a.navbar-item.is-active,
 }
 
 .b-tabs .tabs ul li a {
-  display: contents;
+  display: grid;
+}
+
+/* .tabs .is-active::after {
+  border-bottom: 2px solid #fcd704;
+  bottom: 0;
+  content: "";
+  display: inline-block;
+  height: 47px;
+  left: 2px;
+  position: absolute;
+  width: -webkit-fill-available;
+  top: 52px;
+} */
+
+.b-tabs .tabs .is-active a p {
+  border-bottom: 2px solid #fcd704;
+  display: inline;
+}
+
+.b-tabs .tabs ul li a p {
+  padding-top: 5%;
+  text-align: center;
 }
 
 .b-tabs .tabs ul {
@@ -1059,11 +1085,13 @@ a.navbar-item.is-active,
   box-shadow: inset 1.44px 1.44px 4.32px rgb(2 5 50 / 10%), inset -1.44px -1.44px 4.32px rgb(2 5 50 / 10%);
   border-radius: 50%;
   display: inline-block;
-  padding: 16px 0px;
+  padding: 24px 10px;
+  height: 86px;
+  width: 86px;
 }
 
 .problem_statement_tab .round_circle img {
-  width: 52%;
+  width: 58%;
   margin: auto;
   display: block;
 }
@@ -1179,17 +1207,18 @@ a.navbar-item.is-active,
   text-align: center;
 }
 
+/* 
 .tabs .is-active::after {
   border-bottom: 2px solid #fcd704;
   bottom: 0;
   content: "";
   display: inline-block;
   height: 47px;
-  left: 41%;
+  left: 2px;
   position: absolute;
-  width: 36px;
+  width: -webkit-fill-available;
   top: 52px;
-}
+} */
 
 /* problem statement tab end */
 

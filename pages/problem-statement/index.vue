@@ -374,7 +374,7 @@
           </b-tab-item>
           <b-tab-item>
             <template #header>
-              <div class="round_circle" style="padding: 30px 18px;">
+              <div class="round_circle" style="padding: 41px 25px;">
                 <img src="@/assets/img/three_dots.png" />
               </div>
               <p>Others</p>

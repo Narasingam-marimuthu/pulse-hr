@@ -31,10 +31,10 @@
           <div class="footer_block_three">
             <h4>Useful Links</h4>
             <p>
-              <nuxt-link to="/about" class="">About </nuxt-link>
+              <nuxt-link to="/about-hackathon" class="">About </nuxt-link>
             </p>
             <p>
-              <nuxt-link to="/sponsors" class="">Sponsors 2022</nuxt-link>
+              <nuxt-link to="/sponsor-hackathon-2022" class="">Sponsors 2022</nuxt-link>
             </p>
             <p>
               <nuxt-link to="/problem-statement" class="">Problem statement</nuxt-link>
