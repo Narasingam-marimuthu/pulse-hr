@@ -3,7 +3,7 @@
     <div class="container">
       <b-navbar>
         <template #brand>
-          <b-navbar-item tag="router-link" :to="{ path: '/' }">
+          <b-navbar-item tag="router-link" to="/">
             <img src="@/assets/logo.png"
               alt="Tech Community, Madurai, IT, Hackathon 2022, Volunteer Based Community, Hackathon, Demo Days, Startup Events, Job Fairs, Mentorship for startups, Networking, new technologies">
           </b-navbar-item>

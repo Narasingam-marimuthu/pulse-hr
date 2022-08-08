@@ -375,7 +375,7 @@
         LINK_TELEGRAM_GROUP_URL: process.env.LINK_TELEGRAM_GROUP_URL,
         LINK_WHATSAPP_GROUP_URL: process.env.LINK_WHATSAPP_GROUP_URL,
         carousels: [{
-            image: require("@/assets/img/Bannerimage.png")
+            image: require("@/assets/img/banner1.png")
           },
           {
             image: require("@/assets/img/banner2.png")

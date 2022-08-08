@@ -38,9 +38,6 @@ textarea {
 
 .yellow_bg {
   background-color: rgba(252, 215, 4, 0.2);
-
-  /* background: linear-gradient(98.54deg, rgba(251, 216, 4, 0.025) 1.08%, rgba(253, 235, 125, 0.025) 47.23%, rgba(255, 255, 255, 0.245) 97.17%); */
-  /* background: linear-gradient(98.54deg, rgba(251, 216, 4, 0.035) 1.08%, rgba(253, 235, 125, 0.035) 47.23%, rgba(255, 255, 255, 0.343) 97.17%); */
   background-repeat: repeat;
 }
 
@@ -90,7 +87,7 @@ textarea {
 }
 
 /* menu start  */
-.navbar-brand .navbar-item.nuxt-link-active::after {
+.navbar-brand .navbar-item.nuxt-link-exact-active::after {
   border: 0px;
 }
 
@@ -98,7 +95,7 @@ textarea {
   width: 100%;
 }
 
-.navbar-item.nuxt-link-active::after {
+.navbar-item.nuxt-link-exact-active::after {
   border-bottom: 2px solid #fcd704;
   bottom: 22px;
   content: "";
@@ -109,7 +106,7 @@ textarea {
   width: 21px;
 }
 
-.navbar-dropdown .navbar-item.nuxt-link-active::after {
+.navbar-dropdown .navbar-item.nuxt-link-exact-active::after {
   border-bottom: 2px solid #fcd704;
   bottom: 2px;
   content: "";
@@ -1498,6 +1495,11 @@ a.navbar-item.is-active,
   }
 
   .navbar-item.nuxt-link-active::after {
+    bottom: 7px;
+    left: 4%;
+  }
+
+  .navbar-item.nuxt-link-exact-active::after {
     bottom: 7px;
     left: 4%;
   }
