@@ -23,7 +23,7 @@
     <section class="welcome_block mb-2">
       <div class="container">
         <div class="columns is-multiline is-mobile">
-          <div class="column is-6-desktop is-12-mobile is-6-tablet">
+          <div class="column is-7-desktop is-12-mobile is-7-tablet">
             <div class="welcome_main_title">
               <h3 class="">
                 <span> Madurai </span>
@@ -107,7 +107,7 @@
               </a>
             </div>
           </div>
-          <div class="column is-6-desktop is-12-mobile is-6-tablet">
+          <div class="column is-5-desktop is-12-mobile is-5-tablet">
             <div class="welcome1_right">
               <img src="@/assets/img/home/welcome.png" class="" style="height:90%" />
               <img src="@/assets/img/home/welcome_right.png" />
@@ -121,7 +121,7 @@
     <section class="speaker mb-2">
       <div class="container">
         <div class="has-text-centered">
-          <h1 class="single_title_line">Speaker</h1>
+          <h1 class="single_title_line">Speakers</h1>
           <div class="columns is-multiline is-mobile mt-3">
             <div class="column is-3-desktop is-12-mobile is-3-tablet">
               <div class="speaker_block">
@@ -179,7 +179,7 @@
         <div class="h1_title underline has-text-centered">
           <h1 class="">
             <span>Problem</span>
-            <span>Statement</span>
+            <span>Statements</span>
           </h1>
         </div>
         <ul class="prb_stmt">
