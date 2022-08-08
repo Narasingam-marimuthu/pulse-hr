@@ -17,12 +17,6 @@
         </li>
         <li>
           <div class="has-text-center">
-            <h4>A/C Name </h4>
-            <p> Madurai Tech Community</p>
-          </div>
-        </li>
-        <li>
-          <div class="has-text-center">
             <h4>Current A/C No </h4>
             <p> 7256371315</p>
           </div>

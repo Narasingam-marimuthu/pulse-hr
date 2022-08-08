@@ -1,5 +1,5 @@
 <template>
-  <section class="winner_selection">
+  <section class="winner_selection top_space">
     <div class="container">
       <p class="has-text-centered"><img src="@/assets/img/winner.png" class="winner_cup_img" />
         <span class="winner_text1">
