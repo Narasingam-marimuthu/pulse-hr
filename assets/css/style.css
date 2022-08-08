@@ -37,8 +37,8 @@ textarea {
 }
 
 .yellow_bg {
-  background: linear-gradient(98.54deg, rgba(251, 216, 4, 0.025) 1.08%, rgba(253, 235, 125, 0.025) 47.23%, rgba(255, 255, 255, 0.245) 97.17%);
-  /* background: linear-gradient(98.54deg, rgba(251, 216, 4, 0.035) 1.08%, rgba(253, 235, 125, 0.035) 47.23%, rgba(255, 255, 255, 0.343) 97.17%); */
+  background: linear-gradient(98.54deg, rgba(252, 215, 4, 0.2) 1.08%, rgba(252, 215, 4, 0.2) 47.23%, rgba(252, 215, 4, 0.2) 97.17%);
+  /* background: linear-gradient(98.54deg, rgba(251, 216, 4, 0.025) 1.08%, rgba(253, 235, 125, 0.025) 47.23%, rgba(255, 255, 255, 0.245) 97.17%); */
   background-repeat: repeat;
 }
 
