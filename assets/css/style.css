@@ -457,6 +457,10 @@ a.navbar-item.is-active,
   color: #040869;
 }
 
+.mt-1 {
+  margin-top: 1%;
+}
+
 .mt-3 {
   margin-top: 3%;
 }
