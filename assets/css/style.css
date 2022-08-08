@@ -423,7 +423,7 @@ a.navbar-item.is-active,
 
 .prb_stmt li {
   float: left;
-  width: 10%;
+  width: 14%;
   margin: 0 10px;
   display: block;
   text-align: center;
@@ -1387,10 +1387,15 @@ a.navbar-item.is-active,
   background-position: right;
 }
 
+.sponsor_prm h4 {
+  white-space: pre;
+}
+
 .sponsor_prm ul p {
   font-weight: 500;
   font-size: 16px;
   line-height: 30px;
+  white-space: pre;
 }
 
 .sponsor_prm iframe {
@@ -1435,6 +1440,19 @@ a.navbar-item.is-active,
 /* digi poster end */
 
 @media (min-width: 320px) and (max-width: 768px) {
+  .navbar-item.nuxt-link-active::after {
+    bottom: 7px;
+    left: 4%;
+  }
+
+  .spons_abs {
+    display: none;
+  }
+
+  .content ul {
+    list-style: disc outside;
+  }
+
   .about_right_img_dot {
     transform: translate(0px, 0px);
   }

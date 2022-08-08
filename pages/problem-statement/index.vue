@@ -167,7 +167,7 @@
                   </div>
                 </div>
                 <div class="columns is-mobile is-centered prbm_stmt_pg">
-                  <div class="column is-half">
+                  <div class="column is-half-desktop is-12-mobile">
                     <div class="content">
                       <h3 class="prbm_main_title_pg has-text-centered">Accidents Control </h3>
                       <ul class="about_us_list">
@@ -351,7 +351,7 @@
                   <h2 class="prbl_main_title">Technology</h2>
                 </div>
                 <div class="columns is-multiline is-mobile is-centered prbm_stmt_pg">
-                  <div class="column is-half">
+                  <div class="column is-half-desktop is-12-mobile">
                     <div class="content pos_rela">
                       <h3 class="prbm_main_title_pg has-text-centered">Smart city </h3>
                       <ul class="about_us_list">
@@ -477,14 +477,14 @@
 </template>
 
 <script>
-export default {
-  data() {
-    return {}
-  },
-  methods: {
+  export default {
+    data() {
+      return {}
+    },
+    methods: {
 
+    }
   }
-}
 
 </script>
 
