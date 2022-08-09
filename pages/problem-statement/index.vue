@@ -53,139 +53,6 @@
           <b-tab-item>
             <template #header>
               <div class="round_circle">
-                <img src="@/assets/img/Save_Environment.png" />
-              </div>
-              <p>Environment</p>
-            </template>
-            <div>
-              <div class="container">
-                <div class="has-text-centered">
-                  <img src="@/assets/img/Save_Environment.png" />
-                  <h2 class="prbl_main_title">Environment</h2>
-                </div>
-                <div class="columns is-multiline is-mobile prbm_stmt_pg">
-                  <div class="column is-6-desktop is-12-mobile is-6-tablet">
-                    <div class="content">
-                      <h3 class="prbm_main_title_pg has-text-centered">Community Based Solidwaste-Management</h3>
-                      <ul class="about_us_list">
-                        <li>
-                          Community based collaborative waste management Solution needed to go towards zero waste. The
-                          platform should allow multiple teams to collaborate and achieve waste management.
-                        </li>
-                        <li>
-                          Different personal to be allowed in the platform - Mentor, Requestor, Producer etc.
-                        </li>
-                        <li>
-                          One Community member can post the process to create Organic Manure from daily biodegradable
-                          waste created in Homes.
-                        </li>
-                        <li>
-                          Another community member who has a garden can post his need for manure on periodic basis.
-                        </li>
-                        <li>
-                          One more person who may not have a garden can produce that manure from his/her kitchen waste
-                          and sell it to the requester.
-                        </li>
-                        <li>
-                          Another person raising few cows can ask for specific waste (cabbage peels, soggy bananas) to
-                          be given to them on a daily basis.
-                        </li>
-                        <li>Yet another e.g., a person having bio-gas at home can ask for kitchen waste.</li>
-                      </ul>
-                    </div>
-                  </div>
-                  <div class="column is-6-desktop is-12-mobile is-6-tablet">
-                    <div class="content">
-                      <h3 class="prbm_main_title_pg has-text-centered">Vaigai Protection</h3>
-                      <ul class="about_us_list">
-                        <li>
-                          Monitor vaigai river bed for encroachments and pollution by solid waste dumping.
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </b-tab-item>
-          <b-tab-item>
-            <template #header>
-              <div class="round_circle">
-                <img src="@/assets/img/stoplights-fill.png" />
-              </div>
-              <p>Traffic</p>
-            </template>
-            <div>
-              <div class="container">
-                <div class="has-text-centered">
-                  <img src="@/assets/img/stoplights-fill.png" />
-                  <h2 class="prbl_main_title">Traffic</h2>
-                </div>
-                <div class="columns is-multiline is-mobile prbm_stmt_pg">
-                  <div class="column is-6-desktop is-12-mobile is-6-tablet">
-                    <div class="content">
-                      <h3 class="prbm_main_title_pg has-text-centered">Parking</h3>
-                      <ul class="about_us_list">
-                        <li>
-                          Identify few locations in Madurai where the parking problem is severe and
-                          provide a technology based solution for that.
-                        </li>
-                        <li>
-                          Common man should have a means to know about Parking information within the
-                          city such as the list of Parking locations, Vehicle types that can be parked, Parking fees and
-                          live availability status of parking slots.
-                        </li>
-                        <li>
-                          It can be a collaborative Platform where the citizens can add and update details on the
-                          parking.
-                        </li>
-                        <li>
-                          Capture of information with the help of geo mapping facilities should be possible.
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                  <div class="column is-6-desktop is-12-mobile is-6-tablet">
-                    <div class="content">
-                      <h3 class="prbm_main_title_pg has-text-centered">Violations tracing</h3>
-                      <ul class="about_us_list">
-                        <li>
-                          Identify Provide solution to automatically send tickets to the offenders for traffic
-                          violations - Jumping red signals, rash/negligent driving crossing speed limits and
-                          overboarding two-wheelers are the initial set of violations to be captured.ew locations in
-                          Madurai where the parking problem is severe and provide a technology based solution for that.
-                        </li>
-                        <li>
-                          Solution should contain features to capture the violations, raise tickets that can be sent
-                          as text messages to the phone numbers of the violaters and provide a dashboard.
-                        </li>
-                        <li>
-                          Phone numbers of the violators should be got from RTO where the vehicles are registered or
-                          Insurance companies where the vehicles are insured - Such interfaces should be possible.
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-                <div class="columns is-mobile is-centered prbm_stmt_pg">
-                  <div class="column is-half-desktop is-12-mobile">
-                    <div class="content">
-                      <h3 class="prbm_main_title_pg has-text-centered">Accidents Control </h3>
-                      <ul class="about_us_list">
-                        <li>
-                          Identify the 3 road locations in Madurai which are most accident prone and look
-                          for solutions to reduce accidents in those locations.
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </b-tab-item>
-          <b-tab-item>
-            <template #header>
-              <div class="round_circle">
                 <img src="@/assets/img/mortarboard-fill.png" />
               </div>
               <p>Education</p>
@@ -251,6 +118,64 @@
                           <p>sponsored</p>
                         </div>
                       </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </b-tab-item>
+          <b-tab-item>
+            <template #header>
+              <div class="round_circle">
+                <img src="@/assets/img/Save_Environment.png" />
+              </div>
+              <p>Environment</p>
+            </template>
+            <div>
+              <div class="container">
+                <div class="has-text-centered">
+                  <img src="@/assets/img/Save_Environment.png" />
+                  <h2 class="prbl_main_title">Environment</h2>
+                </div>
+                <div class="columns is-multiline is-mobile prbm_stmt_pg">
+                  <div class="column is-6-desktop is-12-mobile is-6-tablet">
+                    <div class="content">
+                      <h3 class="prbm_main_title_pg has-text-centered">Community Based Solidwaste-Management</h3>
+                      <ul class="about_us_list">
+                        <li>
+                          Community based collaborative waste management Solution needed to go towards zero waste. The
+                          platform should allow multiple teams to collaborate and achieve waste management.
+                        </li>
+                        <li>
+                          Different personal to be allowed in the platform - Mentor, Requestor, Producer etc.
+                        </li>
+                        <li>
+                          One Community member can post the process to create Organic Manure from daily biodegradable
+                          waste created in Homes.
+                        </li>
+                        <li>
+                          Another community member who has a garden can post his need for manure on periodic basis.
+                        </li>
+                        <li>
+                          One more person who may not have a garden can produce that manure from his/her kitchen waste
+                          and sell it to the requester.
+                        </li>
+                        <li>
+                          Another person raising few cows can ask for specific waste (cabbage peels, soggy bananas) to
+                          be given to them on a daily basis.
+                        </li>
+                        <li>Yet another e.g., a person having bio-gas at home can ask for kitchen waste.</li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="column is-6-desktop is-12-mobile is-6-tablet">
+                    <div class="content">
+                      <h3 class="prbm_main_title_pg has-text-centered">Vaigai Protection</h3>
+                      <ul class="about_us_list">
+                        <li>
+                          Monitor vaigai river bed for encroachments and pollution by solid waste dumping.
+                        </li>
+                      </ul>
                     </div>
                   </div>
                 </div>
@@ -336,6 +261,81 @@
                         </li>
                         <li>
                           Provide geo mapping of City and surrounding areas with water quality data.
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </b-tab-item>
+          <b-tab-item>
+            <template #header>
+              <div class="round_circle">
+                <img src="@/assets/img/stoplights-fill.png" />
+              </div>
+              <p>Traffic</p>
+            </template>
+            <div>
+              <div class="container">
+                <div class="has-text-centered">
+                  <img src="@/assets/img/stoplights-fill.png" />
+                  <h2 class="prbl_main_title">Traffic</h2>
+                </div>
+                <div class="columns is-multiline is-mobile prbm_stmt_pg">
+                  <div class="column is-6-desktop is-12-mobile is-6-tablet">
+                    <div class="content">
+                      <h3 class="prbm_main_title_pg has-text-centered">Parking</h3>
+                      <ul class="about_us_list">
+                        <li>
+                          Identify few locations in Madurai where the parking problem is severe and
+                          provide a technology based solution for that.
+                        </li>
+                        <li>
+                          Common man should have a means to know about Parking information within the
+                          city such as the list of Parking locations, Vehicle types that can be parked, Parking fees and
+                          live availability status of parking slots.
+                        </li>
+                        <li>
+                          It can be a collaborative Platform where the citizens can add and update details on the
+                          parking.
+                        </li>
+                        <li>
+                          Capture of information with the help of geo mapping facilities should be possible.
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="column is-6-desktop is-12-mobile is-6-tablet">
+                    <div class="content">
+                      <h3 class="prbm_main_title_pg has-text-centered">Violations tracing</h3>
+                      <ul class="about_us_list">
+                        <li>
+                          Identify Provide solution to automatically send tickets to the offenders for traffic
+                          violations - Jumping red signals, rash/negligent driving crossing speed limits and
+                          overboarding two-wheelers are the initial set of violations to be captured.ew locations in
+                          Madurai where the parking problem is severe and provide a technology based solution for that.
+                        </li>
+                        <li>
+                          Solution should contain features to capture the violations, raise tickets that can be sent
+                          as text messages to the phone numbers of the violaters and provide a dashboard.
+                        </li>
+                        <li>
+                          Phone numbers of the violators should be got from RTO where the vehicles are registered or
+                          Insurance companies where the vehicles are insured - Such interfaces should be possible.
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="columns is-mobile is-centered prbm_stmt_pg">
+                  <div class="column is-half-desktop is-12-mobile">
+                    <div class="content">
+                      <h3 class="prbm_main_title_pg has-text-centered">Accidents Control </h3>
+                      <ul class="about_us_list">
+                        <li>
+                          Identify the 3 road locations in Madurai which are most accident prone and look
+                          for solutions to reduce accidents in those locations.
                         </li>
                       </ul>
                     </div>

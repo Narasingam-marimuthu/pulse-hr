@@ -185,27 +185,27 @@
         <ul class="prb_stmt">
           <li>
             <div class="round_circle">
-              <img src="@/assets/img/Save_Environment.png" />
-            </div>
-            <p>Environment</p>
-          </li>
-          <li>
-            <div class="round_circle">
-              <img src="@/assets/img/stoplights-fill.png" />
-            </div>
-            <p>Traffic</p>
-          </li>
-          <li>
-            <div class="round_circle">
               <img src="@/assets/img/mortarboard-fill.png" />
             </div>
             <p>Education</p>
           </li>
           <li>
             <div class="round_circle">
+              <img src="@/assets/img/Save_Environment.png" />
+            </div>
+            <p>Environment</p>
+          </li>
+          <li>
+            <div class="round_circle">
               <img src="@/assets/img/Stethoscope.png" />
             </div>
             <p>Health</p>
+          </li>
+          <li>
+            <div class="round_circle">
+              <img src="@/assets/img/stoplights-fill.png" />
+            </div>
+            <p>Traffic</p>
           </li>
           <li>
             <div class="round_circle">
@@ -257,8 +257,10 @@
           </div>
           <div>
             <b-button>
-              <nuxt-link to="/sponsor-hackathon-2022"><span class="check_out">Check Our</span></nuxt-link>
-              <span class="sponsr_btn"> Sponsorship packages </span>
+              <nuxt-link to="/sponsor-hackathon-2022">
+                <span class="check_out">Check Our</span>
+                <span class="sponsr_btn"> Sponsorship packages </span>
+              </nuxt-link>
             </b-button>
           </div>
         </div>
@@ -369,21 +371,21 @@
 </template>
 
 <script>
-  export default {
-    data() {
-      return {
-        LINK_TELEGRAM_GROUP_URL: process.env.LINK_TELEGRAM_GROUP_URL,
-        LINK_WHATSAPP_GROUP_URL: process.env.LINK_WHATSAPP_GROUP_URL,
-        carousels: [{
-            image: require("@/assets/img/banner1.png")
-          },
-          {
-            image: require("@/assets/img/banner2.png")
-          },
+export default {
+  data() {
+    return {
+      LINK_TELEGRAM_GROUP_URL: process.env.LINK_TELEGRAM_GROUP_URL,
+      LINK_WHATSAPP_GROUP_URL: process.env.LINK_WHATSAPP_GROUP_URL,
+      carousels: [{
+        image: require("@/assets/img/banner1.png")
+      },
+      {
+        image: require("@/assets/img/banner2.png")
+      },
 
-        ]
-      }
+      ]
     }
   }
+}
 
 </script>
