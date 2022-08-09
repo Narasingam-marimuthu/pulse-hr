@@ -66,7 +66,7 @@
                 <div class="columns is-multiline is-mobile prbm_stmt_pg">
                   <div class="column is-6-desktop is-12-mobile is-6-tablet">
                     <div class="content">
-                      <h3 class="prbm_main_title_pg has-text-centered">Career Counseling and Scholarships</h3>
+                      <h3 class="prbm_main_title_pg has-text-centered">1.1 Career Counseling and Scholarships</h3>
                       <ul class="about_us_list">
                         <li>
                           A collaborative platform for connecting career counselors, teachers, students and parents.
@@ -94,7 +94,7 @@
                   </div>
                   <div class="column is-6-desktop is-12-mobile is-6-tablet">
                     <div class="content pos_rela">
-                      <h3 class="prbm_main_title_pg has-text-centered">Home Schooling </h3>
+                      <h3 class="prbm_main_title_pg has-text-centered">1.2 Home Schooling </h3>
                       <ul class="about_us_list">
                         <li>
                           Home schooling support for parents and children.
@@ -140,7 +140,7 @@
                 <div class="columns is-multiline is-mobile prbm_stmt_pg">
                   <div class="column is-6-desktop is-12-mobile is-6-tablet">
                     <div class="content">
-                      <h3 class="prbm_main_title_pg has-text-centered">Community Based Solidwaste-Management</h3>
+                      <h3 class="prbm_main_title_pg has-text-centered">2.1 Community Based Solidwaste Management</h3>
                       <ul class="about_us_list">
                         <li>
                           Community based collaborative waste management Solution needed to go towards zero waste. The
@@ -170,7 +170,7 @@
                   </div>
                   <div class="column is-6-desktop is-12-mobile is-6-tablet">
                     <div class="content">
-                      <h3 class="prbm_main_title_pg has-text-centered">Vaigai Protection</h3>
+                      <h3 class="prbm_main_title_pg has-text-centered">2.2 Vaigai Protection</h3>
                       <ul class="about_us_list">
                         <li>
                           Monitor vaigai river bed for encroachments and pollution by solid waste dumping.
@@ -198,7 +198,7 @@
                 <div class="columns is-multiline is-mobile prbm_stmt_pg">
                   <div class="column is-6-desktop is-12-mobile is-6-tablet">
                     <div class="content">
-                      <h3 class="prbm_main_title_pg has-text-centered">Dashboard for Health Drives</h3>
+                      <h3 class="prbm_main_title_pg has-text-centered">3.1 Dashboard for Health Drives</h3>
                       <ul class="about_us_list">
                         <li>
                           NGOs and Government entities run health drives such as Polio vaccination. Health
@@ -230,7 +230,22 @@
                   </div>
                   <div class="column is-6-desktop is-12-mobile is-6-tablet">
                     <div class="content pos_rela">
-                      <h3 class="prbm_main_title_pg has-text-centered">Child Nutrition </h3>
+                      <h3 class="prbm_main_title_pg has-text-centered">3.2 Water Quality </h3>
+                      <ul class="about_us_list">
+                        <li>
+                          Measure water quality at homes and offices - both the quality of corporation
+                          water and underground water.
+                        </li>
+                        <li>
+                          Derive intelligence to categorize whether water is of good quality or bad quality.
+                        </li>
+                        <li>
+                          Provide geo mapping of City and surrounding areas with water quality data.
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="content pos_rela">
+                      <h3 class="prbm_main_title_pg has-text-centered">3.3 Child Nutrition </h3>
                       <ul class="about_us_list">
                         <li>
                           Find ways to improve child nutrition, as early child nutrition is strongly correlated to IQ.
@@ -246,96 +261,6 @@
                         </li>
                         <li>
                           Follow-up and measure the improvements.
-                        </li>
-                      </ul>
-                    </div>
-                    <div class="content pos_rela">
-                      <h3 class="prbm_main_title_pg has-text-centered">Water Quality </h3>
-                      <ul class="about_us_list">
-                        <li>
-                          Measure water quality at homes and offices - both the quality of corporation
-                          water and underground water.
-                        </li>
-                        <li>
-                          Derive intelligence to categorize whether water is of good quality or bad quality.
-                        </li>
-                        <li>
-                          Provide geo mapping of City and surrounding areas with water quality data.
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </b-tab-item>
-          <b-tab-item>
-            <template #header>
-              <div class="round_circle">
-                <img src="@/assets/img/stoplights-fill.png" />
-              </div>
-              <p>Traffic</p>
-            </template>
-            <div>
-              <div class="container">
-                <div class="has-text-centered">
-                  <img src="@/assets/img/stoplights-fill.png" />
-                  <h2 class="prbl_main_title">Traffic</h2>
-                </div>
-                <div class="columns is-multiline is-mobile prbm_stmt_pg">
-                  <div class="column is-6-desktop is-12-mobile is-6-tablet">
-                    <div class="content">
-                      <h3 class="prbm_main_title_pg has-text-centered">Parking</h3>
-                      <ul class="about_us_list">
-                        <li>
-                          Identify few locations in Madurai where the parking problem is severe and
-                          provide a technology based solution for that.
-                        </li>
-                        <li>
-                          Common man should have a means to know about Parking information within the
-                          city such as the list of Parking locations, Vehicle types that can be parked, Parking fees and
-                          live availability status of parking slots.
-                        </li>
-                        <li>
-                          It can be a collaborative Platform where the citizens can add and update details on the
-                          parking.
-                        </li>
-                        <li>
-                          Capture of information with the help of geo mapping facilities should be possible.
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                  <div class="column is-6-desktop is-12-mobile is-6-tablet">
-                    <div class="content">
-                      <h3 class="prbm_main_title_pg has-text-centered">Violations tracing</h3>
-                      <ul class="about_us_list">
-                        <li>
-                          Identify Provide solution to automatically send tickets to the offenders for traffic
-                          violations - Jumping red signals, rash/negligent driving crossing speed limits and
-                          overboarding two-wheelers are the initial set of violations to be captured.ew locations in
-                          Madurai where the parking problem is severe and provide a technology based solution for that.
-                        </li>
-                        <li>
-                          Solution should contain features to capture the violations, raise tickets that can be sent
-                          as text messages to the phone numbers of the violaters and provide a dashboard.
-                        </li>
-                        <li>
-                          Phone numbers of the violators should be got from RTO where the vehicles are registered or
-                          Insurance companies where the vehicles are insured - Such interfaces should be possible.
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-                <div class="columns is-mobile is-centered prbm_stmt_pg">
-                  <div class="column is-half-desktop is-12-mobile">
-                    <div class="content">
-                      <h3 class="prbm_main_title_pg has-text-centered">Accidents Control </h3>
-                      <ul class="about_us_list">
-                        <li>
-                          Identify the 3 road locations in Madurai which are most accident prone and look
-                          for solutions to reduce accidents in those locations.
                         </li>
                       </ul>
                     </div>
@@ -360,7 +285,7 @@
                 <div class="columns is-multiline is-mobile is-centered prbm_stmt_pg">
                   <div class="column is-half-desktop is-12-mobile">
                     <div class="content pos_rela">
-                      <h3 class="prbm_main_title_pg has-text-centered">Smart city </h3>
+                      <h3 class="prbm_main_title_pg has-text-centered">4.1 Smart City </h3>
                       <ul class="about_us_list">
                         <li style="margin-top: 6%;">
                           LoRAWAN wireless applications for agriculture, real estate, industrial,
@@ -373,6 +298,81 @@
                           <p>sponsored</p>
                         </div>
                       </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </b-tab-item>
+          <b-tab-item>
+            <template #header>
+              <div class="round_circle">
+                <img src="@/assets/img/stoplights-fill.png" />
+              </div>
+              <p>Traffic</p>
+            </template>
+            <div>
+              <div class="container">
+                <div class="has-text-centered">
+                  <img src="@/assets/img/stoplights-fill.png" />
+                  <h2 class="prbl_main_title">Traffic</h2>
+                </div>
+                <div class="columns is-multiline is-mobile prbm_stmt_pg">
+                  <div class="column is-6-desktop is-12-mobile is-6-tablet">
+                    <div class="content">
+                      <h3 class="prbm_main_title_pg has-text-centered">5.1 Parking</h3>
+                      <ul class="about_us_list">
+                        <li>
+                          Identify few locations in Madurai where the parking problem is severe and
+                          provide a technology based solution for that.
+                        </li>
+                        <li>
+                          Common man should have a means to know about Parking information within the
+                          city such as the list of Parking locations, Vehicle types that can be parked, Parking fees and
+                          live availability status of parking slots.
+                        </li>
+                        <li>
+                          It can be a collaborative Platform where the citizens can add and update details on the
+                          parking.
+                        </li>
+                        <li>
+                          Capture of information with the help of geo mapping facilities should be possible.
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="column is-6-desktop is-12-mobile is-6-tablet">
+                    <div class="content">
+                      <h3 class="prbm_main_title_pg has-text-centered">5.2 Violations Tracing</h3>
+                      <ul class="about_us_list">
+                        <li>
+                          Identify Provide solution to automatically send tickets to the offenders for traffic
+                          violations - Jumping red signals, rash/negligent driving crossing speed limits and
+                          overboarding two-wheelers are the initial set of violations to be captured.ew locations in
+                          Madurai where the parking problem is severe and provide a technology based solution for that.
+                        </li>
+                        <li>
+                          Solution should contain features to capture the violations, raise tickets that can be sent
+                          as text messages to the phone numbers of the violaters and provide a dashboard.
+                        </li>
+                        <li>
+                          Phone numbers of the violators should be got from RTO where the vehicles are registered or
+                          Insurance companies where the vehicles are insured - Such interfaces should be possible.
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="columns is-mobile is-centered prbm_stmt_pg">
+                  <div class="column is-half-desktop is-12-mobile">
+                    <div class="content">
+                      <h3 class="prbm_main_title_pg has-text-centered">5.3 Accidents Control </h3>
+                      <ul class="about_us_list">
+                        <li>
+                          Identify the 3 road locations in Madurai which are most accident prone and look
+                          for solutions to reduce accidents in those locations.
+                        </li>
+                      </ul>
                     </div>
                   </div>
                 </div>
@@ -395,7 +395,7 @@
                 <div class="columns is-multiline is-mobile prbm_stmt_pg">
                   <div class="column is-6-desktop is-12-mobile is-6-tablet">
                     <div class="content">
-                      <h3 class="prbm_main_title_pg has-text-centered">E-commerce Platform for Local Producers</h3>
+                      <h3 class="prbm_main_title_pg has-text-centered">6.1 E-commerce Platform for Local Producers</h3>
                       <ul class="about_us_list">
                         <li>
                           A collaborative platform connecting producers, sellers and buyers of local produce such as
@@ -420,7 +420,7 @@
                   </div>
                   <div class="column is-6-desktop is-12-mobile is-6-tablet">
                     <div class="content">
-                      <h3 class="prbm_main_title_pg has-text-centered">Open Problem </h3>
+                      <h3 class="prbm_main_title_pg has-text-centered">6.2 Open Problem </h3>
                       <ul class="about_us_list">
                         <li>
                           Take up any city problem that you can solve and provide a technology centric solution.

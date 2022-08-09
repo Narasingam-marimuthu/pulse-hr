@@ -203,15 +203,15 @@
           </li>
           <li>
             <div class="round_circle">
-              <img src="@/assets/img/stoplights-fill.png" />
-            </div>
-            <p>Traffic</p>
-          </li>
-          <li>
-            <div class="round_circle">
               <img src="@/assets/img/Technology.png" />
             </div>
             <p>Technology</p>
+          </li>
+          <li>
+            <div class="round_circle">
+              <img src="@/assets/img/stoplights-fill.png" />
+            </div>
+            <p>Traffic</p>
           </li>
           <li>
             <p>

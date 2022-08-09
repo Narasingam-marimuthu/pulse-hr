@@ -1297,16 +1297,16 @@ a.navbar-item.is-active,
   height: 120px;
 }
 
-.sponsors .silver {
+.sponsors .width-50 {
   width: 50%;
 }
 
-.sponsors .bronze {
+.sponsors .width-70 {
   width: 70%;
 }
 
-.sponsors .dci {
-  width: 50%;
+.sponsors .width-80 {
+  width: 80%;
 }
 
 .sponsors .full-width {
