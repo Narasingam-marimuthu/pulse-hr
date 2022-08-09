@@ -181,8 +181,8 @@
             </div>
           </div>
         </div>
-        <div class="column is-4-desktop is-12-mobile is-6-tablet">
-          <div class="bg_yellow register_yellow_box">
+        <div class="column is-4-desktop is-12-mobile is-6-tablet closed_mt">
+          <!-- <div class="bg_yellow register_yellow_box">
             <p>Professionals pay and confirm
               Madurai Hackathon 2022
               Registration</p>
@@ -191,6 +191,34 @@
             <p>Students pay and confirm
               Madurai Hackathon 2022
               Registration</p>
+          </div> -->
+          <!-- <div class="welcome_for_query is-flex is_centred">
+            <p class="has-text-centered">For Queries:</p>
+            <a :href="LINK_TELEGRAM_GROUP_URL" target="_blank">
+              <img src="@/assets/img/telegram.png" />
+            </a>
+            <a :href="LINK_WHATSAPP_GROUP_URL" target="_blank">
+              <img src="@/assets/img/Whatsapp.png" />
+            </a>
+          </div> -->
+          <div class=" register_welcome " style="width: auto;">
+            <div class="columns is-multiline is-mobile">
+              <div class="column is-8-desktop is-12-mobile is-6-tablet welcome_for_query">
+                <h4>Registration Window closed</h4>
+                <div class="is-flex">
+                  <p>For Queries:</p>
+                  <a :href="LINK_WHATSAPP_GROUP_URL" target="_blank">
+                    <img src="@/assets/img/Whatsapp.png" />
+                  </a>
+                  <a :href="LINK_TELEGRAM_GROUP_URL" target="_blank">
+                    <img src="@/assets/img/telegram.png" />
+                  </a>
+                </div>
+              </div>
+              <div class="column is-4-desktop is-12-mobile is-6-tablet ">
+                <img src="@/assets/img/close_sign.png" />
+              </div>
+            </div>
           </div>
           <div class="register_download">
             <p class="has-text-centered download_book">
@@ -199,15 +227,7 @@
                 Hand-book </nuxt-link>
             </p>
           </div>
-          <div class="welcome_for_query is-flex is_centred">
-            <p class="has-text-centered">For Queries:</p>
-            <a :href="LINK_TELEGRAM_GROUP_URL" target="_blank">
-              <img src="@/assets/img/telegram.png" />
-            </a>
-            <a :href="LINK_WHATSAPP_GROUP_URL" target="_blank">
-              <img src="@/assets/img/Whatsapp.png" />
-            </a>
-          </div>
+
         </div>
       </div>
       <div class="columns is-multiline is-mobile">
@@ -289,6 +309,25 @@
             Start building the solutions! Let's make our cities better with our knowledge, skills and determined effort
             !
           </p>
+        </div>
+      </div>
+      <div class=" register_welcome ">
+        <div class="columns is-multiline is-mobile">
+          <div class="column is-8-desktop is-12-mobile is-6-tablet welcome_for_query">
+            <h4>Registration Window closed</h4>
+            <div class="is-flex">
+              <p>For Queries:</p>
+              <a :href="LINK_WHATSAPP_GROUP_URL" target="_blank">
+                <img src="@/assets/img/Whatsapp.png" />
+              </a>
+              <a :href="LINK_TELEGRAM_GROUP_URL" target="_blank">
+                <img src="@/assets/img/telegram.png" />
+              </a>
+            </div>
+          </div>
+          <div class="column is-4-desktop is-12-mobile is-6-tablet ">
+            <img src="@/assets/img/close_sign.png" />
+          </div>
         </div>
       </div>
     </div>

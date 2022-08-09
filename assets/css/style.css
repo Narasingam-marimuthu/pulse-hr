@@ -304,8 +304,36 @@ a.navbar-item.is-active,
   color: #040869;
 }
 
+.register_welcome h4 {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  margin-bottom: 5%;
+
+  color: #040869;
+}
+
+.register_welcome {
+  background: #FEFEFE;
+  box-shadow: inset -2px -2px 6px rgba(2, 5, 50, 0.1),
+    inset 2px 2px 6px rgba(2, 5, 50, 0.1);
+  border-radius: 5px;
+  width: 56%;
+
+}
+
+.register_download {
+  margin-top: 11%;
+
+}
+
+.closed_mt {
+  margin-top: 40px;
+}
+
 .welcome_for_query {
   margin-top: 3%;
+  padding: 17px 34px;
 }
 
 .welcome_for_query img {

@@ -8,7 +8,7 @@
             <nuxt-link to="/event-schedule" class="join_here" v-if="i == 0">
               <img :src="carousel.image" />
             </nuxt-link>
-            <img :src="carousel.image" v-if="i != 0"/>
+            <img :src="carousel.image" v-if="i != 0" />
           </b-carousel-item>
         </b-carousel>
       </div>
@@ -84,19 +84,29 @@
                 </li>
               </ul>
             </div>
-            <div class="">
+            <!-- <div class="">
               <button class="button is-primary" @click="$router.push('/register')">
                 Register to participate
               </button>
-            </div>
-            <div class="welcome_for_query is-flex">
-              <p>For Queries:</p>
-              <a :href="LINK_WHATSAPP_GROUP_URL" target="_blank">
-                <img src="@/assets/img/Whatsapp.png" />
-              </a>
-              <a :href="LINK_TELEGRAM_GROUP_URL" target="_blank">
-                <img src="@/assets/img/telegram.png" />
-              </a>
+            </div> -->
+            <div class=" register_welcome ">
+              <div class="columns is-multiline is-mobile">
+                <div class="column is-8-desktop is-12-mobile is-6-tablet welcome_for_query">
+                  <h4>Registration Window closed</h4>
+                  <div class="is-flex">
+                    <p>For Queries:</p>
+                    <a :href="LINK_WHATSAPP_GROUP_URL" target="_blank">
+                      <img src="@/assets/img/Whatsapp.png" />
+                    </a>
+                    <a :href="LINK_TELEGRAM_GROUP_URL" target="_blank">
+                      <img src="@/assets/img/telegram.png" />
+                    </a>
+                  </div>
+                </div>
+                <div class="column is-4-desktop is-12-mobile is-6-tablet ">
+                  <img src="@/assets/img/close_sign.png" />
+                </div>
+              </div>
             </div>
           </div>
           <div class="column is-5-desktop is-12-mobile is-5-tablet">
@@ -359,21 +369,21 @@
 </template>
 
 <script>
-export default {
-  data() {
-    return {
-      LINK_TELEGRAM_GROUP_URL: process.env.LINK_TELEGRAM_GROUP_URL,
-      LINK_WHATSAPP_GROUP_URL: process.env.LINK_WHATSAPP_GROUP_URL,
-      carousels: [{
-        image: require("@/assets/img/banner1.png")
-      },
-      {
-        image: require("@/assets/img/banner2.png")
-      },
+  export default {
+    data() {
+      return {
+        LINK_TELEGRAM_GROUP_URL: process.env.LINK_TELEGRAM_GROUP_URL,
+        LINK_WHATSAPP_GROUP_URL: process.env.LINK_WHATSAPP_GROUP_URL,
+        carousels: [{
+            image: require("@/assets/img/banner1.png")
+          },
+          {
+            image: require("@/assets/img/banner2.png")
+          },
 
-      ]
+        ]
+      }
     }
   }
-}
 
 </script>
