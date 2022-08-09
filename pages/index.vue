@@ -89,7 +89,7 @@
                 Register to participate
               </button>
             </div> -->
-            <div class=" register_welcome ">
+            <div class="register_welcome yellow_bg">
               <div class="columns is-multiline is-mobile">
                 <div class="column is-8-desktop is-12-mobile is-6-tablet welcome_for_query">
                   <h4>Registration Window closed</h4>

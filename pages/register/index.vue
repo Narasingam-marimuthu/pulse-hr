@@ -201,7 +201,7 @@
               <img src="@/assets/img/Whatsapp.png" />
             </a>
           </div> -->
-          <div class=" register_welcome " style="width: auto;">
+          <div class="register_welcome yellow_bg" style="width: auto;">
             <div class="columns is-multiline is-mobile">
               <div class="column is-8-desktop is-12-mobile is-6-tablet welcome_for_query">
                 <h4>Registration Window closed</h4>
