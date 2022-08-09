@@ -1,5 +1,5 @@
 <template>
-  <section class="top_space">
+  <section class="top_space mb-2">
     <div class="container">
       <div class="h1_title has-text-centered">
         <h1 class="">
@@ -247,7 +247,7 @@
               (https://discord.com/invite/DHFWWuqzac)</nuxt-link> for clarifications on
             problem
             statements. You will have mentor support in these channels.</p>
-          <p> 5. If you plan to stay on the nights of 12th August and/or 13th August, please come prepared with items
+          <p> 5. If you plan to stay on the nights of 12<sup>th</sup> August and/or 13<sup>th</sup> August, please come prepared with items
             such as
             bedsheets, air pillow, toilet kits, spare clothes, etc.</p>
           <p>

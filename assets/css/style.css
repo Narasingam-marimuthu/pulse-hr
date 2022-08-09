@@ -1394,11 +1394,11 @@ a.navbar-item.is-active,
   font-size: 22px;
   line-height: 25px;
   margin-bottom: 1em;
-
 }
 
 .register_content p {
   margin-bottom: 12px;
+  font-size: 15px;
 }
 
 .register_content ul {
@@ -1408,7 +1408,7 @@ a.navbar-item.is-active,
 
 .register_content ul li {
   margin-bottom: 12px;
-
+  font-size: 15px;
 }
 
 /* register end */
