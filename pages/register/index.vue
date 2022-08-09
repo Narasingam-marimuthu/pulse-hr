@@ -311,7 +311,7 @@
           </p>
         </div>
       </div>
-      <div class=" register_welcome ">
+      <!-- <div class=" register_welcome ">
         <div class="columns is-multiline is-mobile">
           <div class="column is-8-desktop is-12-mobile is-6-tablet welcome_for_query">
             <h4>Registration Window closed</h4>
@@ -329,7 +329,7 @@
             <img src="@/assets/img/close_sign.png" />
           </div>
         </div>
-      </div>
+      </div> -->
     </div>
   </section>
 </template>
