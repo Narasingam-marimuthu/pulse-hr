@@ -235,9 +235,15 @@
                         <li>
                           A collaborative platform to connect the home tutors, parents and students.
                         </li>
-                        <li>
-                          The platform should provide information about NIOS
-                        </li>
+                        <li>Lack of awareness about homeschooling is a bottleneck as, parens are
+                          not aware of homeschooling opportunities to get a competitive advantage for their
+                          children and also to reduce costs of running the family.</li>
+                        <li>Improve awareness about homeschooling possibilities for children among
+                          parents. (NIOS, Cambridge etc). </li>
+                        <li>Provide ways for homeschooled children and parents to connect with
+                          children and parents and create learning opportunities that will support the
+                          homeschooling experience.(Field trips, training events, visits/experiences etc.) Allow
+                          for children to create friends and connections.</li>
                       </ul>
                       <div class="spons_abs">
                         <div class="spons">
