@@ -21,8 +21,8 @@
                 </div>
                 <div class="media-content">
                   <p class="title is-6">Off line event schedule</p>
-                  <p class="subtitle is-6">Starts By : 12<sup>th</sup> August 4.00pm</p>
-                  <p class="subtitle is-6">Ends By : 14<sup>th</sup> August 6.30pm</p>
+                  <p class="subtitle is-6">Starts By : 12<sup>th</sup> August 4:00 PM</p>
+                  <p class="subtitle is-6">Ends By : 14<sup>th</sup> August 6:30 PM</p>
                 </div>
               </div>
             </div>
@@ -204,7 +204,7 @@
           <div class="register_welcome yellow_bg" style="width: auto;">
             <div class="columns is-multiline is-mobile">
               <div class="column is-8-desktop is-12-mobile is-6-tablet welcome_for_query">
-                <h4>Registration Window closed</h4>
+                <h4>Registration closed. No on-the-spot Registration.</h4>
                 <div class="is-flex">
                   <p>For Queries:</p>
                   <a :href="LINK_WHATSAPP_GROUP_URL" target="_blank">

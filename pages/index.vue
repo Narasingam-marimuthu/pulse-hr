@@ -29,13 +29,6 @@
               a smarter, resilient, and sustainable city for living, studying, accessing public services
               and conducting business.
             </p>
-            <p class="content">
-              For institutions doing bulk registration, we are making the registration fees as Rs. 99.
-              Students, please contact your institution SPOC to register through institution. You can also
-              register using this site. If any excess amount paid, we'll refund at the event.
-              For professionals, the registration fees is Rs. 300, and professionals need to use this
-              website to register.
-            </p>
             <div class="venu_detail">
               <ul class="">
                 <li>
@@ -67,7 +60,7 @@
                       <p>Event Date</p>
                     </div>
                     <div class="venu_content">
-                      <p>12<sup>th</sup> Aug 4 PM to 14<sup>th</sup> Aug 6 PM</p>
+                      <p>12<sup>th</sup> Aug 4 PM to 14<sup>th</sup> Aug 6:30 PM</p>
                     </div>
                   </div>
                 </li>
@@ -78,7 +71,8 @@
                       <p>Venue</p>
                     </div>
                     <div class="venu_content">
-                      <p>Solaimalai college of engineering, Madurai.</p>
+                      <p><a target="_blank" href="https://shorturl.at/BRZ14">Solamalai college of engineering,
+                          Madurai.</a></p>
                     </div>
                   </div>
                 </li>
@@ -92,7 +86,7 @@
             <div class="register_welcome yellow_bg">
               <div class="columns is-multiline is-mobile">
                 <div class="column is-8-desktop is-12-mobile is-6-tablet welcome_for_query">
-                  <h4>Registration Window closed</h4>
+                  <h4>Registration closed. No on-the-spot Registration.</h4>
                   <div class="is-flex">
                     <p>For Queries:</p>
                     <a :href="LINK_WHATSAPP_GROUP_URL" target="_blank">

@@ -34,8 +34,9 @@
         </div>
         <div class="prbm_single">
           <p>
-            Problem Discussions channels open now <a href="http://localhost:3010/https://discord.com/invite/DHFWWuqzac"
-              target="_blank" class="join_here">join here</a>
+            Problem Discussions channels open now
+            <a href="https://discord.com/invite/DHFWWuqzac" target="_blank" class="button is-primary"
+              style="margin-top: -5px;">Join Here</a>
           </p>
         </div>
       </div>
