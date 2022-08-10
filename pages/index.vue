@@ -25,7 +25,7 @@
               </h3>
             </div>
             <h1>Welcomes you to <img src="@/assets/img/home/title.png" class="welcome_block_img" /></h1>
-            <p class="content">It is an event to build innovate soluctions that position Madurai as
+            <p class="content">It is an event to build innovative solutions that position Madurai as
               a smarter, resilient, and sustainable city for living, studying, accessing public services
               and conducting business.
             </p>
