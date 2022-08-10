@@ -49,7 +49,7 @@
           </div>
         </div>
         <div class="winner_container right">
-          <h2>6. Team formation</h2>
+          <h2>6.Team formation</h2>
           <div class="content">
             <p>We encourage team formation with a mix of experienced professionals and students. All professionals team
               or all students team score lesser than the mixed teams. 4 to 5 person team is encouraged.</p>

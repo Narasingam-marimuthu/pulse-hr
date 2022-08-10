@@ -39,7 +39,7 @@
                 </div>
                 <div class="media-content">
                   <p class="title is-6">Event Venue</p>
-                  <p class="subtitle is-6">Solamalai college of Engineering Madurai</p>
+                  <p class="subtitle is-6">Solamalai college of Engineering, Madurai</p>
                 </div>
               </div>
             </div>
@@ -74,8 +74,8 @@
                 </div>
                 <div class="media-content">
                   <p class="title is-6">Online or offline</p>
-                  <p class="subtitle is-6">offline presence is needed from 12-Aug-2022 4pm to 14-Aug-2022 6pm,
-                    Solution can be created online,remotely from nowitself. </p>
+                  <p class="subtitle is-6">Offline presence is needed from 12-Aug-2022 4 PM to 14-Aug-2022 6:30 PM,
+                    Solution can be created online, remotely from now itself. </p>
                 </div>
               </div>
             </div>
@@ -92,7 +92,7 @@
                 </div>
                 <div class="media-content">
                   <p class="title is-6">How to form my team</p>
-                  <p class="subtitle is-6">you can form a team with your friends or form a team while discussing
+                  <p class="subtitle is-6">You can form a team with your friends or form a team while discussing
                     problems at discord channels: or, form a team on 12-Aug at offline networking. </p>
                 </div>
               </div>
@@ -130,9 +130,9 @@
                   <ul>
                     <li>you can create your own solution from scratch</li>
                     <li>you can reuse existing solution from the market,
-                      github,but do your value addition. Avoid just
+                      github, but do your value addition. Avoid just
                       demonstrating solution from the market/github.</li>
-                    <li>Solution can be hardware,software or mix of it</li>
+                    <li>Solution can be hardware, software or mix of it</li>
                     <li>
                       Solution can be just a design or a prototype,
                       or a complete solution
@@ -155,14 +155,13 @@
                 <div class="media-content">
                   <p class="title is-6">Value</p>
                   <p class="subtitle is-6">Bring out Innovative solutions to transform our cities to be smarter
-                    resilient and suistainable
+                    resilient and sustainable
                   </p>
-
                 </div>
               </div>
             </div>
           </div>
-          <div class="card register_card height_auto">
+          <div class="card register_card height_auto" style="margin-top: 3%;">
             <div class="card-content">
               <div class="media">
                 <div class="media-left">
@@ -203,7 +202,7 @@
           </div> -->
           <div class="register_welcome yellow_bg" style="width: auto;">
             <div class="columns is-multiline is-mobile">
-              <div class="column is-8-desktop is-12-mobile is-6-tablet welcome_for_query">
+              <div class="column is-8-desktop is-8-mobile is-8-tablet welcome_for_query">
                 <h4>Registration closed. No on-the-spot Registration.</h4>
                 <div class="is-flex">
                   <p>For Queries:</p>
@@ -215,7 +214,7 @@
                   </a>
                 </div>
               </div>
-              <div class="column is-4-desktop is-12-mobile is-6-tablet ">
+              <div class="column is-4-desktop is-4-mobile is-4-tablet ">
                 <img src="@/assets/img/close_sign.png" />
               </div>
             </div>
@@ -223,7 +222,7 @@
           <div class="register_download">
             <p class="has-text-centered download_book">
               <nuxt-link to="" class="">
-                <img src="@/assets/img/register/download.png" class="download_img" />Download Participants’
+                <img src="@/assets/img/register/download.png" class="download_img" />Download Participants'
                 Hand-book </nuxt-link>
             </p>
           </div>
@@ -251,7 +250,7 @@
             such as
             bedsheets, air pillow, toilet kits, spare clothes, etc.</p>
           <p>
-            6. Participation certificate will be issued on Sunday 14th August 2022 towards the end of the event.
+            6. Participation certificate will be issued on Sunday 14<sup>th</sup> August 2022 towards the end of the event.
           </p>
 
         </div>

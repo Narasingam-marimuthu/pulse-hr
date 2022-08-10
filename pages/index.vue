@@ -85,7 +85,7 @@
             </div> -->
             <div class="register_welcome yellow_bg">
               <div class="columns is-multiline is-mobile">
-                <div class="column is-8-desktop is-12-mobile is-6-tablet welcome_for_query">
+                <div class="column is-8-desktop is-8-mobile is-8-tablet welcome_for_query">
                   <h4>Registration closed. No on-the-spot Registration.</h4>
                   <div class="is-flex">
                     <p>For Queries:</p>
@@ -97,7 +97,7 @@
                     </a>
                   </div>
                 </div>
-                <div class="column is-4-desktop is-12-mobile is-6-tablet ">
+                <div class="column is-4-desktop is-4-mobile is-4-tablet ">
                   <img src="@/assets/img/close_sign.png" />
                 </div>
               </div>
