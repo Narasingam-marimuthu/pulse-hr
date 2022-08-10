@@ -133,12 +133,34 @@
             <div class="column is-3-desktop is-12-mobile is-3-tablet">
               <div class="speaker_block">
                 <div class="round_circle">
+                  <img src="@/assets/img/home/kumararajan.png" class="" />
+                </div>
+                <p class="speaker_txt_small">Inaugration Ceremony Keynote Speaker</p>
+                <p class="speaker_txt_small">12<sup>th</sup> August, 2022 - Friday</p>
+                <p class="speaker_txt_big">Mr. Kumarajan</p>
+                <p class="speaker_txt_small">Independent Director - Madurai Smart City</p>
+              </div>
+            </div>
+            <div class="column is-3-desktop is-12-mobile is-3-tablet">
+              <div class="speaker_block">
+                <div class="round_circle">
                   <img src="@/assets/img/home/saba.png" class="" />
                 </div>
                 <p class="speaker_txt_small">Tech Session Speaker</p>
                 <p class="speaker_txt_small">13<sup>th</sup> August, 2022 - Saturday</p>
                 <p class="speaker_txt_big">Mr. Sabapathy Narayanan</p>
                 <p class="speaker_txt_small">Marketing Head - Payhuddle</p>
+              </div>
+            </div>
+            <div class="column is-3-desktop is-12-mobile is-3-tablet">
+              <div class="speaker_block">
+                <div class="round_circle">
+                  <img src="@/assets/img/home/nanu.png" class="" />
+                </div>
+                <p class="speaker_txt_small">Tech Session Speaker</p>
+                <p class="speaker_txt_small">13<sup>th</sup> August, 2022 - Saturday</p>
+                <p class="speaker_txt_big">Mr. Nanu Swamy</p>
+                <p class="speaker_txt_small">Founder - Maxelerator Foundation</p>
               </div>
             </div>
             <div class="column is-3-desktop is-12-mobile is-3-tablet">
@@ -162,7 +184,7 @@
                 <p class="speaker_txt_big">Prof. Dr. Murali Sambasivan</p>
                 <p class="speaker_txt_small">Director - Thiagarajar School of Mangagement</p>
               </div>
-            </div>
+            </div>    
           </div>
         </div>
       </div>
