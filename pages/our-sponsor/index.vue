@@ -36,13 +36,16 @@
               <img src="@/assets/img/sponsors/bronze/dci.png" class="width-80" />
             </div>
             <div class="column is-2-desktop is-4-mobile is-2-tablet">
-              <img src="@/assets/img/sponsors/bronze/watsan.png" class="width-80" />
+              <img src="@/assets/img/sponsors/bronze/watsan.png" class="full-width" style="padding-top: 5px;" />
             </div>
             <div class="column is-2-desktop is-4-mobile is-2-tablet">
               <img src="@/assets/img/sponsors/bronze/hitech.png" class="width-80" />
             </div>
             <div class="column is-2-desktop is-4-mobile is-2-tablet">
               <img src="@/assets/img/sponsors/bronze/systimanx.png" class="full-width" />
+            </div>
+            <div class="column is-2-desktop is-4-mobile is-2-tablet">
+              <img src="@/assets/img/sponsors/bronze/maxelerator.png" class="" style="width:60%; height: 60%;" />
             </div>
           </div>
           <h1 class="single_title_line">Community Partners</h1>
