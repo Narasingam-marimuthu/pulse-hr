@@ -289,16 +289,16 @@
                       <h3 class="prbm_main_title_pg has-text-centered">4.1 Smart City </h3>
                       <ul class="about_us_list">
                         <li style="margin-top: 6%;">
-                          LoRAWAN wireless applications for agriculture, real estate, industrial,
-                          smart city applications and others.
+                          Wireless applications for agriculture, real estate, industrial,
+                          smart city based technologies such as IoT and others.
                         </li>
                       </ul>
-                      <div class="spons_abs">
+                      <!-- <div class="spons_abs">
                         <div class="spons">
                           <img src="@/assets/img/Investment.png" />
                           <p>sponsored</p>
                         </div>
-                      </div>
+                      </div> -->
                     </div>
                   </div>
                 </div>
