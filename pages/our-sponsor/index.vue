@@ -47,6 +47,9 @@
             <div class="column is-2-desktop is-4-mobile is-2-tablet">
               <img src="@/assets/img/sponsors/bronze/maxelerator.png" class="" style="width:60%; height: 60%;" />
             </div>
+            <div class="column is-2-desktop is-4-mobile is-2-tablet">
+              <img src="@/assets/img/sponsors/bronze/greyfeathers.png" class="" style="height: 60%;" />
+            </div>
           </div>
           <h1 class="single_title_line">Community Partners</h1>
           <div class="columns is-multiline is-mobile mt-3">
