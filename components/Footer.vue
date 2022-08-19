@@ -34,13 +34,7 @@
               <nuxt-link to="/about-hackathon" class="">About </nuxt-link>
             </p>
             <p>
-              <nuxt-link to="/sponsor-hackathon-2022" class="">Sponsor Us</nuxt-link>
-            </p>
-            <p>
-              <nuxt-link to="/problem-statement" class="">Problem statement</nuxt-link>
-            </p>
-            <p>
-              <nuxt-link to="/register" class="">Register </nuxt-link>
+              <nuxt-link to="/sponsor-us" class="">Sponsor Us</nuxt-link>
             </p>
           </div>
         </div>

@@ -301,7 +301,6 @@ a.navbar-item.is-active,
 .welcome_block .content {
   font-size: 14px;
   line-height: 26px;
-  text-align: left;
   color: #040869;
 }
 
@@ -407,15 +406,23 @@ a.navbar-item.is-active,
   border-bottom: 2px solid #040869;
 }
 
+.welcome1_left {
+  padding: 20px;
+}
+
+.welcome1_left img {
+  width: 70%;
+}
+
 .welcome1_right {
-  height: 80%;
+  /* height: 50%; */
 }
 
 .welcome1_right img {
   width: 80%;
   margin: auto;
   display: block;
-  float: right;
+  /* float: right; */
 }
 
 .welcome_main_title h3 span:first-child,
@@ -528,6 +535,10 @@ a.navbar-item.is-active,
   width: 52%;
   margin: auto;
   display: block;
+}
+
+.speaker .round_circle img {
+  width: 100%;
 }
 
 /* problem_statement end */

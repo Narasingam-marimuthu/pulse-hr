@@ -26,6 +26,9 @@
             <b-navbar-item tag="router-link" to="/event-schedule">
               Event Schedule
             </b-navbar-item>
+            <b-navbar-item tag="router-link" to="/our-speakers-2022">
+              Our Speakers 2022
+            </b-navbar-item>
             <b-navbar-item tag="router-link" to="/register">
               Register
             </b-navbar-item>
@@ -35,6 +38,9 @@
             <b-navbar-item tag="router-link" to="/sponsor-hackathon-2022">
               Sponsor Hackathon 2022
             </b-navbar-item>
+            <b-navbar-item tag="router-link" to="/our-sponsor-2022">
+              Our Sponsors 2022
+            </b-navbar-item>
             <b-navbar-item tag="router-link" to="/digital-poster">
               Digital Posters
             </b-navbar-item>
@@ -42,11 +48,8 @@
               FAQ
             </b-navbar-item> -->
           </b-navbar-dropdown>
-          <b-navbar-item tag="router-link" to="/sponsor-hackathon-2022">
-            Sponsor Hackathon 2022
-          </b-navbar-item>
-          <b-navbar-item tag="router-link" to="/our-sponsor">
-            Our Sponsors
+          <b-navbar-item tag="router-link" to="/sponsor-us">
+            Sponsor Us
           </b-navbar-item>
           <b-navbar-item tag="router-link" to="/volunteers">
             Volunteers
