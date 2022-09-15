@@ -53,7 +53,7 @@
                         <div class="has-text-centered">
                             <div class=""><img src="@/assets/img/volunteers/dhana.png" class="" /></div>
                             <div class="name">Dhana Sekaran S</div>
-                            <div class="desc">soluction Head at TeachSub Technologies</div>
+                            <div class="desc">solution Head at TeachSub Technologies</div>
                             <div class="mt-2 mb-2"><a target="_blank" href="https://www.linkedin.com/in/sdhanasekaran">
                                     <img src="@/assets/img/Linkedin.png" class="icon" /></a></div>
                         </div>
@@ -138,7 +138,7 @@
                         <div class="has-text-centered">
                             <div class=""><img src="@/assets/img/volunteers/senthil.png" class="" /></div>
                             <div class="name">Senthil Kumar M</div>
-                            <div class="desc">Kairos Fellow Entrepreneur Speaker Technology Explorer,Mentor; Advisor to
+                            <div class="desc">Kairos Fellow Entrepreneur Speaker Technology Explorer, Mentor; Advisor to
                                 Madurai Hackathon 2022.</div>
                             <div class="mt-2 mb-2"><a target="_blank"
                                     href="https://www.linkedin.com/in/senthilkumar-murugesan">
@@ -174,7 +174,7 @@
                             <div class=""><img src="@/assets/img/volunteers/vivek.png" class="" /></div>
                             <div class="name">Vivek Raja P S</div>
                             <div class="desc">Founding Member / Data Scientist at NexStem Guinness World Records
-                                Holder,AWS ML HERO,Lead @ Azure Developer Community,16x Multi-Cloud Certified,Speaker,
+                                Holder, AWS ML HERO, Lead @ Azure Developer Community, 16x Multi-Cloud Certified, Speaker,
                                 Mentor, Researcher Advisor to Madurai Hackathon 2022.</div>
                             <div class="mt-2 mb-2"><a target="_blank" href="https://www.linkedin.com/in/vivek0712">
                                     <img src="@/assets/img/Linkedin.png" class="icon" /></a></div>

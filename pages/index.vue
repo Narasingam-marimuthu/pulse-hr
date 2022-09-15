@@ -13,63 +13,9 @@
         </b-carousel>
       </div>
     </section>
-    <section class="welcome_block mb-2">
-      <div class="container">
-        <div class="columns is-multiline is-mobile">
-          <div class="column is-7-desktop is-12-mobile is-7-tablet has-text-centered">
-            <div class="welcome_main_title">
-              <h3 class="">
-                <span> Madurai </span>
-                <span> Tech </span>
-                <span> community </span>
-              </h3>
-            </div>
-            <div class="welcome1_left">
-              <img src="@/assets/img/home/welcome_right.png" />
-            </div>
-            <p class="content">We will get back to you soon, with next event details.
-            </p>
-          </div>
-          <div class="column is-5-desktop is-12-mobile is-5-tablet">
-            <div class="welcome1_right">
-              <img src="@/assets/img/home/welcome.png" class="" style="height: 300px;" />
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="sponsors mb-2">
-      <div class="container">
-        <div class="has-text-centered">
-          <div class="h1_title underline has-text-centered">
-            <h1 class="single_title_line">
-              <span>Sponsor</span>
-              <span>Us</span>
-            </h1>
-          </div>
-          <div class="s_single_txt">
-            <p>Sponsor us to make your brand known among the change makers!
-            </p>
-          </div>
-          <div>
-            <b-button class="button is-primary">
-              <nuxt-link to="/sponsor-us">
-                <span class="sponsr_btn"> Sponsor Us </span>
-              </nuxt-link>
-            </b-button>
-          </div>
-        </div>
-      </div>
-    </section>
     <section class="about_us mb-2">
       <div class="container">
         <div class="has-text-centered">
-          <div class="h1_title underline has-text-centered">
-            <h1 class="">
-              <span>About</span>
-              <span>Us</span>
-            </h1>
-          </div>
           <div class="s_single_txt mt-3">
             <p>We are a Volunteer Based Community, working for the benefit of the society around us. We
               leverage the strength of our community members
