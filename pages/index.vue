@@ -69,7 +69,6 @@
                     <ul class="about_us_list_right">
                       <li>
                         Provide Opportunities for businesses to connect with clients
-
                       </li>
                       <li>
                         Provide Opportunities for individuals looking to freelance or get into a job
@@ -78,7 +77,6 @@
                         Provide Networking opportunities for Technology Professionals,
                         Freelancers, Startups, Established Businesses,
                         Educational Institutions and Students
-
                       </li>
                     </ul>
                   </div>

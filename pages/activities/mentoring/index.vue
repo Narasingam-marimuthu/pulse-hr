@@ -9,7 +9,7 @@
             <div class="columns is-multiline is-mobile">
                 <div class="column is-12-desktop is-12-mobile is-6-tablet">
                     <p class="is-size-6 primary_color has-text-weight-medium">
-                        Join telegram channel for mentoring.
+                        Join <a href="https://discord.gg/gSzAkemGKJ" style="text-decoration: underline;">discord channel</a> for mentoring.
                     </p>
                 </div>
             </div>
@@ -33,4 +33,5 @@ export default {
 </script>
 
 <style>
+
 </style>
