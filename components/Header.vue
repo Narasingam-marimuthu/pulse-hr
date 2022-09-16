@@ -20,7 +20,7 @@
             <b-navbar-item tag="router-link" to="/events/hactoberfest">
               Hacktoberfest
             </b-navbar-item>
-            <b-navbar-item-dropdown label="Madurai Hackathon 2022">
+            <b-navbar-dropdown label="Madurai Hackathon 2022">
               <b-navbar-item tag="router-link" to="/events/hackathon-2022/about-hackathon">
                 About Hackathon 2022
               </b-navbar-item>
@@ -51,7 +51,7 @@
               <!-- <b-navbar-item tag="router-link" to="/faq">
                 FAQ
               </b-navbar-item> -->
-            </b-navbar-item-dropdown>
+            </b-navbar-dropdown>
           </b-navbar-dropdown>
           <b-navbar-dropdown label="Activities">
             <b-navbar-item tag="router-link" to="/activities/mentoring">

@@ -31,7 +31,7 @@
           <div class="footer_block_three">
             <h4>Useful Links</h4>
             <p>
-              <nuxt-link to="/about-hackathon" class="">About </nuxt-link>
+              <nuxt-link to="/" class="">About </nuxt-link>
             </p>
             <p>
               <nuxt-link to="/sponsor-us" class="">Sponsor Us</nuxt-link>
