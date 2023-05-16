@@ -1,5 +1,6 @@
 <template>
   <section>
+    <!--
     <section class="banner mt-2 mb-2">
       <div class="container">
         <b-carousel :arrow="false" :pause-info="false" :indicator-style="'is-dots'" :indicator-position="'is-bottom'"
@@ -13,10 +14,20 @@
         </b-carousel>
       </div>
     </section>
+    -->
     <section class="about_us mb-2">
       <div class="container">
         <div class="has-text-centered">
           <div class="s_single_txt mt-3">
+            <div style="border: 2px solid blue">
+              <p>
+       We are happy to release the first impression of our newsletter.  
+       </p>
+              <p>
+       <a style="font-color: blue" href="/Madurai-Tech-Matters-Mar-2023-Impression-1.pdf">
+       Click Here to View or Download. 
+       </a> </p>
+       </div>
             <p>We are a Volunteer Based Community, working for the benefit of the society around us. We
               leverage the strength of our community members
               technical, industry and business knowledge for the betterment of Indian cities. We, the
