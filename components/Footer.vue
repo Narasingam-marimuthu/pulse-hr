@@ -5,12 +5,18 @@
         <div class="column is-3-desktop is-12-mobile is-3-tablet">
           <div class="footer_block_one">
             <h4>Contact us</h4>
-            <p><a href="tel:9384667376"><img src="@/assets/img/Call.png" class="" /> 9384667376</a></p>
+            <p>
+              <a href="tel:9384667376"
+                ><img src="@/assets/img/Call.png" class="" /> 9384667376</a
+              >
+            </p>
             <div class="is-flex footer_cont">
               <div class="footer_block_one mt-1">
                 <img src="@/assets/img/Location.png" class="" />
               </div>
-              <div><span>247, SLC2, Anna Nagar,<br />Madurai - 625020</span></div>
+              <div>
+                <span>247, SLC2, Anna Nagar,<br />Madurai - 625020</span>
+              </div>
             </div>
           </div>
         </div>
@@ -19,11 +25,15 @@
             <h4>Email us</h4>
             <p>For General Enquiry</p>
             <p class="mb-4 brand_color font_weight_600">
-              <a href="mailto:contact@madurai-tech.org" target="_blank">Contact@madurai-tech.org</a>
+              <a href="mailto:contact@madurai-tech.org" target="_blank"
+                >Contact@madurai-tech.org</a
+              >
             </p>
             <p>For Sponsor Enquiry</p>
             <p class="brand_color font_weight_600">
-              <a href="mailto:sponsor@madurai-tech.org" target="_blank">Sponsor@madurai-tech.org</a>
+              <a href="mailto:sponsor@madurai-tech.org" target="_blank"
+                >Sponsor@madurai-tech.org</a
+              >
             </p>
           </div>
         </div>
@@ -75,46 +85,48 @@
           </div>
         </div>
       </div>
-      <div class=" copy_rights">
+      <div class="copy_rights">
         <div class="columns is-multiline is-mobile">
-          <div class="column is-7-desktop is-12-mobile is-7-tablet has-text-right">
-            <p class="">&#169; Madurai Tech Community
-              <a @click="scrollToTop"><img src="@/assets/img/footer_top.png" /> </a>
+          <div
+            class="column is-7-desktop is-12-mobile is-7-tablet has-text-right"
+          >
+            <p class="">
+              &#169; Madurai Tech Community
+              <a @click="scrollToTop"
+                ><img src="@/assets/img/footer_top.png" />
+              </a>
             </p>
           </div>
-          <div class="column is-5-desktop is-12-mobile is-5-tablet">
+          <!-- <div class="column is-5-desktop is-12-mobile is-5-tablet">
             <p class="has-text-right">Design and Developed by <a href="https://systimanx.com" target="_blank">
                 <b> SystimaNX IT Solutions Pvt Ltd</b></a></p>
-          </div>
+          </div> -->
         </div>
-
       </div>
     </div>
   </section>
 </template>
 
 <script>
-  export default {
-    data() {
-      return {
-        LINK_LINKEDIN_URL: process.env.LINK_LINKEDIN_URL,
-        LINK_INSTAGRAM_URL: process.env.LINK_INSTAGRAM_URL,
-        LINK_TWITTER_URL: process.env.LINK_TWITTER_URL,
-        LINK_FACEBOOK_GROUP_URL: process.env.LINK_FACEBOOK_GROUP_URL,
-        LINK_TELEGRAM_GROUP_URL: process.env.LINK_TELEGRAM_GROUP_URL,
-        LINK_WHATSAPP_GROUP_URL: process.env.LINK_WHATSAPP_GROUP_URL,
-
-      };
+export default {
+  data() {
+    return {
+      LINK_LINKEDIN_URL: process.env.LINK_LINKEDIN_URL,
+      LINK_INSTAGRAM_URL: process.env.LINK_INSTAGRAM_URL,
+      LINK_TWITTER_URL: process.env.LINK_TWITTER_URL,
+      LINK_FACEBOOK_GROUP_URL: process.env.LINK_FACEBOOK_GROUP_URL,
+      LINK_TELEGRAM_GROUP_URL: process.env.LINK_TELEGRAM_GROUP_URL,
+      LINK_WHATSAPP_GROUP_URL: process.env.LINK_WHATSAPP_GROUP_URL,
+    };
+  },
+  methods: {
+    scrollToTop() {
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth",
+      });
+      // document.body.scrollTop = document.documentElement.scrollTop = 0;
     },
-    methods: {
-      scrollToTop() {
-        window.scrollTo({
-          top: 0,
-          behavior: 'smooth'
-        })
-        // document.body.scrollTop = document.documentElement.scrollTop = 0;
-      }
-    }
-  }
-
+  },
+};
 </script>

@@ -127,10 +127,10 @@ export default {
       LINK_WHATSAPP_GROUP_URL: process.env.LINK_WHATSAPP_GROUP_URL,
       carousels: [
         {
-          image: require("@/assets/img/banner_1.svg"),
+          image: require("@/assets/img/banner_01.png"),
         },
         {
-          image: require("@/assets/img/banner_2.svg"),
+          image: require("@/assets/img/banner_02.png"),
         },
       ],
     };

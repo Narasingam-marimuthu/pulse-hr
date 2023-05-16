@@ -21,13 +21,10 @@
         <iframe
           src="https://rzp.io/l/mtc-network-meet-20230603"
           width="100%"
-          style="border: 1px solid #eee; background: white; height: 1300px"
+          style="border: 1px solid #eee; background: white; height: 100vh"
           frameborder="0"
           scrolling="no"
         ></iframe>
-      </div>
-      <div class="columns is-multiline is-mobile" style="min-height: 230px">
-        &nbsp;
       </div>
     </div>
   </section>

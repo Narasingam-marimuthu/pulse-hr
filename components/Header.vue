@@ -15,7 +15,7 @@
         <template #end>
           <b-navbar-item tag="router-link" to="/"> Home </b-navbar-item>
           <b-navbar-dropdown label="Events">
-            <b-navbar-dropdown collapsible="true" label="Past Events">
+            <b-navbar-dropdown :collapsible="true" label="Past Events">
               <b-navbar-item tag="router-link" to="/events/hactoberfest">
                 Hacktoberfest
               </b-navbar-item>
@@ -32,7 +32,7 @@
                 Madurai Hackathon 2022.
               </b-navbar-item> -->
               <b-navbar-dropdown
-                collapsible="true"
+                :collapsible="true"
                 label="Madurai Hackathon 2022"
                 class="inner_dropdown"
               >
@@ -95,7 +95,7 @@
               </b-navbar-item> -->
               </b-navbar-dropdown>
             </b-navbar-dropdown>
-            <b-navbar-dropdown collapsible="true" label="Current Events">
+            <b-navbar-dropdown :collapsible="true" label="Current Events">
               <b-navbar-item tag="router-link" to="/events/network-meet">
                 Network Meeting
               </b-navbar-item>
@@ -129,12 +129,31 @@
     </div>
   </div>
 </template>
-
+<script></script>
 <style>
 .navbar-item.has-dropdown.inner_dropdown a {
   padding-left: 0;
 }
 .navbar-item.has-dropdown.is-active.inner_dropdown .navbar-dropdown {
   padding: 0.375rem 1rem;
+}
+.navbar-dropdown .navbar-dropdown {
+  left: 50px;
+  top: 50px;
+}
+@media screen and (max-width: 767px) {
+  .navbar-dropdown .navbar-dropdown {
+    left: 0;
+    top: 45px;
+  }
+  .navbar-dropdown .navbar-dropdown a {
+    padding-left: 3.5rem;
+  }
+  .navbar-dropdown .navbar-dropdown .inner_dropdown {
+    padding-left: 3.5rem;
+  }
+  .navbar-item.has-dropdown.is-active.inner_dropdown .navbar-dropdown a {
+    padding: 0.375rem 0 0.375rem 3.5rem;
+  }
 }
 </style>
