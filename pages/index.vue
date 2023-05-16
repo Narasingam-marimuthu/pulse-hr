@@ -11,10 +11,19 @@
           :indicator-inside="false"
         >
           <b-carousel-item v-for="(carousel, i) in carousels" :key="i">
-            <nuxt-link to="/event-schedule" class="join_here" v-if="i == 0">
+            <nuxt-link
+              to="/events/network-meet"
+              class="join_here"
+              v-if="i == 0"
+            >
               <img :src="carousel.image" />
             </nuxt-link>
-            <img :src="carousel.image" v-if="i != 0" />
+            <a
+              href="/Madurai-Tech-Matters-Mar-2023-Impression-1.pdf"
+              target="_blank"
+            >
+              <img :src="carousel.image" v-if="i != 0"
+            /></a>
           </b-carousel-item>
         </b-carousel>
       </div>
