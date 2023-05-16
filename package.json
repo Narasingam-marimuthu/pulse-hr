@@ -13,7 +13,8 @@
   "dependencies": {
     "@nuxtjs/axios": "^5.3.6",
     "nuxt": "^2.0.0",
-    "nuxt-buefy": "^0.3.2"
+    "nuxt-buefy": "^0.3.2",
+    "vue-tree-navigation": "^4.0.1"
   },
   "devDependencies": {
     "@nuxtjs/google-fonts": "^3.0.0-0"
