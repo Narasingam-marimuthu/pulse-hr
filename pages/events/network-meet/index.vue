@@ -4,7 +4,7 @@
       <div class="heading_style has-text-centered">
         <h3 class="">
           <span> Network </span>
-          <span> Meeting </span>
+          <span> Meet </span>
         </h3>
       </div>
       <div class="columns is-multiline is-mobile">

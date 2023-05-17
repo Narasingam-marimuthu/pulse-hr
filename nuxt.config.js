@@ -1,3 +1,4 @@
+import webpack from 'webpack';
 
 export default {
   mode: 'universal',
@@ -31,7 +32,7 @@ export default {
       {
         rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;400;500;600;700;800;900&display=swap'
       },
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.png' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.png' },
     ]
   },
 
@@ -79,6 +80,11 @@ export default {
     /*
     ** You can extend webpack config here
     */
+    plugins: [
+      new webpack.ProvidePlugin({
+        $: 'jquery',
+      })
+    ],
     extend(config, ctx) {
     }
   }

@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.3.6",
+    "jquery": "^3.7.0",
     "nuxt": "^2.0.0",
     "nuxt-buefy": "^0.3.2",
     "vue-tree-navigation": "^4.0.1"
