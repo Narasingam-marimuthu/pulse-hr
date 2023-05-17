@@ -17,14 +17,10 @@
             profession and make Madurai a better place to live, work and to do
             business.
           </p>
+          <img src="@/assets/img/network-meet-banner.jpg" style="max-width:100%; height:auto;" />
         </div>
-        <iframe
-          src="https://rzp.io/l/mtc-network-meet-20230603"
-          width="100%"
-          style="border: 1px solid #eee; background: white; height: 100vh"
-          frameborder="0"
-          scrolling="no"
-        ></iframe>
+        <iframe src="https://rzp.io/l/mtc-network-meet-20230603" width="100%"
+          style="border: 1px solid #eee; background: white; height: 100vh; overflow: auto;" frameborder="0" scrolling="yes"></iframe>
       </div>
     </div>
   </section>
