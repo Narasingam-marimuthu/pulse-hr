@@ -68,7 +68,7 @@ export default {
   */
   axios: {
     // Configure the base URL of your API
-     baseURL:"https://yaash.tech/upload" // Replace with your API URL
+     baseURL:"http://127.0.0.1:5001" // Replace with your API URL
   },
   /*
   ** Build configuration

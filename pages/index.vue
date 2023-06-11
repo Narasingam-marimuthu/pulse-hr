@@ -7,7 +7,7 @@
             <div class="card about_us_card">
               <div class="card-content">
                 <div class="columns is-multiline is-mobile">
-<form action="https://yaash.tech/upload" method="post" enctype="multipart/form-data">
+<form :on-submit="postData()" method="post">
 
                   <div class="column is-10-desktop is-12-mobile is-6-tablet">
                     <p class="head-text">
@@ -43,7 +43,7 @@
                       </div>
                     
                     </div>
-                    {{ upload.file.name }}
+                    {{ upload &&upload.file ? upload.file.name :""}}
                     <a>
                             <i class="lnil lnil-close"></i>
                           </a>
@@ -64,7 +64,7 @@
                     <div class="end-button">
                       <div>
                         <button class="cance-button">Cancel</button>
-                        <button class="predict-button">Predict</button>
+                        <button class="predict-button" >Predict</button>
                       </div>
                     </div>
                   </div>
@@ -81,6 +81,9 @@
 </template>
 
 <script>
+// import baseUrl from '~/plugins/baseUrl'
+import { $axios } from '@nuxtjs/axios'
+
 export default {
   data() {
     return {
@@ -90,7 +93,23 @@ export default {
     };
 
   },
+  methods: {
+    async postData() {
+      console.log("inside");
+      try {
+        const response = await this.$axios.$post(
+          'http://127.0.0.1:5001/upload',
+          )
+        console.log(response.data,'response.data')
+      } catch (error) {
+        console.error(error,"error")
+      }
+    }
+  }
+  
 };
+
+
 
 </script>
 
