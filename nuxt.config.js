@@ -1,6 +1,15 @@
 import webpack from 'webpack';
+const { createProxyMiddleware } = require('http-proxy-middleware');
 
 export default {
+  serverMiddleware: [
+    function (req, res, next) {
+      createProxyMiddleware('/upload', {
+        target: 'http://127.0.0.1:5001',
+        changeOrigin: true,
+      })(req, res, next);
+    },
+  ],
   mode: 'universal',
   // Server config
   server: {
@@ -27,7 +36,7 @@ export default {
       {
         rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;400;500;600;700;800;900&display=swap'
       },
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico'  },
+      // { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico'  },
     ]
   },
 
@@ -47,6 +56,7 @@ export default {
   ** Plugins to load before mounting the App
   */
   plugins: [
+    "~plugins/axios",
   ],
   /*
   ** Nuxt.js dev-modules
@@ -61,14 +71,25 @@ export default {
     'nuxt-buefy',
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
+    '@nuxtjs/proxy',
   ],
+
+  proxy: {
+    '/upload': {
+      target: 'http://127.0.0.1:5001', // Replace with your upload's base URL
+      pathRewrite: { '^/upload': '' },
+      changeOrigin: true,
+    },
+  },
+
   /*
   ** Axios module configuration
   ** See https://axios.nuxtjs.org/options
   */
   axios: {
     // Configure the base URL of your API
-     baseURL:"http://127.0.0.1:5001" // Replace with your API URL
+    proxy: true,
+    //  baseURL:"" // Replace with your API URL
   },
   /*
   ** Build configuration
