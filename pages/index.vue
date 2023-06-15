@@ -12,106 +12,143 @@
                     method="post"
                     enctype="multipart/form-data"
                   > -->
-                    <div class="column is-10-desktop is-12-mobile is-6-tablet">
-                      <p class="head-text">
-                        Please Upload the xis file that contains date of your
-                        employees
-                      </p>
-                      <div
-                        class="field column is-3-desktop is-12-mobile is-4-tablet"
-                      >
-                        <div class="control columns">
-                          <div class="file is-boxed is-default">
-                            <label class="file-label">
-                              <input
-                                type="hidden"
-                                data-vv-as="Front Image"
-                                name="foregroundimagepreview"
-                                id="foregroundimagepreview"
-                              />
-                              <b-upload
-                                type="file"
-                                id="file"
-                                name="file"
-                                v-model="upload.file"
-                              ></b-upload>
-                              <span class="file-cta">
-                                <span class="file-label">Upload File</span>
-                              </span>
-                            </label>
-                          </div>
-                          <div class="uploadedimage"></div>
+                  <div class="column is-10-desktop is-12-mobile is-6-tablet">
+                    <p class="head-text">
+                      Please Upload the xis file that contains date of your
+                      employees
+                    </p>
+                    <div
+                      class="field column is-3-desktop is-12-mobile is-4-tablet"
+                    >
+                      <div class="control columns">
+                        <div class="file is-boxed is-default">
+                          <label class="file-label">
+                            <input
+                              type="hidden"
+                              data-vv-as="Front Image"
+                              name="foregroundimagepreview"
+                              id="foregroundimagepreview"
+                            />
+                            <b-upload
+                              type="file"
+                              id="file"
+                              name="file"
+                              v-model="upload.file"
+                            ></b-upload>
+                            <span class="file-cta">
+                              <span class="file-label">Upload File</span>
+                            </span>
+                          </label>
                         </div>
-                      </div>
-                      {{ upload && upload.file ? upload.file.name : "" }}
-                      <a>
-                        <i class="lnil lnil-close"></i>
-                      </a>
-                      <p class="or">
-                        --------------------------OR--------------------------
-                      </p>
-                      <!-- <p class="head-text1">Import from URL</p> -->
-                      <div class="search-container">
-                        <b-field label="Import from URL">
-                          <b-input
-                            type="text"
-                            class="search-input"
-                            placeholder="Enter URL"
-                          ></b-input>
-                        </b-field>
-                        <button class="search-button is-right">Upload</button>
-                      </div>
-                      <div class="end-button">
-                        <div>
-                          <button class="cance-button">Cancel</button>
-                          <button class="predict-button" @click="postData">Predict</button>
-                        </div>
+                        <div class="uploadedimage"></div>
                       </div>
                     </div>
+                    {{ upload && upload.file ? upload.file.name : "" }}
+                    <a>
+                      <i class="lnil lnil-close"></i>
+                    </a>
+                    <p class="or">
+                      --------------------------OR--------------------------
+                    </p>
+                    <!-- <p class="head-text1">Import from URL</p> -->
+                    <div class="search-container">
+                      <b-field label="Import from URL">
+                        <b-input
+                          type="text"
+                          class="search-input"
+                          placeholder="Enter URL"
+                        ></b-input>
+                      </b-field>
+                      <button class="search-button is-right">Upload</button>
+                    </div>
+                    <div class="end-button">
+                      <div>
+                        <button class="cance-button">Cancel</button>
+                        <button class="predict-button" @click="postData">
+                          Predict
+                        </button>
+                      </div>
+                    </div>
+                  </div>
                   <!-- </form> -->
                 </div>
               </div>
             </div>
           </div>
         </div>
+        <div></div>
+      </div>
+    </section>
+    <section>
+      <div >
+        <apexchart
+          width="500"
+          type="bar"
+          :options="chartOptions"
+          :series="series"
+        ></apexchart>
       </div>
     </section>
   </section>
 </template>
 
 <script>
+import { create } from "domain";
 import { mapState, mapActions, mapGetters } from "vuex";
 
 export default {
-  
   data() {
     return {
       upload: {
         file: null,
       },
+
+      chartOptions: {
+        chart: {
+          id: "vuechart-example",
+        },
+        xaxis: {
+          categories: this.responseData ? this.responseData : "",
+        },
+      },
+      series: [
+        {
+          name: "series-1",
+          data: [30, 40, 45, 50, 49, 60, 70, 81],
+        },
+      ],
     };
   },
+
   methods: {
     ...mapActions({
       ACTION_POST: "MODULE_POST/ACTION_POST",
-      
     }),
     async postData() {
       console.log("inside");
       let context = this;
       try {
+        let responseData = [];
         let formData = new FormData();
         var inputData = {};
         formData.append("file", this.upload.file);
         inputData = {
-            inputDatas: formData,
-          };
-        const response = await context.ACTION_POST(inputData)
+          inputDatas: formData,
+        };
+        const response = await context
+          .ACTION_POST(inputData)
           .then((response) => {
-            this.response = response;
-        console.log(response, "response.data");
-            
+            responseData.push(response.Month);
+            console.log(response.Month, "response.data");
           });
+        return responseData;
+      } catch (error) {
+        console.error(error, "error");
+      }
+    },
+    mapData() {
+      let context = this;
+      try {
       } catch (error) {
         console.error(error, "error");
       }

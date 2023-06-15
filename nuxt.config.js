@@ -57,6 +57,8 @@ export default {
   */
   plugins: [
     "~plugins/axios",
+    { src: "~/plugins/apexcharts", mode: "client" },
+
   ],
   /*
   ** Nuxt.js dev-modules
