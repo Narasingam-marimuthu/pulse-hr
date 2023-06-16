@@ -2,19 +2,25 @@
 export default {
     namespaced: true,
     state: {
-        data: {}
+        data: []
     },
     mutations: {
-        SET_DATA(state, payload) { state.data = payload; },
+        SET_DATA(state, payload) { 
+            
+            state.data = payload; },
         CLEAR_DATA(state) { state.data = {}; }
     },
     actions: {
         async ACTION_POST(vuexContext, inputData) {
             try {
+                let values={};
                 const response = await this.$axios.$post('/upload', inputData.inputDatas)
-                vuexContext.commit("SET_DATA", response)
-                console.log("Store menu response", response);
-                return Promise.resolve(JSON.parse(JSON.stringify(response)))
+                values = Object.values(response.Month);
+
+                vuexContext.commit("SET_DATA", values)
+                console.log("Store menu response", values);
+
+                return Promise.resolve(JSON.parse(JSON.stringify(values)))
             } catch (error) {
                 console.log("Store menu error", error);
                 if (error.response) {

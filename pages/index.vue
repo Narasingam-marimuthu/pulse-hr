@@ -79,16 +79,6 @@
         <div></div>
       </div>
     </section>
-    <section>
-      <div >
-        <apexchart
-          width="500"
-          type="bar"
-          :options="chartOptions"
-          :series="series"
-        ></apexchart>
-      </div>
-    </section>
   </section>
 </template>
 
@@ -99,6 +89,7 @@ import { mapState, mapActions, mapGetters } from "vuex";
 export default {
   data() {
     return {
+      map: false,
       upload: {
         file: null,
       },
@@ -138,8 +129,18 @@ export default {
         const response = await context
           .ACTION_POST(inputData)
           .then((response) => {
-            responseData.push(response.Month);
-            console.log(response.Month, "response.data");
+            // responseData.push(response.Month);
+            // const values = [];
+            //   for (const [key, value] of response.Month.entries()) {
+            //    values.push(value);
+            //    responseData.push(value);
+            //   }
+            // const values = Object.values(response.Month);
+            // responseData = values;
+            // context.map = true;
+            context.$router.push("/stats");
+            // context.mapData();
+            console.log(values, "response.data");
           });
         return responseData;
       } catch (error) {
@@ -149,6 +150,7 @@ export default {
     mapData() {
       let context = this;
       try {
+        return { chartOptions, series };
       } catch (error) {
         console.error(error, "error");
       }
