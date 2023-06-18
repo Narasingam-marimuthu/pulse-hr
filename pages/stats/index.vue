@@ -46,7 +46,7 @@ import { mapState, mapActions, mapGetters } from "vuex";
 export default {
   async asyncData(context) {
     // let context = this;
-    let categories = [];
+    let months = [];
     let flours = [];
     let breads = [];
     let year = [];
@@ -56,8 +56,8 @@ export default {
     let petrol = [];
     let table =  [];
 
-    categories = context.store.state.MODULE_POST.months;
-    console.log(categories, "value##@");
+    months = context.store.state.MODULE_POST.months;
+    console.log(months, "value##@");
     flours = context.store.state.MODULE_POST.flours;
     console.log(flours, "floursvalue##@");
     breads = context.store.state.MODULE_POST.breads;
@@ -79,7 +79,7 @@ export default {
         id: "vuechart-example",
       },
       xaxis: {
-        categories: categories ? categories : "",
+        categories: months ? months : "",
       },
     };
     let series = [
@@ -144,7 +144,7 @@ export default {
       secondSeries,
       chartOptions,
       series,
-      categories,
+      categories: months,
       breads,
       flours,
       year,
@@ -156,66 +156,37 @@ export default {
 
   data() {
     return {
-      data: [
-        {
-          id: 1,
-          first_name: "Jesse",
-          last_name: "Simmons",
-          date: "2016-10-15 13:43:27",
-          gender: "Male",
-        },
-        {
-          id: 2,
-          first_name: "John",
-          last_name: "Jacobs",
-          date: "2016-12-15 06:00:53",
-          gender: "Male",
-        },
-        {
-          id: 3,
-          first_name: "Tina",
-          last_name: "Gilbert",
-          date: "2016-04-26 06:26:28",
-          gender: "Female",
-        },
-        {
-          id: 4,
-          first_name: "Clarence",
-          last_name: "Flores",
-          date: "2016-04-10 10:28:46",
-          gender: "Male",
-        },
-        {
-          id: 5,
-          first_name: "Anne",
-          last_name: "Lee",
-          date: "2016-12-06 14:38:38",
-          gender: "Female",
-        },
-      ],
+      data: tableData(),
       columns: [
         {
-          field: "id",
-          label: "ID",
+          field: "sno",
+          label: "S.No",
           width: "40",
           numeric: true,
         },
         {
-          field: "first_name",
-          label: "First Name",
+          field: "month",
+          label: "Month",
         },
         {
-          field: "last_name",
-          label: "Last Name",
+          field: "wheat",
+          label: "White, self raising flour per 2 kg",
         },
         {
-          field: "date",
-          label: "Date",
-          centered: true,
+          field: "bread",
+          label: "Bread, white sliced pan, large (800g)",
         },
         {
-          field: "gender",
-          label: "Gender",
+          field: "banana",
+          label: "Bananas per kg",
+        },
+        {
+          field: "petrol",
+          label: "Petrol - unleaded per litre",
+        },
+        {
+          field: "stats",
+          label: "Stats",
         },
       ],
 
@@ -237,7 +208,29 @@ export default {
       ],
     };
   },
+  async created() {
+    let context = this;
+    await context.tableData();
+  },
+  methods: {
+    tableData() {
+      let context = this
+      let tableData = []
+      for (let i = 1; i <= context.months; i++) {
+        let map = {
+        sno: i,
+        month: context.months[i-1],
+        wheat: context.wheat[i-1],
+        bread: context.bread[i-1],
+        banana: context.banana[i-1],
+        petrol: context.petrol[i-1],
+        stats: context.stats[i-1],
+        }
+        tableData.push(map)
+      }
+      return tableData
+    }
 
-  methods: {},
+  },
 };
 </script>

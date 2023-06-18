@@ -74,14 +74,16 @@ export default {
         // map.SET_DATA("x", months);
         // map.SET_DATA("y", flours);
         // map.SET_DATA("y1", bread);
-        vuexContext.commit("SET_DATA", months.slice(0, 25));
-        vuexContext.commit("SET_DATA1", flours.slice(0, 25));
-        vuexContext.commit("SET_DATA2", breads.slice(0, 25));
-        vuexContext.commit("SET_DATA3", year.slice(0, 25));
-        vuexContext.commit("SET_DATA4", year_month.slice(0, 25));
-        vuexContext.commit("SET_DATA5", STATISTIC.slice(0, 25));
-        vuexContext.commit("SET_DATA6", banana.slice(0, 25));
-        vuexContext.commit("SET_DATA7", petrol.slice(0, 25));
+
+        let maxCount = 25
+        vuexContext.commit("SET_DATA", months.slice(0, maxCount));
+        vuexContext.commit("SET_DATA1", flours.slice(0, maxCount));
+        vuexContext.commit("SET_DATA2", breads.slice(0, maxCount));
+        vuexContext.commit("SET_DATA3", year.slice(0, maxCount));
+        vuexContext.commit("SET_DATA4", year_month.slice(0, maxCount));
+        vuexContext.commit("SET_DATA5", STATISTIC.slice(0, maxCount));
+        vuexContext.commit("SET_DATA6", banana.slice(0, maxCount));
+        vuexContext.commit("SET_DATA7", petrol.slice(0, maxCount));
         // vuexContext.commit("SET_DATA8", table.slice(0, 10));
 
         console.log("Store menu response", response);
