@@ -107,5 +107,12 @@ export default {
     ],
     extend(config, ctx) {
     }
-  }
+  },
+  auth: {
+    redirect: {
+      login: "/",
+      home: false,
+    },
+    
+  },
 }
