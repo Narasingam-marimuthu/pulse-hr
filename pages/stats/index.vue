@@ -1,41 +1,57 @@
 <template>
   <section>
     <div v-if="map" class="graph">
-      <div>
-        <apexchart
-          width="700"
-          :type="'bar'"
-          :options="chartOptions"
-          :series="series"
-        ></apexchart>
+      <div
+       class="demo"></div>
+      <div class="title">
+      <span > {{ "White, self raising flour per 2 kg" }}</span>
+
       </div>
-      <div>
-        <apexchart
-          width="700"
-          :type="'bar'"
-          :options="secondChartOptions"
-          :series="secondSeries"
-        ></apexchart>
+      <div class="split">
+        <div class="centered">
+          <apexchart
+            width="500"
+            :type="'bar'"
+            :options="chartOptions"
+            :series="series"
+          ></apexchart>
+        </div>
+        <div class="title">  <span class="title">
+          {{ "Bread, white sliced pan, large (800g)" }}</span
+        ></div>
+
+        <div class="centered">
+          <apexchart
+            width="500"
+            :type="'bar'"
+            :options="secondChartOptions"
+            :series="secondSeries"
+          ></apexchart>
+        </div>
       </div>
-      <div>
+      <span class="title"> {{ "Bananas per kg" }}</span>
+
+      <div class="graph3">
         <apexchart
-          width="700"
+          width="500"
           :type="'bar'"
           :options="thirdChartOptions"
           :series="thirdSeries"
         ></apexchart>
       </div>
-      <div>
+      <span class="title"> {{ "Petrol - unleaded per litre" }}</span>
+
+      <div class="graph4">
         <apexchart
-          width="700"
+          width="500"
           :type="'bar'"
           :options="fourthChartOptions"
           :series="fourthSeries"
         ></apexchart>
       </div>
     </div>
-    <div >
-      <b-table :data="data" :columns="columns"></b-table>
+    <div>
+      <b-table :data="tableData" :columns="columns"></b-table>
     </div>
   </section>
 </template>
@@ -54,7 +70,7 @@ export default {
     let stats = [];
     let banana = [];
     let petrol = [];
-    let table =  [];
+    let table = [];
 
     months = context.store.state.MODULE_POST.months;
     console.log(months, "value##@");
@@ -94,7 +110,7 @@ export default {
         type: "line",
       },
       xaxis: {
-        categories: year ? year : "",
+        categories: months ? months : "",
       },
     };
     let secondSeries = [
@@ -109,7 +125,7 @@ export default {
         type: "line",
       },
       xaxis: {
-        categories: year_month ? year_month : "",
+        categories: months ? months : "",
       },
     };
     let thirdSeries = [
@@ -125,7 +141,7 @@ export default {
         type: "line",
       },
       xaxis: {
-        categories: year_month ? year_month : "",
+        categories: months ? months : "",
       },
     };
     let fourthSeries = [
@@ -134,6 +150,21 @@ export default {
         data: banana ? banana : [],
       },
     ];
+    let tableData = [];
+    for (let i = 1; i <= 25; i++) {
+      let map = {
+        sno: i,
+        month: months[i - 1],
+        wheat: flours[i - 1],
+        bread: breads[i - 1],
+        banana: banana[i - 1],
+        petrol: petrol[i - 1],
+        stats: stats[i - 1],
+      };
+      tableData.push(map);
+      console.log(map, "map##@");
+    }
+    // context.tableData();
     return {
       fourthChartOptions,
       fourthSeries,
@@ -150,13 +181,14 @@ export default {
       year,
       year_month,
       stats,
-      table
+      table,
+      tableData,
     };
   },
 
   data() {
     return {
-      data: tableData(),
+      // data: this.tableData(),
       columns: [
         {
           field: "sno",
@@ -210,27 +242,44 @@ export default {
   },
   async created() {
     let context = this;
-    await context.tableData();
-  },
-  methods: {
-    tableData() {
-      let context = this
-      let tableData = []
-      for (let i = 1; i <= context.months; i++) {
-        let map = {
-        sno: i,
-        month: context.months[i-1],
-        wheat: context.wheat[i-1],
-        bread: context.bread[i-1],
-        banana: context.banana[i-1],
-        petrol: context.petrol[i-1],
-        stats: context.stats[i-1],
-        }
-        tableData.push(map)
-      }
-      return tableData
-    }
-
   },
+  methods: {},
 };
 </script>
+
+<style scoped>
+.demo{
+  height: 5px;
+  width: 5px;
+  padding: 10px;
+}
+.title{
+  padding-top:10px ;
+  padding: 0;
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  font-size: 25px;
+  color: #080808;
+  -webkit-transition: all 0.4s ease 0s;
+  -o-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+}
+/* .split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+} */
+</style>

@@ -10,7 +10,7 @@ export default {
     breads: [],
     year: [],
     year_month: [],
-    STATISTIC: [],
+    stats: [],
     banana: [],
     petrol: [],
     table: [],
@@ -32,7 +32,7 @@ export default {
       state.year_month = payload;
     },
     SET_DATA5(state, payload) {
-      state.STATISTIC = payload;
+      state.stats = payload;
     },
     SET_DATA6(state, payload) {
       state.banana = payload;

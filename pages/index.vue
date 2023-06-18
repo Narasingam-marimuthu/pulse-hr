@@ -50,6 +50,15 @@
                     <p class="or">
                       --------------------------OR--------------------------
                     </p>
+                    <div v-show="isLoading">
+                      <!-- <b-notification :closable="false"> -->
+                      <b-loading
+                        :is-full-page="isFullPage"
+                        v-model="isLoading"
+                        :can-cancel="true"
+                      ></b-loading>
+                      <!-- </b-notification> -->
+                    </div>
                     <!-- <p class="head-text1">Import from URL</p> -->
                     <div class="search-container">
                       <b-field label="Import from URL">
@@ -76,9 +85,13 @@
             </div>
           </div>
         </div>
-        <div></div>
       </div>
     </section>
+    <span v-show="isLoading == true">
+      <b-loading :is-full-page="true" v-model="loading" :can-cancel="false">
+        <b-image :src="require('@/assets/1amw.gif')"></b-image>
+      </b-loading>
+    </span>
   </section>
 </template>
 
@@ -89,6 +102,9 @@ import { mapState, mapActions, mapGetters } from "vuex";
 export default {
   data() {
     return {
+      isLoading: false,
+      isFullPage: true,
+      loading: false,
       map: false,
       upload: {
         file: null,
@@ -110,15 +126,31 @@ export default {
       ],
     };
   },
-
+  computed: {
+    ...mapState({
+      loading: (state) => state.MODULE_LOADING.isLoading,
+    }),
+  },
   methods: {
     ...mapActions({
       ACTION_POST: "MODULE_POST/ACTION_POST",
+      ACTION_LOADING: "MODULE_LOADING/ACTION_LOADING",
     }),
+    openLoading() {
+      this.isLoading = true;
+      setTimeout(() => {
+        this.isLoading = false;
+      }, 10 * 1000);
+    },
     async postData() {
       console.log("inside");
       let context = this;
+      // context.ACTION_LOADING(true);
+      // context.openLoading();
+
       try {
+        context.loading = true;
+        // context.ACTION_LOADING(true);
         let responseData = [];
         let formData = new FormData();
         var inputData = {};
@@ -138,6 +170,8 @@ export default {
             // const values = Object.values(response.Month);
             // responseData = values;
             // context.map = true;
+            context.ACTION_LOADING(false);
+
             context.$router.push("/stats");
             // context.mapData();
             console.log(values, "response.data");
