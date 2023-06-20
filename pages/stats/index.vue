@@ -1,14 +1,13 @@
 <template>
   <section>
     <div v-if="map" class="graph">
-      <div
-       class="demo"></div>
-      <div class="title">
-      <span > {{ "White, self raising flour per 2 kg" }}</span>
+      <div class="demo"></div>
 
-      </div>
-      <div class="split">
-        <div class="centered">
+      <div class="center">
+        <div class="left">
+          <div class="title">
+            <span> {{ "White, self raising flour per 2 kg" }}</span>
+          </div>
           <apexchart
             width="500"
             :type="'bar'"
@@ -16,11 +15,12 @@
             :series="series"
           ></apexchart>
         </div>
-        <div class="title">  <span class="title">
-          {{ "Bread, white sliced pan, large (800g)" }}</span
-        ></div>
-
-        <div class="centered">
+        <div class="right">
+          <div class="title">
+            <span class="title">
+              {{ "Bread, white sliced pan, large (800g)" }}</span
+            >
+          </div>
           <apexchart
             width="500"
             :type="'bar'"
@@ -29,25 +29,31 @@
           ></apexchart>
         </div>
       </div>
-      <span class="title"> {{ "Bananas per kg" }}</span>
+      <div class="center">
+        <div class="left">
+          <div class="title">
+            <span class="title"> {{ "Bananas per kg" }}</span>
+          </div>
 
-      <div class="graph3">
-        <apexchart
-          width="500"
-          :type="'bar'"
-          :options="thirdChartOptions"
-          :series="thirdSeries"
-        ></apexchart>
-      </div>
-      <span class="title"> {{ "Petrol - unleaded per litre" }}</span>
+          <apexchart
+            width="500"
+            :type="'bar'"
+            :options="thirdChartOptions"
+            :series="thirdSeries"
+          ></apexchart>
+        </div>
+        <div class="left">
+          <div class="title">
+            <span class="title"> {{ "Petrol - unleaded per litre" }}</span>
+          </div>
 
-      <div class="graph4">
-        <apexchart
-          width="500"
-          :type="'bar'"
-          :options="fourthChartOptions"
-          :series="fourthSeries"
-        ></apexchart>
+          <apexchart
+            width="500"
+            :type="'bar'"
+            :options="fourthChartOptions"
+            :series="fourthSeries"
+          ></apexchart>
+        </div>
       </div>
     </div>
     <div>
@@ -248,13 +254,13 @@ export default {
 </script>
 
 <style scoped>
-.demo{
+.demo {
   height: 5px;
   width: 5px;
   padding: 10px;
 }
-.title{
-  padding-top:10px ;
+.title {
+  padding-top: 10px;
   padding: 0;
   margin: 0;
   font-family: "Raleway", sans-serif;
@@ -265,21 +271,18 @@ export default {
   -o-transition: all 0.4s ease 0s;
   transition: all 0.4s ease 0s;
 }
-/* .split {
-  height: 100%;
-  width: 50%;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  overflow-x: hidden;
-  padding-top: 20px;
+.center {
+  border: 2px solid #0000ff;
+  padding: 0.5rem;
+  display: flex;
 }
 
-.centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-} */
+.right {
+
+  flex: 50%;
+}
+.left {
+  
+  flex: 50%;
+}
 </style>

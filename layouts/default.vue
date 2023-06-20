@@ -2,19 +2,22 @@
   <div>
     <section>
       <Header />
-      <client-only>
-        <span v-show="loading == true">
-          <b-loading :is-full-page="true" v-model="loading" :can-cancel="false">
-            <b-image :src="require('@/assets/1amw.gif')"></b-image>
-          </b-loading>
-        </span>
-      </client-only>
+
       <nuxt />
+        
     </section>
     <Footer />
   </div>
 </template>
-
+//
+<client-only>
+//   <span v-show="loading">
+//     <b-loading :is-full-page="true" v-model="loading" :can-cancel="false">
+//       <b-image :src="require('@/assets/1amw.gif')"></b-image>
+//     </b-loading>
+//   </span>
+  
+// </client-only>
 <script>
 import Footer from "~/components/Footer.vue";
 import Header from "~/components/Header.vue";

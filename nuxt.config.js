@@ -5,7 +5,7 @@ export default {
   serverMiddleware: [
     function (req, res, next) {
       createProxyMiddleware('/upload', {
-        target: 'http://127.0.0.1:5001',
+        target: 'https://yaash.tech',
         changeOrigin: true,
       })(req, res, next);
     },
@@ -45,7 +45,7 @@ export default {
   /*
   ** Customize the progress-bar color
   */
-  loading: { color: '#fff' },
+  loading: { color: '#00FF00' },
   /*
   ** Global CSS
   */
@@ -78,7 +78,7 @@ export default {
 
   proxy: {
     '/upload': {
-      target: 'http://127.0.0.1:5001', // Replace with your upload's base URL
+      target: 'https://yaash.tech', // Replace with your upload's base URL
       pathRewrite: { '^/upload': '' },
       changeOrigin: true,
     },

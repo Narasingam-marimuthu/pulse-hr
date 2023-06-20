@@ -2,8 +2,7 @@ export default {
   namespaced: true,
   state: {
     isLoading: false,
-    newLoading: false,
-    uploadPercentage: 0,
+   
   },
   mutations: {
     ACTION_LOADING(state, payload) {
