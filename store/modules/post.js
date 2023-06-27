@@ -55,18 +55,19 @@ export default {
           inputData.inputDatas
         );
 
-        let months = Object.values(response.Month);
+        let months = Object.values(
+          response["Employee_id"]);
         let flours = Object.values(
-          response["White, self raising flour per 2 kg"]
+          response["Years Under Current Manager"]
         );
         let breads = Object.values(
-          response["Bread, white sliced pan, large (800g)"]
+          response["Job Satisfaction"]
         );
-        let year = Object.values(response["year"]);
-        let year_month = Object.values(response["year_month"]);
-        let STATISTIC = Object.values(response["STATISTIC"]);
-        let banana = Object.values(response["Bananas per kg"]);
-        let petrol = Object.values(response["Petrol - unleaded per litre"]);
+        let year = Object.values(response["Year"]);
+        let year_month = Object.values(response["age"]);
+        let STATISTIC = Object.values(response["Department"]);
+        let banana = Object.values(response["Performance Rating"]);
+        let petrol = Object.values(response["Upskilling Opportunities"]);
 
         // let table = Object.values(response);
 

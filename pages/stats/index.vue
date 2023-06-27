@@ -6,7 +6,7 @@
       <div class="center">
         <div class="left">
           <div class="title">
-            <span> {{ "White, self raising flour per 2 kg" }}</span>
+            <span> {{ "Years Under Current Manager" }}</span>
           </div>
           <apexchart
             width="500"
@@ -18,7 +18,7 @@
         <div class="right">
           <div class="title">
             <span class="title">
-              {{ "Bread, white sliced pan, large (800g)" }}</span
+              {{ "Job Satisfaction" }}</span
             >
           </div>
           <apexchart
@@ -32,7 +32,7 @@
       <div class="center">
         <div class="left">
           <div class="title">
-            <span class="title"> {{ "Bananas per kg" }}</span>
+            <span class="title"> {{ "Performance Rating" }}</span>
           </div>
 
           <apexchart
@@ -44,7 +44,7 @@
         </div>
         <div class="left">
           <div class="title">
-            <span class="title"> {{ "Petrol - unleaded per litre" }}</span>
+            <span class="title"> {{ "Upskilling Opportunities" }}</span>
           </div>
 
           <apexchart
@@ -208,19 +208,19 @@ export default {
         },
         {
           field: "wheat",
-          label: "White, self raising flour per 2 kg",
+          label: "Years Under Current Manager",
         },
         {
           field: "bread",
-          label: "Bread, white sliced pan, large (800g)",
+          label: "Job Satisfaction",
         },
         {
           field: "banana",
-          label: "Bananas per kg",
+          label: "Performance Rating",
         },
         {
           field: "petrol",
-          label: "Petrol - unleaded per litre",
+          label: "Upskilling Opportunities",
         },
         {
           field: "stats",
