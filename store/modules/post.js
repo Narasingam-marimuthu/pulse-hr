@@ -55,19 +55,19 @@ export default {
           inputData.inputDatas
         );
 
-        let months = Object.values(
+        let empId = Object.values(
           response["Employee_id"]);
-        let flours = Object.values(
+        let yearsUnderManager = Object.values(
           response["Years Under Current Manager"]
         );
-        let breads = Object.values(
+        let jobSatisfaction = Object.values(
           response["Job Satisfaction"]
         );
         let year = Object.values(response["Year"]);
-        let year_month = Object.values(response["age"]);
-        let STATISTIC = Object.values(response["Department"]);
+        let age = Object.values(response["Age"]);
+        let department = Object.values(response["Department"]);
         let banana = Object.values(response["Performance Rating"]);
-        let petrol = Object.values(response["Upskilling Opportunities"]);
+        let petrol = Object.values(response[" Upskilling Opportunities"]);
 
         // let table = Object.values(response);
 
@@ -77,12 +77,12 @@ export default {
         // map.SET_DATA("y1", bread);
 
         let maxCount = 25
-        vuexContext.commit("SET_DATA", months.slice(0, maxCount));
-        vuexContext.commit("SET_DATA1", flours.slice(0, maxCount));
-        vuexContext.commit("SET_DATA2", breads.slice(0, maxCount));
+        vuexContext.commit("SET_DATA", empId.slice(0, maxCount));
+        vuexContext.commit("SET_DATA1", yearsUnderManager.slice(0, maxCount));
+        vuexContext.commit("SET_DATA2", jobSatisfaction.slice(0, maxCount));
         vuexContext.commit("SET_DATA3", year.slice(0, maxCount));
-        vuexContext.commit("SET_DATA4", year_month.slice(0, maxCount));
-        vuexContext.commit("SET_DATA5", STATISTIC.slice(0, maxCount));
+        vuexContext.commit("SET_DATA4", age.slice(0, maxCount));
+        vuexContext.commit("SET_DATA5", department.slice(0, maxCount));
         vuexContext.commit("SET_DATA6", banana.slice(0, maxCount));
         vuexContext.commit("SET_DATA7", petrol.slice(0, maxCount));
         // vuexContext.commit("SET_DATA8", table.slice(0, 10));
