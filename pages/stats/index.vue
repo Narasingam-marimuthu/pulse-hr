@@ -88,16 +88,16 @@ export default {
       opUpskillingOpportunities = [],
       opYearsUnderCurrentManager = [];
 
-    opEmployeeIds = context.store.state.MODULE_POST.opEmployeeIds;
-    opAges = context.store.state.MODULE_POST.opAges;
-    opYearsUnderManager = context.store.state.MODULE_POST.opYearsUnderManager;
-    opJobSatisfaction = context.store.state.MODULE_POST.opJobSatisfaction;
-    opGenders = context.store.state.MODULE_POST.opGenders;
-    opPerformanceRating = context.store.state.MODULE_POST.opPerformanceRating;
+    opEmployeeIds = context.store.state.MODULE_POST.EmployeeIds;
+    opAges = context.store.state.MODULE_POST.Ages;
+    opYearsUnderManager = context.store.state.MODULE_POST.YearsUnderManager;
+    opJobSatisfaction = context.store.state.MODULE_POST.JobSatisfaction;
+    opGenders = context.store.state.MODULE_POST.Genders;
+    opPerformanceRating = context.store.state.MODULE_POST.PerformanceRating;
     opYearsUnderCurrentManager =
-      context.store.state.MODULE_POST.opYearsUnderCurrentManager;
+      context.store.state.MODULE_POST.YearsUnderCurrentManager;
     opUpskillingOpportunities =
-      context.store.state.MODULE_POST.opUpskillingOpportunities;
+      context.store.state.MODULE_POST.UpskillingOpportunities;
 
     months = context.store.state.MODULE_POST.months;
     console.log(months, "value##@");

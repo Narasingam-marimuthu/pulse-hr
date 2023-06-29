@@ -15,35 +15,35 @@ export default {
     petrol: [],
     table: [],
     td: [],
-    opEmployeeIds: [],
-    opAges: [],
-    opYearsUnderManager: [],
-    opJobSatisfaction: [],
-    opGenders: [],
-    opPerformanceRating: [],
-    opUpskillingOpportunities: [],
+    EmployeeIds: [],
+    Ages: [],
+    YearsUnderManager: [],
+    JobSatisfaction: [],
+    Genders: [],
+    PerformanceRating: [],
+    UpskillingOpportunities: [],
   },
   mutations: {
-    opEmployeeIds(state, payload) {
-      state.opEmployeeIds = payload;
+    SET1(state, payload) {
+      state.EmployeeIds = payload;
     },
-    opAges(state, payload) {
-      state.opAges = payload;
+    SET2(state, payload) {
+      state.Ages = payload;
     },
-    opYearsUnderManager(state, payload) {
-      state.opYearsUnderManager = payload;
+    YearsUnderManager(state, payload) {
+      state.YearsUnderManager = payload;
     },
-    opJobSatisfaction(state, payload) {
-      state.opJobSatisfaction = payload;
+    JobSatisfaction(state, payload) {
+      state.JobSatisfaction = payload;
     },
-    opGenders(state, payload) {
-      state.opGenders = payload;
+    SET3(state, payload) {
+      state.Genders = payload;
     },
-    opPerformanceRating(state, payload) {
-      state.opPerformanceRating = payload;
+    PerformanceRating(state, payload) {
+      state.PerformanceRating = payload;
     },
-    opUpskillingOpportunities(state, payload) {
-      state.opUpskillingOpportunities = payload;
+    UpskillingOpportunities(state, payload) {
+      state.UpskillingOpportunities = payload;
     },
     SET_DATA(state, payload) {
       state.months = payload;
@@ -130,11 +130,11 @@ export default {
         }
        
         let maxCount = 25;
-        vuexContext.commit("opEmployeeIds", opEmployeeIds);
-        vuexContext.commit("opAges", opAges);
-        vuexContext.commit("opGenders", opGenders);
+        vuexContext.commit("SET1", opEmployeeIds);
+        vuexContext.commit("SET2", opAges);
+        vuexContext.commit("SET3", opGenders);
         vuexContext.commit(
-          "opYearsUnderCurrentManager",
+          "YearsUnderCurrentManager",
           opYearsUnderCurrentManager
         );
 
@@ -144,11 +144,11 @@ export default {
 //         );
         
         vuexContext.commit(
-          "opUpskillingOpportunities",
+          "UpskillingOpportunities",
           opUpskillingOpportunities
         );
-        vuexContext.commit("opJobSatisfaction", opJobSatisfaction);
-        vuexContext.commit("opPerformanceRating", opPerformanceRating);
+        vuexContext.commit("JobSatisfaction", opJobSatisfaction);
+        vuexContext.commit("PerformanceRating", opPerformanceRating);
 
         vuexContext.commit("SET_DATA", [1, 2, 3, 4, 5]);
         vuexContext.commit("SET_DATA1", marray(yearsUnderManager));
