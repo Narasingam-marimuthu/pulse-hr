@@ -224,7 +224,7 @@ export default {
         },
         {
           field: "stats",
-          label: "Stats",
+          label: "Department",
         },
       ],
 
