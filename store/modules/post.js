@@ -64,10 +64,10 @@ export default {
           response["Job Satisfaction"]
         );
         let year = Object.values(response["Year"]);
-        let age = Object.values(response["Age"]);
+        let relationship = Object.values(response["Relationship with Manager"]);
         let department = Object.values(response["Department"]);
-        let banana = Object.values(response["Performance Rating"]);
-        let petrol = Object.values(response[" Upskilling Opportunities"]);
+        let performanceRating = Object.values(response["Performance Rating"]);
+        let petrol = Object.values(response["Upskilling Opportunities"]);
 
         // let table = Object.values(response);
 
@@ -75,15 +75,29 @@ export default {
         // map.SET_DATA("x", months);
         // map.SET_DATA("y", flours);
         // map.SET_DATA("y1", bread);
+        
+        function marray(array) {
+         let marray = [0,0,0,0,0];
+
+         for (var i = 0; i < array.length; i++) {
+          // console.log(array[i]);
+          let value = array[i] - 1;
+          marray[value] = marray[value] + 1;
+        }
+        return marray;
+        }
+
+        // console.log("modified", marray(banana));
+        // console.log("original", banana);
 
         let maxCount = 25
-        vuexContext.commit("SET_DATA", empId.slice(0, maxCount));
-        vuexContext.commit("SET_DATA1", yearsUnderManager.slice(0, maxCount));
-        vuexContext.commit("SET_DATA2", jobSatisfaction.slice(0, maxCount));
+        vuexContext.commit("SET_DATA", [1,2,3,4,5]);
+        vuexContext.commit("SET_DATA1", marray(yearsUnderManager));
+        vuexContext.commit("SET_DATA2", marray(jobSatisfaction));
         vuexContext.commit("SET_DATA3", year.slice(0, maxCount));
-        vuexContext.commit("SET_DATA4", age.slice(0, maxCount));
+        vuexContext.commit("SET_DATA4", marray(relationship));
         vuexContext.commit("SET_DATA5", department.slice(0, maxCount));
-        vuexContext.commit("SET_DATA6", banana.slice(0, maxCount));
+        vuexContext.commit("SET_DATA6", marray(performanceRating));
         vuexContext.commit("SET_DATA7", petrol.slice(0, maxCount));
         // vuexContext.commit("SET_DATA8", table.slice(0, 10));
 
