@@ -6,7 +6,7 @@ export default {
   serverMiddleware: [
     function (req, res, next) {
       createProxyMiddleware('/upload', {
-        target: 'http://54.216.191.253:5000',
+        target: 'http://3.252.76.4:5000',
         changeOrigin: true,
       })(req, res, next);
     },
