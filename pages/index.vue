@@ -12,7 +12,7 @@
                     method="post"
                     enctype="multipart/form-data"
                   > -->
-                  <div class="column is-10-desktop is-12-mobile is-6-tablet">
+                  <div class="container">
                     <p class="head-text">
                       Please Upload the xis file that contains date of your
                       employees
@@ -206,10 +206,9 @@ export default {
   -webkit-box-flex: 0;
   -ms-flex: none;
   flex: none;
-  width: 80%;
-  border-left: 67px;
-  padding-left: 240px;
-  align-content: center;
+  width:80%;
+  border-left: 60px;
+  padding-left: 220px;
 }
 .column.is-10-desktop {
   -webkit-box-flex: 0;
@@ -312,5 +311,13 @@ export default {
   border-radius: 10px;
   cursor: pointer;
   border: 2px solid gray;
+}
+.container {
+    -webkit-box-flex: 9;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    margin: 38px auto;
+    position: center;
+    width: 57.5%;
 }
 </style>
