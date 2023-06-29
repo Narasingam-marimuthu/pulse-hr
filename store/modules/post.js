@@ -14,8 +14,37 @@ export default {
     banana: [],
     petrol: [],
     table: [],
+    td: [],
+    opEmployeeIds: [],
+    opAges: [],
+    opYearsUnderManager: [],
+    opJobSatisfaction: [],
+    opGenders: [],
+    opPerformanceRating: [],
+    opUpskillingOpportunities: [],
   },
   mutations: {
+    opEmployeeIds(state, payload) {
+      state.opEmployeeIds = payload;
+    },
+    opAges(state, payload) {
+      state.opAges = payload;
+    },
+    opYearsUnderManager(state, payload) {
+      state.opYearsUnderManager = payload;
+    },
+    opJobSatisfaction(state, payload) {
+      state.opJobSatisfaction = payload;
+    },
+    opGenders(state, payload) {
+      state.opGenders = payload;
+    },
+    opPerformanceRating(state, payload) {
+      state.opPerformanceRating = payload;
+    },
+    opUpskillingOpportunities(state, payload) {
+      state.opUpskillingOpportunities = payload;
+    },
     SET_DATA(state, payload) {
       state.months = payload;
     },
@@ -55,51 +84,81 @@ export default {
           inputData.inputDatas
         );
 
-        let empId = Object.values(
-          response["Employee_id"]);
+        let empId = Object.values(response["Employee_id"]);
         let yearsUnderManager = Object.values(
           response["Years Under Current Manager"]
         );
-        let jobSatisfaction = Object.values(
-          response["Job Satisfaction"]
-        );
+        let jobSatisfaction = Object.values(response["Job Satisfaction"]);
         let year = Object.values(response["Year"]);
         let relationship = Object.values(response["Relationship with Manager"]);
         let department = Object.values(response["Department"]);
         let performanceRating = Object.values(response["Performance Rating"]);
-        let petrol = Object.values(response["Upskilling Opportunities"]);
-
-        // let table = Object.values(response);
-
-        // let map = Map();
-        // map.SET_DATA("x", months);
-        // map.SET_DATA("y", flours);
-        // map.SET_DATA("y1", bread);
-        
+        let upskillingOpportunites = Object.values(
+          response["Upskilling Opportunities"]
+        );
+        let table = response["td"];
+        let opEmployeeIds = Object.values(table["Employee_id"]);
+        let opAges = Object.values(table["Age"]);
+        let opGenders = Object.values(table["Gender"]);
+        let opYearsUnderCurrentManager = Object.values(
+          table["Years Under Current Manager"]
+        );
+        let opUpskillingOpportunities = Object.values(
+          table["Upskilling Opportunities"]
+        );
+        let opJobSatisfaction = Object.values(table["Job Satisfaction"]);
+        let opPerformanceRating = Object.values(table["Performance Rating"]);
         function marray(array) {
-         let marray = [0,0,0,0,0];
+          let marray = [0, 0, 0, 0, 0];
 
-         for (var i = 0; i < array.length; i++) {
-          // console.log(array[i]);
-          let value = array[i] - 1;
-          marray[value] = marray[value] + 1;
+          for (var i = 0; i < array.length; i++) {
+            let value = array[i] - 1;
+            marray[value] = marray[value] + 1;
+          }
+          return marray;
         }
-        return marray;
+        function uarray(array) {
+          let uarray = [
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          ];
+
+          for (var i = 0; i < array.length; i++) {
+            let value = array[i] - 1;
+            uarray[value] = uarray[value] + 1;
+          }
+          return uarray;
         }
+       
+        let maxCount = 25;
+        vuexContext.commit("opEmployeeIds", opEmployeeIds);
+        vuexContext.commit("opAges", opAges);
+        vuexContext.commit("opGenders", opGenders);
+        vuexContext.commit(
+          "opYearsUnderCurrentManager",
+          opYearsUnderCurrentManager
+        );
 
-        // console.log("modified", marray(banana));
-        // console.log("original", banana);
+//  vuexContext.commit(
+//           "opYearsUnderManager",
+//           opYearsUnderManager
+//         );
+        
+        vuexContext.commit(
+          "opUpskillingOpportunities",
+          opUpskillingOpportunities
+        );
+        vuexContext.commit("opJobSatisfaction", opJobSatisfaction);
+        vuexContext.commit("opPerformanceRating", opPerformanceRating);
 
-        let maxCount = 25
-        vuexContext.commit("SET_DATA", [1,2,3,4,5]);
+        vuexContext.commit("SET_DATA", [1, 2, 3, 4, 5]);
         vuexContext.commit("SET_DATA1", marray(yearsUnderManager));
         vuexContext.commit("SET_DATA2", marray(jobSatisfaction));
         vuexContext.commit("SET_DATA3", year.slice(0, maxCount));
         vuexContext.commit("SET_DATA4", marray(relationship));
         vuexContext.commit("SET_DATA5", department.slice(0, maxCount));
         vuexContext.commit("SET_DATA6", marray(performanceRating));
-        vuexContext.commit("SET_DATA7", petrol.slice(0, maxCount));
-        // vuexContext.commit("SET_DATA8", table.slice(0, 10));
+        vuexContext.commit("SET_DATA7", uarray(upskillingOpportunites));
+        vuexContext.commit("SET_DATA8", table);
 
         console.log("Store menu response", response);
 

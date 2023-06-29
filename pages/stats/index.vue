@@ -13,13 +13,12 @@
             :type="'bar'"
             :options="chartOptions"
             :series="series"
+            columnWidth="100"
           ></apexchart>
         </div>
         <div class="right">
           <div class="title">
-            <span class="title">
-              {{ "Job Satisfaction" }}</span
-            >
+            <span class="title"> {{ "Job Satisfaction" }}</span>
           </div>
           <apexchart
             width="500"
@@ -42,7 +41,7 @@
             :series="thirdSeries"
           ></apexchart>
         </div>
-        <div class="left">
+        <div class="right">
           <div class="title">
             <span class="title"> {{ "Upskilling Opportunities" }}</span>
           </div>
@@ -56,8 +55,9 @@
         </div>
       </div>
     </div>
-    <div class="middletitle">{{ 
-      "Some Text" }}</div>
+    <div class="middletitle">
+      {{ "The prediction is made with an aaccuracy of 93.33333333333333%" }}
+    </div>
     <div>
       <b-table :data="tableData" :columns="columns"></b-table>
     </div>
@@ -79,6 +79,25 @@ export default {
     let banana = [];
     let petrol = [];
     let table = [];
+    let opEmployeeIds = [],
+      opAges = [],
+      opYearsUnderManager = [],
+      opJobSatisfaction = [],
+      opGenders = [],
+      opPerformanceRating = [],
+      opUpskillingOpportunities = [],
+      opYearsUnderCurrentManager = [];
+
+    opEmployeeIds = context.store.state.MODULE_POST.opEmployeeIds;
+    opAges = context.store.state.MODULE_POST.opAges;
+    opYearsUnderManager = context.store.state.MODULE_POST.opYearsUnderManager;
+    opJobSatisfaction = context.store.state.MODULE_POST.opJobSatisfaction;
+    opGenders = context.store.state.MODULE_POST.opGenders;
+    opPerformanceRating = context.store.state.MODULE_POST.opPerformanceRating;
+    opYearsUnderCurrentManager =
+      context.store.state.MODULE_POST.opYearsUnderCurrentManager;
+    opUpskillingOpportunities =
+      context.store.state.MODULE_POST.opUpskillingOpportunities;
 
     months = context.store.state.MODULE_POST.months;
     console.log(months, "value##@");
@@ -149,25 +168,29 @@ export default {
         type: "line",
       },
       xaxis: {
-        categories: months ? months : "",
+        categories: [
+          1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
+        ],
       },
     };
     let fourthSeries = [
       {
         name: "series-1",
-        data: banana ? banana : [],
+        data: petrol ? petrol : [],
       },
     ];
     let tableData = [];
-    for (let i = 1; i <= 25; i++) {
+    for (let i = 1; i <= opEmployeeIds.length; i++) {
       let map = {
         sno: i,
-        month: months[i - 1],
-        wheat: flours[i - 1],
-        bread: breads[i - 1],
-        banana: banana[i - 1],
-        petrol: petrol[i - 1],
-        stats: stats[i - 1],
+        opEmployeeIds: opEmployeeIds[i - 1],
+        opAges: opAges[i - 1],
+        opYearsUnderManager: opYearsUnderManager[i - 1],
+        opJobSatisfaction: opJobSatisfaction[i - 1],
+        opPerformanceRating: opPerformanceRating[i - 1],
+        opYearsUnderCurrentManager: opYearsUnderCurrentManager[i - 1],
+        opUpskillingOpportunities: opUpskillingOpportunities[i - 1],
+        opGenders: opGenders[i - 1],
       };
       tableData.push(map);
       console.log(map, "map##@");
@@ -191,6 +214,14 @@ export default {
       stats,
       table,
       tableData,
+      opEmployeeIds,
+      opAges,
+      opYearsUnderManager,
+      opJobSatisfaction,
+      opPerformanceRating,
+      opYearsUnderCurrentManager,
+      opUpskillingOpportunities,
+      opGenders,
     };
   },
 
@@ -205,28 +236,32 @@ export default {
           numeric: true,
         },
         {
-          field: "month",
-          label: "Month",
+          field: "opEmployeeIds",
+          label: "Employee ID",
         },
         {
-          field: "wheat",
+          field: "opGenders",
+          label: "Gender",
+        },
+        {
+          field: "opAges",
+          label: "Age",
+        },
+        {
+          field: "opYearsUnderCurrentManager",
           label: "Years Under Current Manager",
         },
         {
-          field: "bread",
-          label: "Job Satisfaction",
-        },
-        {
-          field: "banana",
-          label: "Performance Rating",
-        },
-        {
-          field: "petrol",
+          field: "opUpskillingOpportunities",
           label: "Upskilling Opportunities",
         },
         {
-          field: "stats",
-          label: "Department",
+          field: "opJobSatisfaction",
+          label: "Job Satisfaction",
+        },
+        {
+          field: "opPerformanceRating",
+          label: "Performance Rating",
         },
       ],
 
@@ -273,31 +308,31 @@ export default {
   -o-transition: all 0.4s ease 0s;
   transition: all 0.4s ease 0s;
 }
-.middletitle{
-  display: flex;
-  padding-top: 10px;
+.middletitle {
+  padding-top: 5%;
   padding-left: 30%;
+  padding-bottom: 8%;
   margin: 0;
   font-family: "Raleway", sans-serif;
   font-weight: 300;
-  font-size: 50px;
-  color: #0000ff;
+  font-size: 25px;
+  color: rgb(66, 131, 253);
   -webkit-transition: all 0.4s ease 0s;
   -o-transition: all 0.4s ease 0s;
   transition: all 0.4s ease 0s;
 }
 .center {
-  border: 2px solid #0000ff;
+  /* border: 2px solid #0000ff; */
   padding: 0.5rem;
   display: flex;
 }
 
 .right {
-
-  flex: 50%;
+  flex: 30%;
+  padding-right: 10%;
 }
 .left {
-  
-  flex: 50%;
+  padding-left: 15%;
+  flex: 40%;
 }
 </style>
