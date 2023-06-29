@@ -56,6 +56,8 @@
         </div>
       </div>
     </div>
+    <div class="middletitle">{{ 
+      "Some Text" }}</div>
     <div>
       <b-table :data="tableData" :columns="columns"></b-table>
     </div>
@@ -267,6 +269,19 @@ export default {
   font-weight: 300;
   font-size: 25px;
   color: #080808;
+  -webkit-transition: all 0.4s ease 0s;
+  -o-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+}
+.middletitle{
+  display: flex;
+  padding-top: 10px;
+  padding-left: 30%;
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  font-size: 50px;
+  color: #0000ff;
   -webkit-transition: all 0.4s ease 0s;
   -o-transition: all 0.4s ease 0s;
   transition: all 0.4s ease 0s;
