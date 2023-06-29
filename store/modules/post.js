@@ -17,7 +17,7 @@ export default {
     td: [],
     EmployeeIds: [],
     Ages: [],
-    YearsUnderManager: [],
+    YearsUnderCurrentManager1: [],
     JobSatisfaction: [],
     Genders: [],
     PerformanceRating: [],
@@ -30,8 +30,8 @@ export default {
     SET2(state, payload) {
       state.Ages = payload;
     },
-    YearsUnderManager(state, payload) {
-      state.YearsUnderManager = payload;
+    SET4(state, payload) {
+      state.YearsUnderCurrentManager1 = payload;
     },
     JobSatisfaction(state, payload) {
       state.JobSatisfaction = payload;
@@ -84,7 +84,6 @@ export default {
           inputData.inputDatas
         );
 
-        let empId = Object.values(response["Employee_id"]);
         let yearsUnderManager = Object.values(
           response["Years Under Current Manager"]
         );
@@ -100,9 +99,9 @@ export default {
         let opEmployeeIds = Object.values(table["Employee_id"]);
         let opAges = Object.values(table["Age"]);
         let opGenders = Object.values(table["Gender"]);
-        let opYearsUnderCurrentManager = Object.values(
-          table["Years Under Current Manager"]
+        let opYearsUnderCurrentManager = Object.values( table["Years Under Current Manager"]
         );
+        console.log(opYearsUnderCurrentManager,"opYearsUnderCurrentManager");
         let opUpskillingOpportunities = Object.values(
           table["Upskilling Opportunities"]
         );
@@ -128,21 +127,21 @@ export default {
           }
           return uarray;
         }
-       
+
         let maxCount = 25;
         vuexContext.commit("SET1", opEmployeeIds);
         vuexContext.commit("SET2", opAges);
         vuexContext.commit("SET3", opGenders);
         vuexContext.commit(
-          "YearsUnderCurrentManager",
+          "SET4",
           opYearsUnderCurrentManager
         );
 
-//  vuexContext.commit(
-//           "opYearsUnderManager",
-//           opYearsUnderManager
-//         );
-        
+        //  vuexContext.commit(
+        //           "opYearsUnderManager",
+        //           opYearsUnderManager
+        //         );
+
         vuexContext.commit(
           "UpskillingOpportunities",
           opUpskillingOpportunities

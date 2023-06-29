@@ -94,8 +94,7 @@ export default {
     opJobSatisfaction = context.store.state.MODULE_POST.JobSatisfaction;
     opGenders = context.store.state.MODULE_POST.Genders;
     opPerformanceRating = context.store.state.MODULE_POST.PerformanceRating;
-    opYearsUnderCurrentManager =
-      context.store.state.MODULE_POST.YearsUnderCurrentManager;
+    opYearsUnderCurrentManager = context.store.state.MODULE_POST.YearsUnderCurrentManager1;
     opUpskillingOpportunities =
       context.store.state.MODULE_POST.UpskillingOpportunities;
 
@@ -183,14 +182,14 @@ export default {
     for (let i = 1; i <= opEmployeeIds.length; i++) {
       let map = {
         sno: i,
-        opEmployeeIds: opEmployeeIds[i - 1],
+        oppEmployeeIds: opEmployeeIds[i - 1],
         opAges: opAges[i - 1],
-        opYearsUnderManager: opYearsUnderManager[i - 1],
-        opJobSatisfaction: opJobSatisfaction[i - 1],
-        opPerformanceRating: opPerformanceRating[i - 1],
-        opYearsUnderCurrentManager: opYearsUnderCurrentManager[i - 1],
-        opUpskillingOpportunities: opUpskillingOpportunities[i - 1],
-        opGenders: opGenders[i - 1],
+        // oppYearsUnderManager: opYearsUnderManager[i - 1],
+        oppJobSatisfaction: opJobSatisfaction[i - 1],
+        oppPerformanceRating: opPerformanceRating[i - 1],
+        oppYearsUnderCurrentManager: opYearsUnderCurrentManager[i - 1],
+        oppUpskillingOpportunities: opUpskillingOpportunities[i - 1],
+        oppGenders: opGenders[i - 1],
       };
       tableData.push(map);
       console.log(map, "map##@");
@@ -236,11 +235,11 @@ export default {
           numeric: true,
         },
         {
-          field: "opEmployeeIds",
+          field: "oppEmployeeIds",
           label: "Employee ID",
         },
         {
-          field: "opGenders",
+          field: "oppGenders",
           label: "Gender",
         },
         {
@@ -248,19 +247,19 @@ export default {
           label: "Age",
         },
         {
-          field: "opYearsUnderCurrentManager",
+          field: "oppYearsUnderCurrentManager",
           label: "Years Under Current Manager",
         },
         {
-          field: "opUpskillingOpportunities",
+          field: "oppUpskillingOpportunities",
           label: "Upskilling Opportunities",
         },
         {
-          field: "opJobSatisfaction",
+          field: "oppJobSatisfaction",
           label: "Job Satisfaction",
         },
         {
-          field: "opPerformanceRating",
+          field: "oppPerformanceRating",
           label: "Performance Rating",
         },
       ],
