@@ -1,3 +1,4 @@
+
 import webpack from 'webpack';
 const { createProxyMiddleware } = require('http-proxy-middleware');
 
@@ -5,7 +6,7 @@ export default {
   serverMiddleware: [
     function (req, res, next) {
       createProxyMiddleware('/upload', {
-        target: 'https://yaash.tech',
+        target: 'http://127.0.0.1:5001',
         changeOrigin: true,
       })(req, res, next);
     },
@@ -78,7 +79,7 @@ export default {
 
   proxy: {
     '/upload': {
-      target: 'https://yaash.tech', // Replace with your upload's base URL
+      target: 'http://127.0.0.1:5001', // Replace with your upload's base URL
       pathRewrite: { '^/upload': '' },
       changeOrigin: true,
     },
