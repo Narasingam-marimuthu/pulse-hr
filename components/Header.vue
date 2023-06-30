@@ -1,7 +1,7 @@
 <template>
   <section>
     <!-- <div class="header"> -->
-      <img class="img" src="~/assets/img/logo.jpeg" alt="" />
+      <img class="img" src="~/assets/img/logo.png" alt="" />
       <span class="head1">AnchorInsight</span> &nbsp;<span class="hr">Navigate Employee Attriction</span>
     <!-- </div> -->
   </section>
