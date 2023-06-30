@@ -1,7 +1,10 @@
 <template>
   <section>
     <div v-if="map" class="graph">
-      <div class="demo"></div>
+      <div class="demo">
+
+        <span>Exploratory Data Analysis</span>
+      </div>
 
       <div class="center">
         <div class="left">
@@ -56,7 +59,7 @@
       </div>
     </div>
     <div class="middletitle">
-      {{ "The prediction is made with an aaccuracy of 93.33333333333333%" }}
+      {{ response.output }}
     </div>
     <div>
       <b-table :data="tableData" :columns="columns"></b-table>
@@ -87,17 +90,18 @@ export default {
       opPerformanceRating = [],
       opUpskillingOpportunities = [],
       opYearsUnderCurrentManager = [];
-
+    let response = {};
     opEmployeeIds = context.store.state.MODULE_POST.EmployeeIds;
     opAges = context.store.state.MODULE_POST.Ages;
     opYearsUnderManager = context.store.state.MODULE_POST.YearsUnderManager;
     opJobSatisfaction = context.store.state.MODULE_POST.JobSatisfaction;
-    opGenders = context.store.state.MODULE_POST.Genders;
+    opGenders = context.store.state.MODULE_POST.Departments;
     opPerformanceRating = context.store.state.MODULE_POST.PerformanceRating;
-    opYearsUnderCurrentManager = context.store.state.MODULE_POST.YearsUnderCurrentManager1;
+    opYearsUnderCurrentManager =
+      context.store.state.MODULE_POST.YearsUnderCurrentManager1;
     opUpskillingOpportunities =
       context.store.state.MODULE_POST.UpskillingOpportunities;
-
+    response = context.store.state.MODULE_POST.apiresponse;
     months = context.store.state.MODULE_POST.months;
     console.log(months, "value##@");
     flours = context.store.state.MODULE_POST.flours;
@@ -219,6 +223,7 @@ export default {
       opJobSatisfaction,
       opPerformanceRating,
       opYearsUnderCurrentManager,
+      response,
       opUpskillingOpportunities,
       opGenders,
     };
@@ -240,7 +245,7 @@ export default {
         },
         {
           field: "oppGenders",
-          label: "Gender",
+          label: "Department",
         },
         {
           field: "opAges",
@@ -291,9 +296,17 @@ export default {
 
 <style scoped>
 .demo {
-  height: 5px;
-  width: 5px;
-  padding: 10px;
+  padding-top: 3%;
+  padding-left: 40%;
+  padding-bottom: 3%;
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 25px;
+  color: rgb(4, 77, 212);
+  -webkit-transition: all 0.4s ease 0s;
+  -o-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
 }
 .title {
   padding-top: 10px;

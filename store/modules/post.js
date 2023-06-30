@@ -19,9 +19,10 @@ export default {
     Ages: [],
     YearsUnderCurrentManager1: [],
     JobSatisfaction: [],
-    Genders: [],
+    Departments: [],
     PerformanceRating: [],
     UpskillingOpportunities: [],
+    apiresponse: [],
   },
   mutations: {
     SET1(state, payload) {
@@ -37,7 +38,7 @@ export default {
       state.JobSatisfaction = payload;
     },
     SET3(state, payload) {
-      state.Genders = payload;
+      state.Departments = payload;
     },
     PerformanceRating(state, payload) {
       state.PerformanceRating = payload;
@@ -75,6 +76,9 @@ export default {
     CLEAR_DATA(state) {
       state.data = {};
     },
+    SET_DATA9(state, payload) {
+      state.apiresponse = payload;
+    },
   },
   actions: {
     async ACTION_POST(vuexContext, inputData) {
@@ -98,10 +102,11 @@ export default {
         let table = response["td"];
         let opEmployeeIds = Object.values(table["Employee_id"]);
         let opAges = Object.values(table["Age"]);
-        let opGenders = Object.values(table["Gender"]);
-        let opYearsUnderCurrentManager = Object.values( table["Years Under Current Manager"]
+        let opDepartments = Object.values(table["Department"]);
+        let opYearsUnderCurrentManager = Object.values(
+          table["Years Under Current Manager"]
         );
-        console.log(opYearsUnderCurrentManager,"opYearsUnderCurrentManager");
+        console.log(opYearsUnderCurrentManager, "opYearsUnderCurrentManager");
         let opUpskillingOpportunities = Object.values(
           table["Upskilling Opportunities"]
         );
@@ -131,11 +136,8 @@ export default {
         let maxCount = 25;
         vuexContext.commit("SET1", opEmployeeIds);
         vuexContext.commit("SET2", opAges);
-        vuexContext.commit("SET3", opGenders);
-        vuexContext.commit(
-          "SET4",
-          opYearsUnderCurrentManager
-        );
+        vuexContext.commit("SET3", opDepartments);
+        vuexContext.commit("SET4", opYearsUnderCurrentManager);
 
         //  vuexContext.commit(
         //           "opYearsUnderManager",
@@ -158,6 +160,7 @@ export default {
         vuexContext.commit("SET_DATA6", marray(performanceRating));
         vuexContext.commit("SET_DATA7", uarray(upskillingOpportunites));
         vuexContext.commit("SET_DATA8", table);
+        vuexContext.commit("SET_DATA9", response);
 
         console.log("Store menu response", response);
 
