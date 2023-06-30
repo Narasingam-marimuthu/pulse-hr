@@ -102,9 +102,9 @@ export default {
         let table = response["td"];
         let opEmployeeIds = Object.values(table["Employee_id"]);
         let opAges = Object.values(table["Age"]);
-        let opDepartments = Object.values(table["Department"]);
+        let opDepartments = Object.values(table["Total years of service"]);
         let opYearsUnderCurrentManager = Object.values(
-          table["Years Under Current Manager"]
+          table["Relationship with Manager"]
         );
         console.log(opYearsUnderCurrentManager, "opYearsUnderCurrentManager");
         let opUpskillingOpportunities = Object.values(
@@ -152,10 +152,10 @@ export default {
         vuexContext.commit("PerformanceRating", opPerformanceRating);
 
         vuexContext.commit("SET_DATA", [1, 2, 3, 4, 5]);
-        vuexContext.commit("SET_DATA1", marray(yearsUnderManager));
+        vuexContext.commit("SET_DATA1", marray(relationship));
         vuexContext.commit("SET_DATA2", marray(jobSatisfaction));
         vuexContext.commit("SET_DATA3", year.slice(0, maxCount));
-        vuexContext.commit("SET_DATA4", marray(relationship));
+        // vuexContext.commit("SET_DATA4", marray(relationship));
         vuexContext.commit("SET_DATA5", department.slice(0, maxCount));
         vuexContext.commit("SET_DATA6", marray(performanceRating));
         vuexContext.commit("SET_DATA7", uarray(upskillingOpportunites));

@@ -2,14 +2,13 @@
   <section>
     <div v-if="map" class="graph">
       <div class="demo">
-
         <span>Exploratory Data Analysis</span>
       </div>
 
       <div class="center">
         <div class="left">
           <div class="title">
-            <span> {{ "Years Under Current Manager" }}</span>
+            <span> {{ "Relationship with Manager" }}</span>
           </div>
           <apexchart
             width="500"
@@ -245,15 +244,15 @@ export default {
         },
         {
           field: "oppGenders",
-          label: "Department",
+          label: "Total years of service",
         },
         {
           field: "opAges",
           label: "Age",
         },
         {
-          field: "oppYearsUnderCurrentManager",
-          label: "Years Under Current Manager",
+          field: "oppYearsUnderCurrentManager", //need to change var name
+          label: "Relationship with Manager",
         },
         {
           field: "oppUpskillingOpportunities",
@@ -271,20 +270,20 @@ export default {
 
       map: true,
 
-      chartOptions: {
-        chart: {
-          id: "vuechart-example",
-        },
-        xaxis: {
-          categories: this.responseData ? this.responseData : "",
-        },
-      },
-      series: [
-        {
-          name: "series-1",
-          data: this.flours ? this.flours : [1, 2, 3, 4, 5],
-        },
-      ],
+      // chartOptions: {
+      //   chart: {
+      //     id: "vuechart-example",
+      //   },
+      //   xaxis: {
+      //     categories: this.responseData ? this.responseData : "",
+      //   },
+      // },
+      // series: [
+      //   {
+      //     name: "series-1",
+      //     data: this.flours ? this.flours : [1, 2, 3, 4, 5],
+      //   },
+      // ],
     };
   },
   async created() {
@@ -296,9 +295,9 @@ export default {
 
 <style scoped>
 .demo {
-  padding-top: 3%;
+  padding-top: 2%;
   padding-left: 40%;
-  padding-bottom: 3%;
+  padding-bottom: 2%;
   margin: 0;
   font-family: "Raleway", sans-serif;
   font-weight: 500;
@@ -321,9 +320,9 @@ export default {
   transition: all 0.4s ease 0s;
 }
 .middletitle {
-  padding-top: 5%;
+  padding-top: 2%;
   padding-left: 30%;
-  padding-bottom: 8%;
+  padding-bottom: 4%;
   margin: 0;
   font-family: "Raleway", sans-serif;
   font-weight: 300;
