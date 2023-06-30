@@ -14,8 +14,7 @@
                   > -->
                   <div class="container">
                     <p class="head-text">
-                      Please Upload the xis file that contains date of your
-                      employees
+                      Please upload CSV file that contains data of your employees
                     </p>
                     <div
                       class="field column is-3-desktop is-12-mobile is-4-tablet"
