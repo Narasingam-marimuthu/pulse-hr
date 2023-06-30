@@ -237,7 +237,7 @@ export default {
   -ms-flex-direction: column;
   flex-direction: column;
   height: auto;
-  padding: 3em 17em;
+  padding: 3em 14.3em;
 }
 .file-cta {
   background-color: azure;
