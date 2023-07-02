@@ -227,7 +227,7 @@ export default {
       opGenders,
     };
   },
-
+  layout: "graphlayout",
   data() {
     return {
       // data: this.tableData(),
@@ -299,10 +299,9 @@ export default {
   padding-left: 40%;
   padding-bottom: 2%;
   margin: 0;
-  font-family: "Raleway", sans-serif;
   font-weight: 500;
-  font-size: 25px;
-  color: rgb(4, 77, 212);
+  font-size: 30px;
+  color: #080808;
   -webkit-transition: all 0.4s ease 0s;
   -o-transition: all 0.4s ease 0s;
   transition: all 0.4s ease 0s;
@@ -311,7 +310,6 @@ export default {
   padding-top: 10px;
   padding: 0;
   margin: 0;
-  font-family: "Raleway", sans-serif;
   font-weight: 300;
   font-size: 25px;
   color: #080808;
@@ -324,10 +322,9 @@ export default {
   padding-left: 30%;
   padding-bottom: 4%;
   margin: 0;
-  font-family: "Raleway", sans-serif;
   font-weight: 300;
   font-size: 25px;
-  color: rgb(66, 131, 253);
+  color: #080808;
   -webkit-transition: all 0.4s ease 0s;
   -o-transition: all 0.4s ease 0s;
   transition: all 0.4s ease 0s;

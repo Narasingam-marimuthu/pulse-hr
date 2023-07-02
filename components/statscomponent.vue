@@ -9,18 +9,18 @@
       />
       <span class="head1">AnchorInsight</span>
     </div>
-    <span class="hr">Navigate Employee Attrition</span>
+    <span class="hr"> Key factors that influence attrition</span>
   </section>
 </template>
 <style scoped>
 /* .u-line {
-  color:blue;
-  text-decoration: underline;
-    text-decoration-color: #0000ff;
-    text-decoration-thickness: 3px; 
-    -moz-text-decoration-color: #0000ff;
-    text-underline-offset: 20px;
-} */
+    color:blue;
+    text-decoration: underline;
+      text-decoration-color: #0000ff;
+      text-decoration-thickness: 3px; 
+      -moz-text-decoration-color: #0000ff;
+      text-underline-offset: 20px;
+  } */
 
 .img {
   padding-left: 43%;

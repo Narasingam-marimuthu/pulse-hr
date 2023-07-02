@@ -1,7 +1,7 @@
 <template>
   <section>
     <section class="about_us">
-      <div class="container">
+      <div class="container1">
         <div class="columns is-multiline is-mobile mt-2">
           <div class="column is-6-desktop is-12-mobile is-6-tablet">
             <div class="card about_us_card">
@@ -201,27 +201,23 @@ export default {
 </script>
 
 <style scoped>
-.column.is-6-desktop {
-  -webkit-box-flex: 0;
-  -ms-flex: none;
-  flex: none;
-  width:80%;
-  border-left: 60px;
-  padding-left: 220px;
+.container1{
+  width: 73%;
+  height: 70%;
+  padding-left: 32%;
+
 }
-.column.is-10-desktop {
-  -webkit-box-flex: 0;
-  -ms-flex: none;
-  flex: none;
-  width: 80;
-  padding-top: 0px;
-  height: 420px;
+.column.is-6-desktop {
+    -webkit-box-flex: 0;
+    -ms-flex: none;
+    flex: none;
+    width: 85.5%;
 }
 .card-content {
   background-color: white;
   border: 3px #000;
   display: flex;
-  padding: 1.5rem;
+  padding: 2.4rem;
 }
 .head-text {
   font-size: 18px;
