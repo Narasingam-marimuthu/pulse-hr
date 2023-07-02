@@ -35,7 +35,7 @@
                               v-model="upload.file"
                             ></b-upload>
                             <span class="file-cta">
-                              <span class="file-label">Please Upload CSV File</span>
+                              <span class="file-label">Upload CSV File</span>
                             </span>
                           </label>
                         </div>

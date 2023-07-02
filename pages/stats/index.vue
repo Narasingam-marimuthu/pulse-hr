@@ -8,14 +8,13 @@
       <div class="center">
         <div class="left">
           <div class="title">
-            <span> {{ "Relationship with Manager" }}</span>
+            <span class="title"> {{ "Upskilling Opportunities" }}</span>
           </div>
           <apexchart
             width="500"
             :type="'bar'"
-            :options="chartOptions"
-            :series="series"
-            columnWidth="100"
+            :options="fourthChartOptions"
+            :series="fourthSeries"
           ></apexchart>
         </div>
         <div class="right">
@@ -45,14 +44,14 @@
         </div>
         <div class="right">
           <div class="title">
-            <span class="title"> {{ "Upskilling Opportunities" }}</span>
+            <span> {{ "Relationship with Manager" }}</span>
           </div>
-
           <apexchart
             width="500"
             :type="'bar'"
-            :options="fourthChartOptions"
-            :series="fourthSeries"
+            :options="chartOptions"
+            :series="series"
+            columnWidth="100"
           ></apexchart>
         </div>
       </div>
@@ -296,7 +295,7 @@ export default {
 <style scoped>
 .demo {
   padding-top: 1%;
-  padding-left: 37.5%;
+  padding-left: 15%;
   padding-bottom: 2%;
   margin: 0;
   font-weight: 500;
@@ -319,7 +318,7 @@ export default {
 }
 .middletitle {
   padding-top: 2%;
-  padding-left: 20%;
+  padding-left: 0%;
   padding-bottom: 4%;
   margin: 0;
   font-weight: 300;

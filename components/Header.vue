@@ -7,9 +7,9 @@
         style="height: 12em; width: 12em; border-radius: 100%"
         alt=""
       />
-      <span class="head1">AnchorInsight</span>
+      <span class="hr">AnchorInsight</span>
     </div>
-    <span class="hr">Navigate Employee Attrition</span>
+    <span class="head1">Navigate Employee Attrition</span>
   </section>
 </template>
 <style scoped>
@@ -33,8 +33,7 @@
   font-weight: 600;
   align-items: center;
   display: block;
-  padding-left: 4.5%;
-
+  padding-left: 43.2%;
   padding-top: 0px;
 }
 .hr {
@@ -45,6 +44,6 @@
   font-weight: 600;
   align-items: center;
   display: block;
-  padding-left: 41%;
+  padding-left: 3.8%;
 }
 </style>
