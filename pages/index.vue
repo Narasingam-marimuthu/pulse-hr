@@ -204,7 +204,7 @@ export default {
 .container1{
   width: 73%;
   height: 70%;
-  padding-left: 32%;
+  padding-left: 30%;
 
 }
 .column.is-6-desktop {
@@ -217,7 +217,7 @@ export default {
   background-color: white;
   border: 3px #000;
   display: flex;
-  padding: 2.4rem;
+  padding: 3.4rem;
 }
 .head-text {
   font-size: 18px;

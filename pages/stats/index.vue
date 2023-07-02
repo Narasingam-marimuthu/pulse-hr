@@ -2,7 +2,7 @@
   <section>
     <div v-if="map" class="graph">
       <div class="demo">
-        <span>Exploratory Data Analysis</span>
+        <span>Key factors that influence attrition</span>
       </div>
 
       <div class="center">
@@ -227,7 +227,7 @@ export default {
       opGenders,
     };
   },
-  layout: "graphlayout",
+  // layout: "graphlayout",
   data() {
     return {
       // data: this.tableData(),
@@ -295,8 +295,8 @@ export default {
 
 <style scoped>
 .demo {
-  padding-top: 2%;
-  padding-left: 40%;
+  padding-top: 1%;
+  padding-left: 37.5%;
   padding-bottom: 2%;
   margin: 0;
   font-weight: 500;
@@ -319,7 +319,7 @@ export default {
 }
 .middletitle {
   padding-top: 2%;
-  padding-left: 30%;
+  padding-left: 20%;
   padding-bottom: 4%;
   margin: 0;
   font-weight: 300;

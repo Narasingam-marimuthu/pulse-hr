@@ -39,6 +39,7 @@
 }
 .hr {
   /* color: blue; */
+  color: black;
   padding-top: 0px;
   font-size: 20px;
   font-weight: 600;
